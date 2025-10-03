@@ -24,10 +24,3 @@ export interface PageMetadata {
   };
 }
 
-export interface ResponsiveImageProps {
-  src: string;
-  alt: string;
-  className?: string;
-  priority?: boolean;
-  sizes?: string;
-}

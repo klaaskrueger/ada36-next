@@ -1,5 +1,6 @@
 import { SectionData } from '@/types';
-import ResponsiveImage from '@/components/ui/ResponsiveImage';
+import Image from 'next/image';
+import { getImageConfig, getOptimizedSizes } from '@/data/imageConfig';
 
 interface SectionProps {
   section: SectionData;
@@ -25,13 +26,22 @@ const Section: React.FC<SectionProps> = ({ section, className = '' }) => {
       </div>
       <div className="columns">
         <div className="content-image">
-          {section.imagePath && (
-            <ResponsiveImage
-              src={section.imagePath}
-              alt={section.imageText}
-              className="section-image"
-            />
-          )}
+          {section.imagePath && (() => {
+            const imageConfig = getImageConfig(section.imagePath);
+            return (
+              <Image
+                src={section.imagePath}
+                alt={section.imageText}
+                className="section-image"
+                width={imageConfig.width}
+                height={imageConfig.height}
+                priority={imageConfig.priority}
+                sizes={getOptimizedSizes(imageConfig.aspectRatio)}
+                placeholder="blur"
+                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+              />
+            );
+          })()}
         </div>
       </div>
     </section>
