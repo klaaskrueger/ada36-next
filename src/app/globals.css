@@ -443,3 +443,27 @@ h4 {
   margin-top: 50px; /* Account for fixed header */
   min-height: calc(100vh - 50px);
 }
+
+/* Legal Pages - Reduced Paragraph Size */
+.legal-page p {
+  font-size: 0.7em !important; /* 30% smaller than base size */
+}
+
+/* Responsive adjustments for legal pages */
+@media (max-width: 768px) {
+  .legal-page p {
+    font-size: 0.7em !important; /* 30% smaller than mobile base size */
+  }
+}
+
+@media (max-width: 425px) {
+  .legal-page p {
+    font-size: 0.7em !important; /* 30% smaller than small mobile base size */
+  }
+}
+
+@media (min-width: 1200px) {
+  .legal-page p {
+    font-size: 0.7em !important; /* 30% smaller than large screen base size */
+  }
+}

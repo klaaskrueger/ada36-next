@@ -12,7 +12,7 @@ export default function ImpressumPage() {
   return (
     <>
       <Header navigationItems={navigationItems} currentPath="/impressum" />
-      <main className="page-content">
+      <main className="page-content legal-page">
         <div className="container">
           <div className="content">
             <div className="port-text">
