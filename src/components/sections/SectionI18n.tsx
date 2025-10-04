@@ -12,14 +12,26 @@ interface SectionI18nProps {
   section: SectionData;
   translations: { de: TranslationsObject; en: TranslationsObject };
   className?: string;
+  showTitle?: boolean;
 }
 
-const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, className = '' }) => {
+const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, className = '', showTitle = true }) => {
   const { t } = useTranslation(translations);
 
   // Get translation key based on section title
   const getTranslationKey = (title: string) => {
     const keyMap: { [key: string]: string } = {
+      // German titles for images page
+      'Wohnbereich': 'sections.Wohnbereich',
+      'Küche': 'sections.Küche',
+      'Schlafbereich': 'sections.Schlafbereich',
+      'Badezimmer': 'sections.Badezimmer',
+      'Balkon': 'sections.Balkon',
+      'Arbeitsbereich': 'sections.Arbeitsbereich',
+      'Eingang': 'sections.Eingang',
+      'Details': 'sections.Details',
+      'Grundriss': 'sections.Grundriss',
+      // English titles (fallback)
       'Living Area': 'sections.livingArea',
       'Living Area Night': 'sections.livingAreaNight',
       'Kitchen': 'sections.kitchen',
@@ -34,6 +46,7 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
       'Cat Statue': 'sections.catStatue',
       'Mirror': 'sections.mirror',
       'Floorplan': 'sections.floorplan',
+      // Neighbourhood sections
       'Engelbecken': 'sections.engelbecken',
       'St. Michael Church': 'sections.stMichaelChurch',
       'Cold War History': 'sections.coldWarHistory',
@@ -53,7 +66,7 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
       <div className="columns">
         <div className="content">
           <div className="port-text">
-            {translatedTitle && <h1 className="title">{translatedTitle}</h1>}
+            {showTitle && translatedTitle && <h1 className="title">{translatedTitle}</h1>}
             {translatedText && (
               <p 
                 className="text" 

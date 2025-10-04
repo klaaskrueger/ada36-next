@@ -3,61 +3,41 @@
     "pageTitle": "Bildergalerie",
     "pageDescription": "Entdecken Sie unsere umfassende Bildergalerie des ADA36 Studios in Kreuzberg, Berlin. Professionelle Fotos zeigen alle Bereiche des minimalistischen Lofts.",
     "sections": {
-      "livingArea": {
+      "Wohnbereich": {
         "title": "Wohnbereich",
-        "text": "Verschiedene Ansichten des Wohnbereichs"
+        "text": ""
       },
-      "livingAreaNight": {
-        "title": "Wohnbereich Nacht",
-        "text": "Wohnbereich bei Nacht"
-      },
-      "kitchen": {
+      "Küche": {
         "title": "Küche",
-        "text": "Küche mit Esstisch"
+        "text": ""
       },
-      "sleepingArea": {
+      "Schlafbereich": {
         "title": "Schlafbereich",
-        "text": "Schlafbereich mit Bett"
+        "text": ""
       },
-      "bathroom": {
+      "Badezimmer": {
         "title": "Badezimmer",
-        "text": "Badezimmer Übersicht"
+        "text": ""
       },
-      "bathroomEntrance": {
-        "title": "Badezimmer Eingang",
-        "text": "Badezimmer Eingang"
-      },
-      "balcony": {
+      "Balkon": {
         "title": "Balkon",
-        "text": "Balkon Aussicht"
+        "text": ""
       },
-      "workingArea": {
+      "Arbeitsbereich": {
         "title": "Arbeitsbereich",
-        "text": "Arbeitsplatz Bereich"
+        "text": ""
       },
-      "entrance": {
+      "Eingang": {
         "title": "Eingang",
-        "text": "Apartment Eingang"
+        "text": ""
       },
-      "shelfDetail": {
-        "title": "Regal Detail",
-        "text": "Regal und Stauraum Details"
+      "Details": {
+        "title": "Details",
+        "text": ""
       },
-      "cupboard": {
-        "title": "Schrank",
-        "text": "Schrank und Stauraum"
-      },
-      "catStatue": {
-        "title": "Katzenstatue",
-        "text": "Dekorative Katzenstatue"
-      },
-      "mirror": {
-        "title": "Spiegel",
-        "text": "Spiegel Details"
-      },
-      "floorplan": {
+      "Grundriss": {
         "title": "Grundriss",
-        "text": "Vollständiger Grundriss"
+        "text": ""
       }
     }
   },
@@ -65,61 +45,41 @@
     "pageTitle": "Image Gallery",
     "pageDescription": "Discover our comprehensive image gallery of the ADA36 Studio in Kreuzberg, Berlin. Professional photos show all areas of the minimalist loft.",
     "sections": {
-      "livingArea": {
+      "Wohnbereich": {
         "title": "Living Area",
-        "text": "Various views of the living area"
+        "text": ""
       },
-      "livingAreaNight": {
-        "title": "Living Area Night",
-        "text": "Living area at night"
-      },
-      "kitchen": {
+      "Küche": {
         "title": "Kitchen",
-        "text": "Kitchen with dining table"
+        "text": ""
       },
-      "sleepingArea": {
+      "Schlafbereich": {
         "title": "Sleeping Area",
-        "text": "Sleeping area with bed"
+        "text": ""
       },
-      "bathroom": {
+      "Badezimmer": {
         "title": "Bathroom",
-        "text": "Bathroom overview"
+        "text": ""
       },
-      "bathroomEntrance": {
-        "title": "Bathroom Entrance",
-        "text": "Bathroom entrance"
-      },
-      "balcony": {
+      "Balkon": {
         "title": "Balcony",
-        "text": "Balcony view"
+        "text": ""
       },
-      "workingArea": {
+      "Arbeitsbereich": {
         "title": "Working Area",
-        "text": "Working desk area"
+        "text": ""
       },
-      "entrance": {
+      "Eingang": {
         "title": "Entrance",
-        "text": "Apartment entrance"
+        "text": ""
       },
-      "shelfDetail": {
-        "title": "Shelf Detail",
-        "text": "Shelf and storage details"
+      "Details": {
+        "title": "Details",
+        "text": ""
       },
-      "cupboard": {
-        "title": "Cupboard",
-        "text": "Cupboard and storage"
-      },
-      "catStatue": {
-        "title": "Cat Statue",
-        "text": "Decorative cat statue"
-      },
-      "mirror": {
-        "title": "Mirror",
-        "text": "Mirror details"
-      },
-      "floorplan": {
+      "Grundriss": {
         "title": "Floorplan",
-        "text": "Complete floor plan"
+        "text": ""
       }
     }
   }

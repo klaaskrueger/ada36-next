@@ -101,212 +101,212 @@ export const homepageSections: SectionData[] = [
 
 export const imageSections: SectionData[] = [
   {
-    title: "Living Area",
+    title: "Wohnbereich",
     sortingNumber: 1,
     label: "images",
-    text: "Various views of the living area",
+    text: "",
     imagePath: "/assets/images/fullsize/living-01.webp",
-    imageText: "Living Area 1"
+    imageText: "Wohnbereich"
   },
   {
-    title: "Living Area",
+    title: "Wohnbereich",
     sortingNumber: 2,
     label: "images",
-    text: "Living area with different angles",
+    text: "",
     imagePath: "/assets/images/fullsize/living-02.webp",
-    imageText: "Living Area 2"
+    imageText: "Wohnbereich"
   },
   {
-    title: "Living Area",
+    title: "Wohnbereich",
     sortingNumber: 3,
     label: "images",
-    text: "Living area details",
+    text: "",
     imagePath: "/assets/images/fullsize/living-03.webp",
-    imageText: "Living Area 3"
+    imageText: "Wohnbereich"
   },
   {
-    title: "Living Area",
+    title: "Wohnbereich",
     sortingNumber: 4,
     label: "images",
-    text: "Living area overview",
+    text: "",
     imagePath: "/assets/images/fullsize/living-04.webp",
-    imageText: "Living Area 4"
+    imageText: "Wohnbereich"
   },
   {
-    title: "Living Area",
+    title: "Wohnbereich",
     sortingNumber: 5,
     label: "images",
-    text: "Living area with sleeping couch",
+    text: "",
     imagePath: "/assets/images/fullsize/living-05.webp",
-    imageText: "Living Area 5"
+    imageText: "Wohnbereich"
   },
   {
-    title: "Living Area Night",
+    title: "Wohnbereich",
     sortingNumber: 6,
     label: "images",
-    text: "Living area at night",
+    text: "",
     imagePath: "/assets/images/fullsize/living-night.webp",
-    imageText: "Living Area Night"
+    imageText: "Wohnbereich Nacht"
   },
   {
-    title: "Kitchen",
+    title: "Küche",
     sortingNumber: 7,
     label: "images",
-    text: "Kitchen overview",
+    text: "",
     imagePath: "/assets/images/fullsize/kitchen-01.webp",
-    imageText: "Kitchen 1"
+    imageText: "Küche"
   },
   {
-    title: "Kitchen",
+    title: "Küche",
     sortingNumber: 8,
     label: "images",
-    text: "Kitchen details",
+    text: "",
     imagePath: "/assets/images/fullsize/kitchen-02.webp",
-    imageText: "Kitchen 2"
+    imageText: "Küche"
   },
   {
-    title: "Kitchen",
+    title: "Küche",
     sortingNumber: 9,
     label: "images",
-    text: "Kitchen with dining table",
+    text: "",
     imagePath: "/assets/images/fullsize/kitchen-03.webp",
-    imageText: "Kitchen 3"
+    imageText: "Küche"
   },
   {
-    title: "Sleeping Area",
+    title: "Schlafbereich",
     sortingNumber: 10,
     label: "images",
-    text: "Sleeping area overview",
+    text: "",
     imagePath: "/assets/images/fullsize/sleeping-01.webp",
-    imageText: "Sleeping Area 1"
+    imageText: "Schlafbereich"
   },
   {
-    title: "Sleeping Area",
+    title: "Schlafbereich",
     sortingNumber: 11,
     label: "images",
-    text: "Sleeping area details",
+    text: "",
     imagePath: "/assets/images/fullsize/sleeping-02.webp",
-    imageText: "Sleeping Area 2"
+    imageText: "Schlafbereich"
   },
   {
-    title: "Sleeping Area",
+    title: "Schlafbereich",
     sortingNumber: 12,
     label: "images",
-    text: "Sleeping area with bed",
+    text: "",
     imagePath: "/assets/images/fullsize/sleeping-03.webp",
-    imageText: "Sleeping Area 3"
+    imageText: "Schlafbereich"
   },
   {
-    title: "Sleeping Area",
+    title: "Schlafbereich",
     sortingNumber: 13,
     label: "images",
-    text: "Sleeping area wardrobe",
+    text: "",
     imagePath: "/assets/images/fullsize/sleeping-04.webp",
-    imageText: "Sleeping Area 4"
+    imageText: "Schlafbereich"
   },
   {
-    title: "Bathroom",
+    title: "Badezimmer",
     sortingNumber: 14,
     label: "images",
-    text: "Bathroom overview",
+    text: "",
     imagePath: "/assets/images/fullsize/bathroom-01.webp",
-    imageText: "Bathroom 1"
+    imageText: "Badezimmer"
   },
   {
-    title: "Bathroom",
+    title: "Badezimmer",
     sortingNumber: 15,
     label: "images",
-    text: "Bathroom details",
+    text: "",
     imagePath: "/assets/images/fullsize/bathroom-02.webp",
-    imageText: "Bathroom 2"
+    imageText: "Badezimmer"
   },
   {
-    title: "Bathroom Entrance",
+    title: "Badezimmer",
     sortingNumber: 16,
     label: "images",
-    text: "Bathroom entrance",
+    text: "",
     imagePath: "/assets/images/fullsize/bathroom-entrance.webp",
-    imageText: "Bathroom Entrance"
+    imageText: "Badezimmer Eingang"
   },
   {
-    title: "Balcony",
+    title: "Balkon",
     sortingNumber: 17,
     label: "images",
-    text: "Balcony view 1",
+    text: "",
     imagePath: "/assets/images/fullsize/balcony-01.webp",
-    imageText: "Balcony 1"
+    imageText: "Balkon"
   },
   {
-    title: "Balcony",
+    title: "Balkon",
     sortingNumber: 18,
     label: "images",
-    text: "Balcony view 2",
+    text: "",
     imagePath: "/assets/images/fullsize/balcony-02.webp",
-    imageText: "Balcony 2"
+    imageText: "Balkon"
   },
   {
-    title: "Balcony",
+    title: "Balkon",
     sortingNumber: 19,
     label: "images",
-    text: "Balcony view 3",
+    text: "",
     imagePath: "/assets/images/fullsize/balcony-03.webp",
-    imageText: "Balcony 3"
+    imageText: "Balkon"
   },
   {
-    title: "Working Area",
+    title: "Arbeitsbereich",
     sortingNumber: 20,
     label: "images",
-    text: "Working desk area",
+    text: "",
     imagePath: "/assets/images/fullsize/working-01.webp",
-    imageText: "Working Area"
+    imageText: "Arbeitsbereich"
   },
   {
-    title: "Entrance",
+    title: "Eingang",
     sortingNumber: 21,
     label: "images",
-    text: "Apartment entrance",
+    text: "",
     imagePath: "/assets/images/fullsize/entrance.webp",
-    imageText: "Entrance"
+    imageText: "Eingang"
   },
   {
-    title: "Shelf Detail",
+    title: "Details",
     sortingNumber: 22,
     label: "images",
-    text: "Shelf and storage details",
+    text: "",
     imagePath: "/assets/images/fullsize/shelf-detail.webp",
-    imageText: "Shelf Detail"
+    imageText: "Regal Details"
   },
   {
-    title: "Cupboard",
+    title: "Details",
     sortingNumber: 23,
     label: "images",
-    text: "Cupboard and storage",
+    text: "",
     imagePath: "/assets/images/fullsize/cupboard-01.webp",
-    imageText: "Cupboard"
+    imageText: "Schrank Details"
   },
   {
-    title: "Cat Statue",
+    title: "Details",
     sortingNumber: 24,
     label: "images",
-    text: "Decorative cat statue",
+    text: "",
     imagePath: "/assets/images/fullsize/cat-statue.webp",
-    imageText: "Cat Statue"
+    imageText: "Katzenstatue"
   },
   {
-    title: "Mirror",
+    title: "Details",
     sortingNumber: 25,
     label: "images",
-    text: "Mirror details",
+    text: "",
     imagePath: "/assets/images/fullsize/mirror.webp",
-    imageText: "Mirror"
+    imageText: "Spiegel"
   },
   {
-    title: "Floorplan",
+    title: "Grundriss",
     sortingNumber: 26,
     label: "images",
-    text: "Complete floor plan",
+    text: "",
     imagePath: "/assets/images/fullsize/floorplan.webp",
-    imageText: "Floorplan"
+    imageText: "Grundriss"
   }
 ];
 

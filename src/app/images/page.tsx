@@ -8,19 +8,29 @@ import { imageSections } from '@/data/sections';
 import imagesTranslations from '@/data/translations/images.json';
 
 export default function ImagesPage() {
+  // Track which titles we've already shown to avoid duplicates
+  const shownTitles = new Set<string>();
 
   return (
     <>
       <Header navigationItems={navigationItems} currentPath="/images" />
       <main className="page-content">
         <div className="container">
-          {imageSections.map((section) => (
-            <SectionI18n 
-              key={section.sortingNumber} 
-              section={section} 
-              translations={imagesTranslations}
-            />
-          ))}
+          {imageSections.map((section) => {
+            const shouldShowTitle = !shownTitles.has(section.title);
+            if (shouldShowTitle) {
+              shownTitles.add(section.title);
+            }
+            
+            return (
+              <SectionI18n 
+                key={section.sortingNumber} 
+                section={section} 
+                translations={imagesTranslations}
+                showTitle={shouldShowTitle}
+              />
+            );
+          })}
         </div>
       </main>
       <Footer />
