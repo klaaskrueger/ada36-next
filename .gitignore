@@ -17,6 +17,10 @@
 /.next/
 /out/
 
+# Original JPG images (now converted to WebP)
+public/assets/images/fullsize/*.jpg
+public/assets/images/resized/*.jpg
+
 # production
 /build
 

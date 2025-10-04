@@ -30,10 +30,10 @@ export default function HomePage() {
             <div className="columns">
               <div className="content-image">
                 {(() => {
-                  const imageConfig = getImageConfig("/assets/images/fullsize/living-01.jpg");
+                  const imageConfig = getImageConfig("/assets/images/fullsize/living-01.webp");
                   return (
                     <Image
-                      src="/assets/images/fullsize/living-01.jpg"
+                      src="/assets/images/fullsize/living-01.webp"
                       alt="ADA36 Studio - Minimalistisches Loft Wohnbereich mit modernem Design in Kreuzberg, Berlin"
                       className="section-image"
                       width={imageConfig.width}
@@ -63,10 +63,10 @@ export default function HomePage() {
             <div className="columns">
               <div className="content-image">
                 {(() => {
-                  const imageConfig = getImageConfig("/assets/images/fullsize/kitchen-03.jpg");
+                  const imageConfig = getImageConfig("/assets/images/fullsize/kitchen-03.webp");
                   return (
                     <Image
-                      src="/assets/images/fullsize/kitchen-03.jpg"
+                      src="/assets/images/fullsize/kitchen-03.webp"
                       alt="ADA36 Studio - Moderne Küche mit offenem Grundriss und Esstisch für 4 Personen in Kreuzberg, Berlin"
                       className="section-image"
                       width={imageConfig.width}
@@ -96,10 +96,10 @@ export default function HomePage() {
             <div className="columns">
               <div className="content-image">
                 {(() => {
-                  const imageConfig = getImageConfig("/assets/images/fullsize/living-02.jpg");
+                  const imageConfig = getImageConfig("/assets/images/fullsize/living-02.webp");
                   return (
                     <Image
-                      src="/assets/images/fullsize/living-02.jpg"
+                      src="/assets/images/fullsize/living-02.webp"
                       alt="ADA36 Studio - Wohnbereich mit Schlafsofa und Arbeitsplatz im minimalistischen Design, Kreuzberg Berlin"
                       className="section-image"
                       width={imageConfig.width}
@@ -129,10 +129,10 @@ export default function HomePage() {
             <div className="columns">
               <div className="content-image">
                 {(() => {
-                  const imageConfig = getImageConfig("/assets/images/fullsize/sleeping-01.jpg");
+                  const imageConfig = getImageConfig("/assets/images/fullsize/sleeping-01.webp");
                   return (
                     <Image
-                      src="/assets/images/fullsize/sleeping-01.jpg"
+                      src="/assets/images/fullsize/sleeping-01.webp"
                       alt="ADA36 Studio - Schlafbereich mit Doppelbett (160x200cm) und großem Kleiderschrank in Kreuzberg, Berlin"
                       className="section-image"
                       width={imageConfig.width}
@@ -162,10 +162,10 @@ export default function HomePage() {
             <div className="columns">
               <div className="content-image">
                 {(() => {
-                  const imageConfig = getImageConfig("/assets/images/fullsize/bathroom-01.jpg");
+                  const imageConfig = getImageConfig("/assets/images/fullsize/bathroom-01.webp");
                   return (
                     <Image
-                      src="/assets/images/fullsize/bathroom-01.jpg"
+                      src="/assets/images/fullsize/bathroom-01.webp"
                       alt="ADA36 Studio - Modernes Badezimmer mit Badewanne und zeitgemäßem Design in Kreuzberg, Berlin"
                       className="section-image"
                       width={imageConfig.width}
@@ -195,10 +195,10 @@ export default function HomePage() {
             <div className="columns">
               <div className="content-image">
                 {(() => {
-                  const imageConfig = getImageConfig("/assets/images/fullsize/balcony-01.jpg");
+                  const imageConfig = getImageConfig("/assets/images/fullsize/balcony-01.webp");
                   return (
                     <Image
-                      src="/assets/images/fullsize/balcony-01.jpg"
+                      src="/assets/images/fullsize/balcony-01.webp"
                       alt="ADA36 Studio - Balkon mit Zugang von der Küche, perfekt für entspannte Momente in Kreuzberg, Berlin"
                       className="section-image"
                       width={imageConfig.width}

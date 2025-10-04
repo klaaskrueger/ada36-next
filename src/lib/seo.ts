@@ -49,7 +49,7 @@ export const defaultSEOConfig: SEOConfig = {
   ],
   openGraph: {
     type: "website",
-    images: ["/assets/images/fullsize/living-01.jpg"]
+    images: ["/assets/images/fullsize/living-01.webp"]
   }
 };
 
@@ -108,9 +108,9 @@ export const accommodationStructuredData = {
   "description": "Minimalistisches 2-Zimmer-Loft im Herzen von Kreuzberg, Berlin. Perfekt für Touristen, Geschäftsreisende und digitale Nomaden.",
   "url": "https://ada36.de",
   "image": [
-    "https://ada36.de/assets/images/fullsize/living-01.jpg",
-    "https://ada36.de/assets/images/fullsize/kitchen-03.jpg",
-    "https://ada36.de/assets/images/fullsize/sleeping-01.jpg"
+    "https://ada36.de/assets/images/fullsize/living-01.webp",
+    "https://ada36.de/assets/images/fullsize/kitchen-03.webp",
+    "https://ada36.de/assets/images/fullsize/sleeping-01.webp"
   ],
   "address": {
     "@type": "PostalAddress",
