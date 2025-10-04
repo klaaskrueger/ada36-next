@@ -1,0 +1,26 @@
+{
+  "de": {
+    "navigation": {
+      "loft": "Loft",
+      "images": "Bilder",
+      "neighbourhood": "Nachbarschaft",
+      "guides": "Anleitungen"
+    },
+    "site": {
+      "title": "Ada36 Studio",
+      "description": "Minimalistisches Loft in Berlin-Kreuzberg - Entdecken Sie das Ada36 Studio - ein minimalistisches 2-Zimmer-Loft im Herzen von Kreuzberg, Berlin. Perfekt für Touristen, Geschäftsreisende und digitale Nomaden. Moderne Ausstattung, zentrale Lage, authentisches Berlin-Erlebnis."
+    }
+  },
+  "en": {
+    "navigation": {
+      "loft": "Loft",
+      "images": "Images",
+      "neighbourhood": "Neighbourhood",
+      "guides": "Guides"
+    },
+    "site": {
+      "title": "Ada36 Studio",
+      "description": "Minimalistic Loft in Kreuzberg, Berlin - Discover the Ada36 Studio - a minimalist 2-room loft in the heart of Kreuzberg, Berlin. Perfect for tourists, business travelers and digital nomads. Modern amenities, central location, authentic Berlin experience."
+    }
+  }
+}

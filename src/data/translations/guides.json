@@ -1,0 +1,198 @@
+{
+  "de": {
+    "pageTitle": "Gästeanleitung",
+    "pageDescription": "Umfassende Gästeanleitung für das ADA36 Studio in Kreuzberg, Berlin. Alle wichtigen Informationen für Ihren Aufenthalt.",
+    "sections": {
+      "address": {
+        "title": "Adresse",
+        "text": "Falls Sie Post erhalten möchten, ist die korrekte Postadresse:<br />(Ihr Name) c/o Klaas Krüger Adalbertstr 36, 10179 Berlin, Deutschland"
+      },
+      "smoking": {
+        "title": "Rauchen",
+        "text": "Diese Wohnung ist eine Nichtraucherwohnung. Falls Sie rauchen möchten, können Sie dies draußen im Hinterhofbereich tun. Es gibt Rauchmelder in der Wohnung. Die Melder sind bis 2026 funktionsfähig. Falls sie durch Dampf versehentlich ausgelöst werden, drücken Sie sie fest in Richtung Decke. Im Falle eines Brandes verlassen Sie bitte sofort die Wohnung zu Ihrer eigenen Sicherheit."
+      },
+      "bank": {
+        "title": "Bank",
+        "text": "Der nächste Geldautomat ist im nächsten Haus links. Weitere Banken finden Sie am Kottbusser Tor und am Ostbahnhof."
+      },
+      "neighbours": {
+        "title": "Nachbarn",
+        "text": "Bitte haben Sie Rücksicht auf die anderen Personen, die in diesem Gebäude wohnen und respektieren Sie die Ruhezeiten. Diese sind täglich von 12.00 bis 15.00 Uhr und von 22.00 bis 7.00 Uhr. Während dieser Zeit ist es nicht erlaubt, Lärm zu machen (laute Musik, Staubsaugen etc.). Achten Sie darauf, dass der Fernseher auf normaler Lautstärke läuft, die andere Hausparteien während dieser Zeit nicht stört."
+      },
+      "ventilation": {
+        "title": "Belüftung",
+        "text": "Dies ist ein typisches Nachkriegsgebäude, bei dieser Art von Gebäuden ist es sehr wichtig, die Räume mindestens 2 mal täglich zu lüften (abhängig davon, wie viele Personen sich darin befinden und der Höhe der Temperatur in der Wohnung. Höhere Temperaturen benötigen mehr Belüftung). Die richtige Methode, die Wohnung richtig zu belüften, ist das vollständige Öffnen der Fenster der Räume für etwa 5 bis 10 Minuten. Wenn Sie die Fenster nur kippen, belüftet es nicht gut und die Wände werden kalt, Sie benötigen mehr Energie und bekommen kein gutes Temperatur- und Raumklima in Ihrer Wohnung. Wenn Sie die Wohnung nicht belüften, kann sie schimmelig werden."
+      },
+      "cleaning": {
+        "title": "Reinigung",
+        "text": "Wir hoffen, Sie behandeln die Wohnung mit Sorgfalt, wir haben die Wohnung vor Ihrem Einzug vollständig gereinigt und hoffen, alles ist in Ordnung, falls nicht, lassen Sie es uns einfach wissen. Während Ihres Aufenthaltes sind Sie selbst für die Reinigung der Wohnung verantwortlich. Wir stellen Ihnen ein Starter-Set mit Reinigungsmaterial zur Verfügung wie: Wischmop, Staubsauger, Lappen und verschiedene Polituren. Der Holzboden benötigt eine spezielle Reinigungsflüssigkeit, die bereitgestellt wird."
+      },
+      "emergency": {
+        "title": "Notfall",
+        "text": "Im Notfall können Sie die Polizei unter 110, die Feuerwehr und das Krankenhaus unter 112 anrufen. Falls es einen Notfall gibt, der mit dem Haus zusammenhängt, rufen Sie bitte Proline Immo unter +49 30 85951630 an. Falls etwas in der Wohnung nicht funktioniert, können Sie Klaas Krüger unter +491731654797 anrufen."
+      },
+      "entranceKeys": {
+        "title": "Eingang & Schlüssel",
+        "text": "Der zweite Schlüssel ist verkehrt herum eingebaut. Er funktioniert also in die entgegengesetzte Richtung. Wenn Sie die Eingangstür von außen schließen, kann es schwierig sein, ohne die Tür zuzuschlagen. Der Trick ist: Heben Sie den Türknauf einfach ein wenig an und sie schließt sich sanft."
+      },
+      "food": {
+        "title": "Essen",
+        "text": "Es gibt mehrere Supermärkte in Gehentfernung zu Ihrer Wohnung. Einer ist REWE im Keller des Ostbahnhofs, der rund um die Uhr geöffnet ist, auch sonntags. Discounter wie Aldi finden Sie auch in der Nähe des Engelbeckens. Für weitere Informationen schauen Sie bitte in die Karte auf der <a href=\"/neighbourhood\">Umgebungsseite</a>."
+      },
+      "parkingPermit": {
+        "title": "Parkausweis",
+        "subtitle": "Offizielles Formular für Online-Parkausweis-Bestellung in Berlin",
+        "text": "<a href=\"https://service.berlin.de/dienstleistung/121721/standort/122280/\" target=\"_blank\" rel=\"noopener noreferrer\">service.berlin.de</a><br /><br />Der Ausweis erfordert die Fahrzeugzulassungsbescheinigung und kostet 20 Euro für ein Jahr. Er ist auch für Zweitwohnsitze verfügbar und wird innerhalb von 2 Wochen an die Adalbertstr gesendet.<br /><br />Drucken Sie den Online-Parkausweis-Bestellbeleg aus und legen Sie ihn hinter Ihre Windschutzscheibe. Mir wurde gesagt, dies \"könnte\" gegen Bußgelder helfen."
+      },
+      "furniture": {
+        "title": "Möbel",
+        "text": "Diese Wohnung ist vollständig möbliert. Bitte behandeln Sie sie mit Sorgfalt. Es kann immer passieren, dass ein Glas herunterfällt und kaputt geht, wir werden das nicht berechnen, machen Sie sich keine Sorgen, das passiert jedem. Aber falls unsere Gäste die Möbel durch Missbrauch oder falsche Verwendung beschädigen, werden wir es berechnen. Falls Sie die Möbel ersetzen, achten Sie bitte darauf, dass alles am Tag Ihres Auszugs wieder an seinem ursprünglichen Platz steht."
+      },
+      "internetWifi": {
+        "title": "Internet WIFI",
+        "text": "Es gibt eine Internetverbindung in dieser Wohnung. Der Wifi-Name ist Ada36. Das Login-Passwort finden Sie im Wifi-Schloss auf der rechten Seite der Küche. Obwohl das Internet deklariert ist, können wir keine ständige Erreichbarkeit oder eine Störung beim Anbieter garantieren. Störungen können nicht berechnet werden und wir übernehmen keine Haftung dafür. Die Übertragung von Material, das gegen internationales, deutsches oder staatliches Recht verstößt, ist verboten. Dazu gehören, sind aber nicht beschränkt auf: urheberrechtlich geschütztes Material, bedrohliches, belästigendes oder obszönes Material oder durch Geschäftsgeheimnis geschütztes Material. Jeder Versuch, das Gesetz zu brechen, während Sie unser Internetkonto verwenden, kann zu einer Klage gegen den Täter durch die zuständigen Behörden führen. Falls ein solches Ereignis eintritt, werden wir vollständig mit den Behörden zusammenarbeiten, um alle für den Gerichtsprozess notwendigen Informationen bereitzustellen."
+      },
+      "jogging": {
+        "title": "Joggen",
+        "text": "Falls Sie gerne joggen, können wir empfehlen, entlang der Spree zu joggen. Eine Karte der Erholungsgebiete ist auf der Gebietskarte auf der Umgebungsseite bereitgestellt."
+      },
+      "manuals": {
+        "title": "Handbücher",
+        "text": "Mehrere Handbücher der Geräte finden Sie über dem Kühlschrank. Falls kein Handbuch vorhanden ist und Sie eine Erklärung benötigen, können wir PDFs auf dieser Anleitungsseite bereitstellen."
+      },
+      "heatingSwitches": {
+        "title": "Heizungsschalter",
+        "text": "Die Heizungen haben ein Rad, um die bevorzugte Raumtemperatur in Grad Celsius einzustellen. Um die Temperatur zu bestätigen, drücken Sie das Rad fest.<br /><br /><a href=\"https://www.eq-3.com/Downloads/eq3/downloads_produktkatalog/eqiva/bda/CC-RT-N-EQ_UM_GE_eQ-3_170531.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Heizungs-Handbuch</a>"
+      },
+      "coffeeMachine": {
+        "title": "Kaffeemaschine",
+        "text": "Review Krups EA8108<br /><br /><a href=\"https://www.youtube.com/watch?v=pcDvSwqWUbc\" target=\"_blank\" rel=\"noopener noreferrer\">Review Krups EA8108 auf Youtube</a>"
+      },
+      "pets": {
+        "title": "Haustiere",
+        "text": "Obwohl wir Haustiere selbst lieben, ist es nicht erlaubt, Tiere in der Wohnung zu halten."
+      },
+      "publicTransport": {
+        "title": "Öffentlicher Verkehr",
+        "text": "Der Ostbahnhof ist etwa 700 Meter von dieser Wohnung entfernt. Weitere Infos: <a href=\"https://bahn.de\" target=\"_blank\" rel=\"noopener noreferrer\">Deutsche Bahn</a><br /><br />Google Maps bietet ausgezeichnete Anzeigen der öffentlichen Verkehrswege in Berlin."
+      },
+      "restaurants": {
+        "title": "Restaurants",
+        "text": "In Kreuzberg gibt es mehrere gute Restaurants und Weinbars, die meisten finden Sie auf der Webseite"
+      },
+      "separationOfWaste": {
+        "title": "Mülltrennung",
+        "text": "In Deutschland wird Müll getrennt. Wir trennen Müll nach biologisch, Papier, gelber Sack, Glas und anderen. Im Hinterhof des Gebäudes stehen mehrere Behälter zur Mülltrennung. Bitte trennen Sie den Müll. In der Wohnung stellen wir Ihnen einen normalen Müllbeutel für andere sowie mehrere gelbe Säcke zur Verfügung, sie sind für Dosen, Plastik, Polystyrol, Aluminium, Weißblech und \"Verbund\"-Materialien wie Getränkekartons aus einer Mischung von Materialien."
+      },
+      "taxi": {
+        "title": "Taxi",
+        "text": "Taxi Berlin Telefon<br />+49 30 210101<br /><br />Aber die Apps von <strong>Freenow</strong> und <strong>Uber</strong> funktionieren auch."
+      },
+      "washing": {
+        "title": "Waschen",
+        "text": "Im Badezimmer finden Sie die Waschmaschine und einen Wäscheständer. Bitte versuchen Sie, die Kleidung draußen auf dem Balkon zu trocknen. Das Leitungswasser ist trinkbar. Es gibt einen gefilterten Wasserhahn für Wasser, das besser schmeckt. Wichtig zu wissen ist, dass das Wasser in Berlin viel Kalk/Kreide enthält. Sie werden es nach der Verwendung der Dusche und Armaturen sehen. Wir werden unsere Gäste bitten, regelmäßig die Armaturen und Wandfliesen zu reinigen, da sich sonst ein Kalkbett bildet und es dann nicht mehr möglich ist, es zu entfernen."
+      },
+      "closing": {
+        "text": "Wir hoffen, Sie genießen Ihre Zeit in der Wohnung. Falls es Fragen gibt, lassen Sie es uns einfach wissen."
+      }
+    }
+  },
+  "en": {
+    "pageTitle": "Guides",
+    "pageDescription": "Comprehensive guest guide for the ADA36 Studio in Kreuzberg, Berlin. All important information for your stay.",
+    "sections": {
+      "address": {
+        "title": "Address",
+        "text": "In case you want to receive letters the correct postal address is:<br />(your name) c/o Klaas Krüger Adalbertstr 36, 10179 Berlin, Germany"
+      },
+      "smoking": {
+        "title": "Smoking",
+        "text": "This Apartment is a non-smoker apartment. If you want to smoke you can do this outside in the backyard area. There are fire detectors in the apartment. The detectors are functional until 2026. If they are activated by steam on error just press them firmly in the ceiling direction. In case of fire please leave the apartment immediately for your own security."
+      },
+      "bank": {
+        "title": "Bank",
+        "text": "The next cashpoint is at the next house to the left. Further banks you find at the Kottbusser Tor and at Ostbahnhof."
+      },
+      "neighbours": {
+        "title": "Neighbours",
+        "text": "Please have consideration for the other persons who live in this building and respect the rest hours. They are daily from 12.am until 3pm and from 10pm until 7am. During this time it is not allowed to make noise( loud music, vacum cleaning et cetera). Take care that the television is on a normal volume that doesn't disturb other parties of the house during this time."
+      },
+      "ventilation": {
+        "title": "Ventilation",
+        "text": "This is a typical after war building, in this kind of buildings it's very important to ventilate the rooms at least 2 times a day (depending from how many persons are in it and the hight of temperature in the apartment. Higher temperatures need more ventilation) The appropriate method to ventilate the apartment right is by opening the windows of the rooms completely for about 5 until 10 minutes. If you just tilt the windows it doesn't ventilate well and the walls are getting cold, you need more energy and doesn't get a good temperature and indoor climate in your apartment. If you don't ventilate the apartment it could get moldy."
+      },
+      "cleaning": {
+        "title": "Cleaning",
+        "text": "We hope you treat the apartment with care, we completely cleaned the apartment before your moving in and hope everything is ok, if not just let us know. During your stay you are responsible for cleaning the apartment by yourself. We provide you with a starter set of cleansing material like: swap, vacuum cleaner, rags and several polish. The wooden flor needs a special cleaning liquid that is provided."
+      },
+      "emergency": {
+        "title": "Emergency",
+        "text": "In case of emergency you can call the police at 110 the fire department and the hospital at 112. If case of an emergency that is related to the house please call Proline Immo at +49 30 85951630 If something isn't working inside the apartment you can call Klaas Krüger +491731654797"
+      },
+      "entranceKeys": {
+        "title": "Entrance & Keys",
+        "text": "The secondary key is installed upside down. So it will work in the opposite direction. When you close the entrance door from outside it may be difficult without slamming the door. The trick is: Just lift the doorknob a little bit and it will close smoothly."
+      },
+      "food": {
+        "title": "Food",
+        "text": "There are several supermarkets in walking distance to your apartment. One is REWE in the basement of the Ostbahnhof that is opened around the clock even on Sundays. Discounters like Aldi you find also near the Engelbecken. For more information please look into the map on the <a href=\"/neighbourhood\">neighbourhood page</a>."
+      },
+      "parkingPermit": {
+        "title": "Parking Permit",
+        "subtitle": "Official Form for Online Permit Ordering in Berlin",
+        "text": "<a href=\"https://service.berlin.de/dienstleistung/121721/standort/122280/\" target=\"_blank\" rel=\"noopener noreferrer\">service.berlin.de</a><br /><br />The permit requires the vehicle registration certificate and costs 20 Euro for one year. It is available for secondary residents as well and will be sent to the Adalbertstr within 2 weeks.<br /><br />Print out the online permit application receipt and place it behind your windshield. I was told this \"could\" help against fines"
+      },
+      "furniture": {
+        "title": "Furniture",
+        "text": "This apartment is completely furnished. Please treat it with care. It could always happen that a glas falls down and is broken, we will not charge that, don't bother that happens to everybody. But in case that our guest damage the furniture by violation or wrong use we will charge it. In case you replace the furniture please take care that everything is back on his original place on the day you are moving out."
+      },
+      "internetWifi": {
+        "title": "Internet WIFI",
+        "text": "There is an internet connection provided in this apartment. The Wifi's name is Ada36 The login password you find in the Wifi locker at the right side of the kitchen. Although the internet is declared we cannot guarantee a constantly accessibility or a disorder at the provider. Disorders cannot be charged and we don't assume liability for that. Transmission of any material in violation of any international, German or state law is prohibited. This includes, but is not limited to: copyrighted material, threatening, harassing or obscene material, or material protected by trade secret. Any attempt to break the law while using our Internet account may result in litigation against the offender by the proper authorities. If such an event should occurs, we will fully comply with the authorities to provide any information necessary for the litigation process."
+      },
+      "jogging": {
+        "title": "Jogging",
+        "text": "If you like to jog we can recommend to jog along the Spree river. A map of the recreation areas is provided on the Area Map on the neighbourhood page."
+      },
+      "manuals": {
+        "title": "Manuals",
+        "text": "Several manuals of the apparatus you find above the fridge. In case there is no manual and you need an explanation we can provide pdfs on this guides page."
+      },
+      "heatingSwitches": {
+        "title": "Heating Switches",
+        "text": "The heatings have a wheel to dial the preferred room temperature in degrees Celsius. To confirm the temperature press the wheel firmly.<br /><br /><a href=\"https://www.eq-3.com/Downloads/eq3/downloads_produktkatalog/eqiva/bda/CC-RT-N-EQ_UM_GE_eQ-3_170531.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Heating Manual</a>"
+      },
+      "coffeeMachine": {
+        "title": "Coffee Machine",
+        "text": "Review Krups EA8108<br /><br /><a href=\"https://www.youtube.com/watch?v=pcDvSwqWUbc\" target=\"_blank\" rel=\"noopener noreferrer\">Review Krups EA8108 on Youtube</a>"
+      },
+      "pets": {
+        "title": "Pets",
+        "text": "Although we love pets by ourselves it isn't allowed to keep any animals in the apartment."
+      },
+      "publicTransport": {
+        "title": "Public transport",
+        "text": "The Ostbahnhof station is about 700 meters from this apartment. More Info: <a href=\"https://bahn.de\" target=\"_blank\" rel=\"noopener noreferrer\">Deutsche Bahn</a><br /><br />Google maps provides excellent displays of the public transport routes in Berlin."
+      },
+      "restaurants": {
+        "title": "Restaurants",
+        "text": "In Kreuzberg there are several good restaurants and wine bars, the most of them you find on the web page"
+      },
+      "separationOfWaste": {
+        "title": "Separation of waste",
+        "text": "In Germany waste will be separated. We separate waste by biological, paper, yellow bag, glas and others. In the backyard of the building stand several bins for separating the waste. Please separate the waste. In the apartment we provides you with and normal bin liner for others as well as several yellow bags they are for cans, plastic, polystyrene, aluminum, tinplate and \"composite\" materials like beverage cartons made of a mixture of materials."
+      },
+      "taxi": {
+        "title": "Taxi",
+        "text": "Taxi Berlin Phone<br />+49 30 210101<br /><br />But the apps of <strong>Freenow</strong> and <strong>Uber</strong> work, too."
+      },
+      "washing": {
+        "title": "Washing",
+        "text": "In the bathroom you find the washer and a drying rack. Please try to dry the clothes outside on the balcony. The tap water is of drinking quality. There is a filtered water tap for water that has better taste. Important to know is that the water in Berlin contains much of lime/chalk. You will see it after using the shower and fittings. We will ask our guest to regulary clean the fittings and wall tiles since if this doesn't happen a chalk bed will come and it isn't possible to remove it then."
+      },
+      "closing": {
+        "text": "We hope you enjoy your time in The apartment. If there are any questions just let us know."
+      }
+    }
+  }
+}

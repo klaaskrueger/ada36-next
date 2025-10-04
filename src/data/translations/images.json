@@ -1,0 +1,126 @@
+{
+  "de": {
+    "pageTitle": "Bildergalerie",
+    "pageDescription": "Entdecken Sie unsere umfassende Bildergalerie des ADA36 Studios in Kreuzberg, Berlin. Professionelle Fotos zeigen alle Bereiche des minimalistischen Lofts.",
+    "sections": {
+      "livingArea": {
+        "title": "Wohnbereich",
+        "text": "Verschiedene Ansichten des Wohnbereichs"
+      },
+      "livingAreaNight": {
+        "title": "Wohnbereich Nacht",
+        "text": "Wohnbereich bei Nacht"
+      },
+      "kitchen": {
+        "title": "Küche",
+        "text": "Küche mit Esstisch"
+      },
+      "sleepingArea": {
+        "title": "Schlafbereich",
+        "text": "Schlafbereich mit Bett"
+      },
+      "bathroom": {
+        "title": "Badezimmer",
+        "text": "Badezimmer Übersicht"
+      },
+      "bathroomEntrance": {
+        "title": "Badezimmer Eingang",
+        "text": "Badezimmer Eingang"
+      },
+      "balcony": {
+        "title": "Balkon",
+        "text": "Balkon Aussicht"
+      },
+      "workingArea": {
+        "title": "Arbeitsbereich",
+        "text": "Arbeitsplatz Bereich"
+      },
+      "entrance": {
+        "title": "Eingang",
+        "text": "Apartment Eingang"
+      },
+      "shelfDetail": {
+        "title": "Regal Detail",
+        "text": "Regal und Stauraum Details"
+      },
+      "cupboard": {
+        "title": "Schrank",
+        "text": "Schrank und Stauraum"
+      },
+      "catStatue": {
+        "title": "Katzenstatue",
+        "text": "Dekorative Katzenstatue"
+      },
+      "mirror": {
+        "title": "Spiegel",
+        "text": "Spiegel Details"
+      },
+      "floorplan": {
+        "title": "Grundriss",
+        "text": "Vollständiger Grundriss"
+      }
+    }
+  },
+  "en": {
+    "pageTitle": "Image Gallery",
+    "pageDescription": "Discover our comprehensive image gallery of the ADA36 Studio in Kreuzberg, Berlin. Professional photos show all areas of the minimalist loft.",
+    "sections": {
+      "livingArea": {
+        "title": "Living Area",
+        "text": "Various views of the living area"
+      },
+      "livingAreaNight": {
+        "title": "Living Area Night",
+        "text": "Living area at night"
+      },
+      "kitchen": {
+        "title": "Kitchen",
+        "text": "Kitchen with dining table"
+      },
+      "sleepingArea": {
+        "title": "Sleeping Area",
+        "text": "Sleeping area with bed"
+      },
+      "bathroom": {
+        "title": "Bathroom",
+        "text": "Bathroom overview"
+      },
+      "bathroomEntrance": {
+        "title": "Bathroom Entrance",
+        "text": "Bathroom entrance"
+      },
+      "balcony": {
+        "title": "Balcony",
+        "text": "Balcony view"
+      },
+      "workingArea": {
+        "title": "Working Area",
+        "text": "Working desk area"
+      },
+      "entrance": {
+        "title": "Entrance",
+        "text": "Apartment entrance"
+      },
+      "shelfDetail": {
+        "title": "Shelf Detail",
+        "text": "Shelf and storage details"
+      },
+      "cupboard": {
+        "title": "Cupboard",
+        "text": "Cupboard and storage"
+      },
+      "catStatue": {
+        "title": "Cat Statue",
+        "text": "Decorative cat statue"
+      },
+      "mirror": {
+        "title": "Mirror",
+        "text": "Mirror details"
+      },
+      "floorplan": {
+        "title": "Floorplan",
+        "text": "Complete floor plan"
+      }
+    }
+  }
+}

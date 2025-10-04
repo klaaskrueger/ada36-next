@@ -1,0 +1,62 @@
+{
+  "de": {
+    "pageTitle": "Umgebung",
+    "pageDescription": "Entdecken Sie die Umgebung des ADA36 Studios in Kreuzberg, Berlin. Interaktive Karte mit Sehenswürdigkeiten und wichtigen Orten.",
+    "areaMap": {
+      "title": "Gebietskarte",
+      "text": "Nahegelegene Orte und Fahrradwege"
+    },
+    "sections": {
+      "engelbecken": {
+        "title": "Engelbecken",
+        "text": "Das Engelbecken ist ein schöner Parkbereich in der Nähe der Wohnung.<br /><br />Perfekt zum Joggen und Entspannen."
+      },
+      "stMichaelChurch": {
+        "title": "St. Michael Kirche",
+        "text": "St. Michael Kirche ist ein historisches Wahrzeichen in der Gegend.<br /><br />Schöne Architektur und Geschichte."
+      },
+      "stMichaelChurch2": {
+        "title": "St. Michael Kirche",
+        "text": "Anderer Blickwinkel der St. Michael Kirche.<br /><br />Historisches Gebäude in Kreuzberg."
+      },
+      "coldWarHistory": {
+        "title": "Kalter Krieg Geschichte",
+        "text": "Historische Informationen über die Zeit des Kalten Krieges in dieser Gegend.<br /><br />Reiche Geschichte Berlins."
+      },
+      "coldWarHistoryText": {
+        "title": "Kalter Krieg Geschichte Text",
+        "text": "Detaillierte Informationen über die Geschichte des Kalten Krieges.<br /><br />Bildungsinhalt über die Gegend."
+      }
+    }
+  },
+  "en": {
+    "pageTitle": "Neighbourhood",
+    "pageDescription": "Discover the neighbourhood of the ADA36 Studio in Kreuzberg, Berlin. Interactive map with attractions and important places.",
+    "areaMap": {
+      "title": "Area Map",
+      "text": "Nearby Locations and Biking Trails"
+    },
+    "sections": {
+      "engelbecken": {
+        "title": "Engelbecken",
+        "text": "The Engelbecken is a beautiful park area near the apartment.<br /><br />Perfect for jogging and relaxation."
+      },
+      "stMichaelChurch": {
+        "title": "St. Michael Church",
+        "text": "St. Michael Church is a historic landmark in the area.<br /><br />Beautiful architecture and history."
+      },
+      "stMichaelChurch2": {
+        "title": "St. Michael Church",
+        "text": "Different angle of St. Michael Church.<br /><br />Historic building in Kreuzberg."
+      },
+      "coldWarHistory": {
+        "title": "Cold War History",
+        "text": "Historical information about the Cold War period in this area.<br /><br />Rich history of Berlin."
+      },
+      "coldWarHistoryText": {
+        "title": "Cold War History Text",
+        "text": "Detailed information about the Cold War history.<br /><br />Educational content about the area."
+      }
+    }
+  }
+}

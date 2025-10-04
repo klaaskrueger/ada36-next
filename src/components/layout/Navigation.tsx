@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { NavigationItem } from '@/types';
+import { useTranslation } from '@/hooks/useTranslation';
+import navigationTranslations from '@/data/translations/navigation.json';
 
 interface NavigationProps {
   items: NavigationItem[];
@@ -11,9 +13,25 @@ interface NavigationProps {
 
 const Navigation: React.FC<NavigationProps> = ({ items, currentPath }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { t } = useTranslation(navigationTranslations);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const getTranslatedName = (url: string) => {
+    switch (url) {
+      case '/':
+        return t('navigation.loft');
+      case '/images':
+        return t('navigation.images');
+      case '/neighbourhood':
+        return t('navigation.neighbourhood');
+      case '/guides':
+        return t('navigation.guides');
+      default:
+        return url;
+    }
   };
 
   return (
@@ -26,7 +44,7 @@ const Navigation: React.FC<NavigationProps> = ({ items, currentPath }) => {
             href={item.url}
             className={`nav-links ${currentPath === item.url ? 'current' : ''}`}
           >
-            {item.name}
+            {getTranslatedName(item.url)}
           </Link>
         ))}
       </div>
@@ -54,7 +72,7 @@ const Navigation: React.FC<NavigationProps> = ({ items, currentPath }) => {
             className={`nav-links ${currentPath === item.url ? 'current' : ''}`}
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            {item.name}
+            {getTranslatedName(item.url)}
           </Link>
         ))}
       </div>

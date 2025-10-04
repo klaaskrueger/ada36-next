@@ -1,0 +1,58 @@
+{
+  "de": {
+    "sections": {
+      "theLoft": {
+        "title": "Das Loft",
+        "text": "<b>Minimalistisches Design 2-Zimmer-Apartment im Zentrum von Kreuzberg.</b><br /><br />Grundriss mit offener Küche mit Esstisch für 4 Personen und Zugang zum Balkon, Wohnbereich mit Schlafsofa und Schreibtisch. Schlafzimmer mit Doppelbett (160x200 cm) und großem Kleiderschrank. Walk-in Closet.<br />Bad mit Wanne."
+      },
+      "kitchen": {
+        "title": "Küche",
+        "text": "Grundriss mit offener Küche mit Esstisch für 4 Personen. Einbauküche in offenem Grundriss.<br /><br />Ausstattung: Backofen, Kühlschrank, Gefrierschrank, Mikrowelle, Geschirrspüler<br />Zweiter Wasserhahn für gefiltertes Trinkwasser"
+      },
+      "livingArea": {
+        "title": "Wohnbereich",
+        "text": "Verschiedene Ansichten des Wohnbereichs"
+      },
+      "sleepingArea": {
+        "title": "Schlafbereich",
+        "text": "Details des Schlafbereichs mit Doppelbett und Kleiderschrank"
+      },
+      "bathroom": {
+        "title": "Badezimmer",
+        "text": "Modernes Badezimmer mit Badewanne und zeitgemäßem Design"
+      },
+      "balcony": {
+        "title": "Balkon",
+        "text": "Zugang zum Balkon vom Küchenbereich"
+      }
+    }
+  },
+  "en": {
+    "sections": {
+      "theLoft": {
+        "title": "The Loft",
+        "text": "<b>Minimalist design 2-room-apartment at the center of Kreuzberg.</b><br /><br />Floor-plan as open kitchen with dining table for 4 persons and access to the balcony, living area with a sleeping sofa and a desk. Bedroom with a double bed (160x200 cm) and a big wardrobe. Walk-in closet.<br />Bath with tub."
+      },
+      "kitchen": {
+        "title": "Kitchen",
+        "text": "Floor-plan as open kitchen with dining table for 4 persons. Fitted kitchen in open plan kitchen.<br /><br />Inventory: Oven, fridge, deep fridge, microwave, dish washer<br />Secondary tub for filtered drinking water"
+      },
+      "livingArea": {
+        "title": "Living Area",
+        "text": "Various views of the living area"
+      },
+      "sleepingArea": {
+        "title": "Sleeping Area",
+        "text": "Details of the sleeping area with double bed and wardrobe"
+      },
+      "bathroom": {
+        "title": "Bathroom",
+        "text": "Modern bathroom with bathtub and contemporary design"
+      },
+      "balcony": {
+        "title": "Balcony",
+        "text": "Access to the balcony from the kitchen area"
+      }
+    }
+  }
+}

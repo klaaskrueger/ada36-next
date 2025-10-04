@@ -8,8 +8,8 @@ export const navigationItems: NavigationItem[] = [
 ];
 
 export const siteConfig = {
-  title: "Ada36 Studio",
-  description: "Minimalist design 2-room-apartment at the center of Kreuzberg",
+  title: "ADA36 Studio - Minimalistisches Loft in Kreuzberg, Berlin",
+  description: "Entdecken Sie das ADA36 Studio - ein minimalistisches 2-Zimmer-Loft im Herzen von Kreuzberg, Berlin. Perfekt für Touristen, Geschäftsreisende und digitale Nomaden. Moderne Ausstattung, zentrale Lage, authentisches Berlin-Erlebnis.",
   url: "https://ada36.de",
   favicon: "/assets/img/favicon.ico"
 };

@@ -1,0 +1,120 @@
+{
+  "de": {
+    "impressum": {
+      "title": "Impressum",
+      "content": {
+        "name": "Klaas Krüger",
+        "address": "Adalbertstr. 36",
+        "city": "10997 Berlin",
+        "contact": "Kontakt",
+        "phone": "Telefon: +49 173 1654797",
+        "email": "E-Mail:"
+      }
+    },
+    "datenschutz": {
+      "title": "Datenschutzerklärung",
+      "content": {
+        "intro": "Wir freuen uns sehr über Ihr Interesse an unserem Unternehmen. Datenschutz hat einen besonders hohen Stellenwert für die Geschäftsleitung der Klaas Krüger. Eine Nutzung der Internetseiten der Klaas Krüger ist grundsätzlich ohne jede Angabe personenbezogener Daten möglich. Sofern eine betroffene Person besondere Services unseres Unternehmens über unsere Internetseite in Anspruch nehmen möchte, könnte jedoch eine Verarbeitung personenbezogener Daten erforderlich werden. Ist die Verarbeitung personenbezogener Daten erforderlich und besteht für eine solche Verarbeitung keine gesetzliche Grundlage, holen wir generell eine Einwilligung der betroffenen Person ein.",
+        "processing": "Die Verarbeitung personenbezogener Daten, beispielsweise des Namens, der Anschrift, E-Mail-Adresse oder Telefonnummer einer betroffenen Person, erfolgt stets im Einklang mit der Datenschutz-Grundverordnung und in Übereinstimmung mit den für die Klaas Krüger geltenden landesspezifischen Datenschutzbestimmungen. Mittels dieser Datenschutzerklärung möchte unser Unternehmen die Öffentlichkeit über Art, Umfang und Zweck der von uns erhobenen, genutzten und verarbeiteten personenbezogener Daten informieren. Ferner werden betroffene Personen mittels dieser Datenschutzerklärung über die ihnen zustehenden Rechte aufgeklärt.",
+        "security": "Die Klaas Krüger hat als für die Verarbeitung Verantwortlicher zahlreiche technische und organisatorische Maßnahmen umgesetzt, um einen möglichst lückenlosen Schutz der über diese Internetseite verarbeiteten personenbezogenen Daten sicherzustellen. Dennoch können Internetbasierte Datenübertragungen grundsätzlich Sicherheitslücken aufweisen, sodass ein absoluter Schutz nicht gewährleistet werden kann. Aus diesem Grund steht es jeder betroffenen Person frei, personenbezogene Daten auch auf alternativen Wegen, beispielsweise telefonisch, an uns zu übermitteln.",
+        "definitions": {
+          "title": "1. Begriffsbestimmungen",
+          "text": "Die Datenschutzerklärung der Klaas Krüger beruht auf den Begrifflichkeiten, die durch den Europäischen Richtlinien- und Verordnungsgeber beim Erlass der Datenschutz-Grundverordnung (DS-GVO) verwendet wurden. Unsere Datenschutzerklärung soll sowohl für die Öffentlichkeit als auch für unsere Kunden und Geschäftspartner einfach lesbar und verständlich sein. Um dies zu gewährleisten, möchten wir vorab die verwendeten Begrifflichkeiten erläutern.",
+          "subtitle": "Wir verwenden in dieser Datenschutzerklärung unter anderem die folgenden Begriffe:",
+          "personalData": {
+            "title": "a) personenbezogene Daten",
+            "text": "Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden \"betroffene Person\") beziehen. Als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind, identifiziert werden kann."
+          },
+          "dataSubject": {
+            "title": "b) betroffene Person",
+            "text": "Betroffene Person ist jede identifizierte oder identifizierbare natürliche Person, deren personenbezogene Daten von dem für die Verarbeitung Verantwortlichen verarbeitet werden."
+          },
+          "processing": {
+            "title": "c) Verarbeitung",
+            "text": "Verarbeitung ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung."
+          }
+        },
+        "controller": {
+          "title": "2. Name und Anschrift des für die Verarbeitung Verantwortlichen",
+          "text": "Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist die:",
+          "details": {
+            "name": "Klaas Krüger",
+            "address": "Adalbertstr. 36",
+            "city": "10179 Berlin",
+            "country": "Deutschland",
+            "phone": "Tel.: +49 173 165 4797",
+            "email": "E-Mail: klaas@klaaskrueger.de",
+            "website": "Website: ada36.de"
+          }
+        },
+        "cookies": {
+          "title": "3. Cookies",
+          "text1": "Die Internetseiten der Klaas Krüger verwenden Cookies. Cookies sind Textdateien, welche über einen Internetbrowser auf einem Computersystem abgelegt und gespeichert werden.",
+          "text2": "Zahlreiche Internetseiten und Server verwenden Cookies. Viele Cookies enthalten eine sogenannte Cookie-ID. Eine Cookie-ID ist eine eindeutige Kennung des Cookies. Sie besteht aus einer Zeichenfolge, durch welche Internetseiten und Server dem konkreten Internetbrowser zugeordnet werden können, in dem das Cookie gespeichert wurde. Dies ermöglicht es den besuchten Internetseiten und Servern, den individuellen Browser der betroffenen Person von anderen Internetbrowsern, die andere Cookies enthalten, zu unterscheiden. Ein bestimmter Internetbrowser kann über die eindeutige Cookie-ID wiedererkannt und identifiziert werden.",
+          "text3": "Durch den Einsatz von Cookies kann die Klaas Krüger den Nutzern dieser Internetseite nutzerfreundlichere Services bereitstellen, die ohne die Cookie-Setzung nicht möglich wären.",
+          "text4": "Mittels eines Cookies können die Informationen und Angebote auf unserer Internetseite im Sinne des Benutzers optimiert werden. Cookies ermöglichen uns, wie bereits erwähnt, die Benutzer unserer Internetseite wiederzuerkennen. Zweck dieser Wiedererkennung ist es, den Nutzern die Verwendung unserer Internetseite zu erleichtern. Der Benutzer einer Internetseite, die Cookies verwendet, muss beispielsweise nicht bei jedem Besuch der Internetseite erneut seine Zugangsdaten eingeben, weil dies von der Internetseite und dem auf dem Computersystem des Benutzers abgelegten Cookie übernommen wird. Ein weiteres Beispiel ist das Cookie eines Warenkorbes im Online-Shop. Der Online-Shop merkt sich die Artikel, die ein Kunde in den virtuellen Warenkorb gelegt hat, über ein Cookie.",
+          "text5": "Die betroffene Person kann die Setzung von Cookies durch unsere Internetseite jederzeit mittels einer entsprechenden Einstellung des genutzten Internetbrowsers verhindern und damit der Setzung von Cookies dauerhaft widersprechen. Ferner können bereits gesetzte Cookies jederzeit über einen Internetbrowser oder andere Softwareprogramme gelöscht werden. Dies ist in allen gängigen Internetbrowsern möglich. Deaktiviert die betroffene Person die Setzung von Cookies in dem genutzten Internetbrowser, sind unter Umständen nicht alle Funktionen unserer Internetseite vollumfänglich nutzbar."
+        }
+      }
+    }
+  },
+  "en": {
+    "impressum": {
+      "title": "Impressum",
+      "content": {
+        "name": "Klaas Krüger",
+        "address": "Adalbertstr. 36",
+        "city": "10997 Berlin",
+        "contact": "Contact",
+        "phone": "Phone: +49 173 1654797",
+        "email": "E-Mail:"
+      }
+    },
+    "datenschutz": {
+      "title": "Privacy Policy",
+      "content": {
+        "intro": "We are very pleased about your interest in our company. Data protection has a particularly high priority for the management of Klaas Krüger. The use of the Internet pages of Klaas Krüger is possible without any indication of personal data. However, if a data subject wants to use special services of our enterprise via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.",
+        "processing": "The processing of personal data, such as the name, address, e-mail address, or telephone number of a data subject shall always be in line with the General Data Protection Regulation (GDPR), and in accordance with the country-specific data protection regulations applicable to Klaas Krüger. By means of this data protection declaration, our enterprise would like to inform the general public of the nature, scope, and purpose of the personal data we collect, use and process. Furthermore, data subjects are informed, by means of this data protection declaration, of the rights to which they are entitled.",
+        "security": "As the controller, Klaas Krüger has implemented numerous technical and organizational measures to ensure the most complete protection of personal data processed through this website. However, Internet-based data transmissions may in principle have security gaps, so absolute protection may not be guaranteed. For this reason, every data subject is free to transfer personal data to us via alternative means, e.g. by telephone.",
+        "definitions": {
+          "title": "1. Definitions",
+          "text": "The data protection declaration of Klaas Krüger is based on the terms used by the European legislator for the adoption of the General Data Protection Regulation (GDPR). Our data protection declaration should be legible and understandable for the general public, as well as our customers and business partners. To ensure this, we would like to first explain the terminology used.",
+          "subtitle": "In this data protection declaration, we use, inter alia, the following terms:",
+          "personalData": {
+            "title": "a) personal data",
+            "text": "Personal data means any information relating to an identified or identifiable natural person (\"data subject\"). An identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person."
+          },
+          "dataSubject": {
+            "title": "b) data subject",
+            "text": "Data subject is any identified or identifiable natural person, whose personal data is processed by the controller responsible for the processing."
+          },
+          "processing": {
+            "title": "c) processing",
+            "text": "Processing is any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organisation, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction."
+          }
+        },
+        "controller": {
+          "title": "2. Name and Address of the controller",
+          "text": "Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:",
+          "details": {
+            "name": "Klaas Krüger",
+            "address": "Adalbertstr. 36",
+            "city": "10179 Berlin",
+            "country": "Germany",
+            "phone": "Tel.: +49 173 165 4797",
+            "email": "E-Mail: klaas@klaaskrueger.de",
+            "website": "Website: ada36.de"
+          }
+        },
+        "cookies": {
+          "title": "3. Cookies",
+          "text1": "The Internet pages of Klaas Krüger use cookies. Cookies are text files that are stored in a computer system via an Internet browser.",
+          "text2": "Many Internet sites and servers use cookies. Many cookies contain a so-called cookie ID. A cookie ID is a unique identifier of the cookie. It consists of a character string through which Internet pages and servers can be assigned to the specific Internet browser in which the cookie was stored. This allows visited Internet sites and servers to differentiate the individual browser of the data subject from other Internet browsers that contain other cookies. A specific Internet browser can be recognized and identified using the unique cookie ID.",
+          "text3": "Through the use of cookies, Klaas Krüger can provide the users of this website with more user-friendly services that would not be possible without the cookie setting.",
+          "text4": "By means of a cookie, the information and offers on our website can be optimized with the user in mind. Cookies allow us, as previously mentioned, to recognize our website users. The purpose of this recognition is to make it easier for users to utilize our website. The website user that uses cookies, e.g. does not have to enter access data each time the website is accessed, because this is taken over by the website, and the cookie is thus stored on the user's computer system. Another example is the cookie of a shopping cart in an online shop. The online store remembers the articles that a customer has placed in the virtual shopping cart via a cookie.",
+          "text5": "The data subject may, at any time, prevent the setting of cookies through our website by means of a corresponding setting of the Internet browser used, and may thus permanently deny the setting of cookies. Furthermore, already set cookies may be deleted at any time via an Internet browser or other software programs. This is possible in all popular Internet browsers. If the data subject deactivates the setting of cookies in the Internet browser used, not all functions of our website may be entirely usable."
+        }
+      }
+    }
+  }
+}

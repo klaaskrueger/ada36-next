@@ -1,31 +1,36 @@
-import { Metadata } from 'next';
+'use client';
+
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import Section from '@/components/sections/Section';
+import SectionI18n from '@/components/sections/SectionI18n';
 import { navigationItems } from '@/data/navigation';
 import { neighbourhoodSections } from '@/data/sections';
+import { useTranslation } from '@/hooks/useTranslation';
+import neighbourhoodTranslations from '@/data/translations/neighbourhood.json';
 
-export const metadata: Metadata = {
-  title: 'Neighbourhood',
-  description: 'Area Map and nearby locations around Ada36 Studio in Kreuzberg, Berlin',
-};
 
 export default function NeighbourhoodPage() {
+  const { t } = useTranslation(neighbourhoodTranslations);
+
   return (
     <>
       <Header navigationItems={navigationItems} currentPath="/neighbourhood" />
       <main className="page-content">
         <div className="container">
           {neighbourhoodSections.map((section) => (
-            <Section key={section.sortingNumber} section={section} />
+            <SectionI18n 
+              key={section.sortingNumber} 
+              section={section} 
+              translations={neighbourhoodTranslations}
+            />
           ))}
           
           {/* Google Maps Integration */}
           <div className="columns">
             <div className="content">
               <div className="port-text">
-                <h1 className="title" id="google-map">Area Map</h1>
-                <p className="text">Nearby Locations and Biking Trails</p>
+                <h1 className="title" id="google-map">{t('areaMap.title')}</h1>
+                <p className="text">{t('areaMap.text')}</p>
                 
                 <iframe
                   src="https://www.google.com/maps/d/u/1/embed?mid=1-luuAvMrHfUhcdHFqkipzHM5d2c"

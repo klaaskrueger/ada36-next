@@ -1,14 +1,15 @@
-import { Metadata } from 'next';
+'use client';
+
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { navigationItems } from '@/data/navigation';
+import { useTranslation } from '@/hooks/useTranslation';
+import legalTranslations from '@/data/translations/legal.json';
 
-export const metadata: Metadata = {
-  title: 'Impressum',
-  description: 'Impressum - Legal information for Ada36 Studio',
-};
 
 export default function ImpressumPage() {
+  const { t } = useTranslation(legalTranslations);
+
   return (
     <>
       <Header navigationItems={navigationItems} currentPath="/impressum" />
@@ -16,16 +17,16 @@ export default function ImpressumPage() {
         <div className="container">
           <div className="content">
             <div className="port-text">
-              <h1 className="title">Impressum</h1>
+              <h1 className="title">{t('impressum.title')}</h1>
               <div className="text">
-                <p>Klaas Krüger <br />
-                Adalbertstr. 36 <br />
-                10997 Berlin</p>
+                <p>{t('impressum.content.name')} <br />
+                {t('impressum.content.address')} <br />
+                {t('impressum.content.city')}</p>
 
-                <h4>Contact</h4>
+                <h4>{t('impressum.content.contact')}</h4>
 
-                <p>Phone: +49 173 1654797 <br />
-                E-Mail: <a href="mailto:klaas@klaaskrueger.de">klaas@klaaskrueger.de</a></p>
+                <p>{t('impressum.content.phone')} <br />
+                {t('impressum.content.email')} <a href="mailto:klaas@klaaskrueger.de">klaas@klaaskrueger.de</a></p>
               </div>
             </div>
           </div>

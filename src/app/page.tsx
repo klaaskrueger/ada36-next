@@ -1,16 +1,16 @@
-import { Metadata } from 'next';
+'use client';
+
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Image from 'next/image';
 import { getImageConfig, getOptimizedSizes } from '@/data/imageConfig';
 import { navigationItems } from '@/data/navigation';
-
-export const metadata: Metadata = {
-  title: 'Ada 36',
-  description: 'Minimalist design 2-room-apartment at the center of Kreuzberg',
-};
+import { useTranslation } from '@/hooks/useTranslation';
+import homepageTranslations from '@/data/translations/homepage.json';
 
 export default function HomePage() {
+  const { t } = useTranslation(homepageTranslations);
+
   return (
     <>
       <Header navigationItems={navigationItems} currentPath="/" />
@@ -22,12 +22,8 @@ export default function HomePage() {
             <div className="columns">
               <div className="content">
                 <div className="port-text">
-                  <h1 className="title">The Loft</h1>
-                  <p className="text">
-                    <b>Minimalist design 2-room-apartment at the center of Kreuzberg.</b><br /><br />
-                    Floor-plan as open kitchen with dining table for 4 persons and access to the balcony, living area with a sleeping sofa and a desk. Bedroom with a double bed (160x200 cm) and a big wardrobe. Walk-in closet.<br />
-                    Bath with tub.
-                  </p>
+                  <h1 className="title">{t('sections.theLoft.title')}</h1>
+                  <p className="text" dangerouslySetInnerHTML={{ __html: t('sections.theLoft.text') }} />
                 </div>
               </div>
             </div>
@@ -38,7 +34,7 @@ export default function HomePage() {
                   return (
                     <Image
                       src="/assets/images/fullsize/living-01.jpg"
-                      alt="Ada 36 Studio"
+                      alt="ADA36 Studio - Minimalistisches Loft Wohnbereich mit modernem Design in Kreuzberg, Berlin"
                       className="section-image"
                       width={imageConfig.width}
                       height={imageConfig.height}
@@ -59,12 +55,8 @@ export default function HomePage() {
             <div className="columns">
               <div className="content">
                 <div className="port-text">
-                  <h1 className="title">Kitchen</h1>
-                  <p className="text">
-                    Floor-plan as open kitchen with dining table for 4 persons. Fitted kitchen in open plan kitchen.<br /><br />
-                    Inventory: Oven, fridge, deep fridge, microwave, dish washer<br />
-                    Secondary tub for filtered drinking water
-                  </p>
+                  <h1 className="title">{t('sections.kitchen.title')}</h1>
+                  <p className="text" dangerouslySetInnerHTML={{ __html: t('sections.kitchen.text') }} />
                 </div>
               </div>
             </div>
@@ -75,7 +67,7 @@ export default function HomePage() {
                   return (
                     <Image
                       src="/assets/images/fullsize/kitchen-03.jpg"
-                      alt="Ada 36 Studio - Kitchen"
+                      alt="ADA36 Studio - Moderne Küche mit offenem Grundriss und Esstisch für 4 Personen in Kreuzberg, Berlin"
                       className="section-image"
                       width={imageConfig.width}
                       height={imageConfig.height}
@@ -96,10 +88,8 @@ export default function HomePage() {
             <div className="columns">
               <div className="content">
                 <div className="port-text">
-                  <h1 className="title">Living Area</h1>
-                  <p className="text">
-                    Various views of the living area
-                  </p>
+                  <h1 className="title">{t('sections.livingArea.title')}</h1>
+                  <p className="text">{t('sections.livingArea.text')}</p>
                 </div>
               </div>
             </div>
@@ -110,7 +100,7 @@ export default function HomePage() {
                   return (
                     <Image
                       src="/assets/images/fullsize/living-02.jpg"
-                      alt="Ada 36 Studio - Living Area"
+                      alt="ADA36 Studio - Wohnbereich mit Schlafsofa und Arbeitsplatz im minimalistischen Design, Kreuzberg Berlin"
                       className="section-image"
                       width={imageConfig.width}
                       height={imageConfig.height}
@@ -131,10 +121,8 @@ export default function HomePage() {
             <div className="columns">
               <div className="content">
                 <div className="port-text">
-                  <h1 className="title">Sleeping Area</h1>
-                  <p className="text">
-                    Details of the sleeping area with double bed and wardrobe
-                  </p>
+                  <h1 className="title">{t('sections.sleepingArea.title')}</h1>
+                  <p className="text">{t('sections.sleepingArea.text')}</p>
                 </div>
               </div>
             </div>
@@ -145,7 +133,7 @@ export default function HomePage() {
                   return (
                     <Image
                       src="/assets/images/fullsize/sleeping-01.jpg"
-                      alt="Ada 36 Studio - Sleeping Area"
+                      alt="ADA36 Studio - Schlafbereich mit Doppelbett (160x200cm) und großem Kleiderschrank in Kreuzberg, Berlin"
                       className="section-image"
                       width={imageConfig.width}
                       height={imageConfig.height}
@@ -166,10 +154,8 @@ export default function HomePage() {
             <div className="columns">
               <div className="content">
                 <div className="port-text">
-                  <h1 className="title">Bathroom</h1>
-                  <p className="text">
-                    Modern bathroom with bathtub and contemporary design
-                  </p>
+                  <h1 className="title">{t('sections.bathroom.title')}</h1>
+                  <p className="text">{t('sections.bathroom.text')}</p>
                 </div>
               </div>
             </div>
@@ -180,7 +166,7 @@ export default function HomePage() {
                   return (
                     <Image
                       src="/assets/images/fullsize/bathroom-01.jpg"
-                      alt="Ada 36 Studio - Bathroom"
+                      alt="ADA36 Studio - Modernes Badezimmer mit Badewanne und zeitgemäßem Design in Kreuzberg, Berlin"
                       className="section-image"
                       width={imageConfig.width}
                       height={imageConfig.height}
@@ -201,10 +187,8 @@ export default function HomePage() {
             <div className="columns">
               <div className="content">
                 <div className="port-text">
-                  <h1 className="title">Balcony</h1>
-                  <p className="text">
-                    Access to the balcony from the kitchen area
-                  </p>
+                  <h1 className="title">{t('sections.balcony.title')}</h1>
+                  <p className="text">{t('sections.balcony.text')}</p>
                 </div>
               </div>
             </div>
@@ -215,7 +199,7 @@ export default function HomePage() {
                   return (
                     <Image
                       src="/assets/images/fullsize/balcony-01.jpg"
-                      alt="Ada 36 Studio - Balcony"
+                      alt="ADA36 Studio - Balkon mit Zugang von der Küche, perfekt für entspannte Momente in Kreuzberg, Berlin"
                       className="section-image"
                       width={imageConfig.width}
                       height={imageConfig.height}
