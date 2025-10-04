@@ -335,20 +335,4 @@ export const neighbourhoodSections: SectionData[] = [
     imagePath: "/assets/images/fullsize/st-michael-02.webp",
     imageText: "St. Michael Church 2"
   },
-  {
-    title: "Cold War History",
-    sortingNumber: 6,
-    label: "neighbourhood",
-    text: "Historical information about the Cold War period in this area.<br><br>Rich history of Berlin.",
-    imagePath: "/assets/images/fullsize/adalbertstr-cold-war-01.webp",
-    imageText: "Cold War History 1"
-  },
-  {
-    title: "Cold War History Text",
-    sortingNumber: 7,
-    label: "neighbourhood",
-    text: "Detailed information about the Cold War history.<br><br>Educational content about the area.",
-    imagePath: "/assets/images/fullsize/adalbertstr-cold-war-text.webp",
-    imageText: "Cold War History Text"
-  },
 ];

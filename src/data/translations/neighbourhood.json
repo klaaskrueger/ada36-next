@@ -18,14 +18,6 @@
       "stMichaelChurch2": {
         "title": "St. Michael Kirche",
         "text": "Anderer Blickwinkel der St. Michael Kirche.<br /><br />Historisches Gebäude in Kreuzberg."
-      },
-      "coldWarHistory": {
-        "title": "Kalter Krieg Geschichte",
-        "text": "Historische Informationen über die Zeit des Kalten Krieges in dieser Gegend.<br /><br />Reiche Geschichte Berlins."
-      },
-      "coldWarHistoryText": {
-        "title": "Kalter Krieg Geschichte Text",
-        "text": "Detaillierte Informationen über die Geschichte des Kalten Krieges.<br /><br />Bildungsinhalt über die Gegend."
       }
     }
   },
@@ -48,14 +40,6 @@
       "stMichaelChurch2": {
         "title": "St. Michael Church",
         "text": "Different angle of St. Michael Church.<br /><br />Historic building in Kreuzberg."
-      },
-      "coldWarHistory": {
-        "title": "Cold War History",
-        "text": "Historical information about the Cold War period in this area.<br /><br />Rich history of Berlin."
-      },
-      "coldWarHistoryText": {
-        "title": "Cold War History Text",
-        "text": "Detailed information about the Cold War history.<br /><br />Educational content about the area."
       }
     }
   }
