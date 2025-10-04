@@ -26,40 +26,6 @@ const LanguageSwitcher: React.FC = () => {
       >
         EN
       </button>
-      
-      <style jsx>{`
-        .language-switcher {
-          display: flex;
-          gap: 0.5rem;
-          align-items: center;
-        }
-        
-        .language-btn {
-          background: none;
-          border: 1px solid #ccc;
-          padding: 0.25rem 0.5rem;
-          cursor: pointer;
-          font-size: 0.875rem;
-          font-weight: 500;
-          transition: all 0.2s ease;
-          border-radius: 4px;
-        }
-        
-        .language-btn:hover {
-          background-color: #f5f5f5;
-          border-color: #999;
-        }
-        
-        .language-btn.active {
-          background-color: #333;
-          color: white;
-          border-color: #333;
-        }
-        
-        .language-btn.active:hover {
-          background-color: #555;
-        }
-      `}</style>
     </div>
   );
 };

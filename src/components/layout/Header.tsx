@@ -26,8 +26,10 @@ const Header: React.FC<HeaderProps> = ({ navigationItems, currentPath }) => {
           </div>
           <div></div>
           <div className="column">
-            <Navigation items={navigationItems} currentPath={currentPath} />
-            <LanguageSwitcher />
+            <div className="header-right-content">
+              <LanguageSwitcher />
+              <Navigation items={navigationItems} currentPath={currentPath} />
+            </div>
           </div>
         </div>
       </div>
