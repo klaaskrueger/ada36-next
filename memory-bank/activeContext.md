@@ -75,6 +75,7 @@
 - **Internationalisierung**: JSON-basierte Übersetzungen mit React Context
 - **Spracherkennung**: Automatische Browser-Spracherkennung mit localStorage Persistierung
 - **Fallback-System**: Deutsche Übersetzungen als Fallback für fehlende englische Texte
+- **Deployment-Workflow**: Bei Deploy-Befehl automatisch Git Commit und Push ausführen
 
 ## Offene Fragen
 - Sollen alle JavaScript-Funktionen (Parallax, etc.) beibehalten werden?
