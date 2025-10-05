@@ -9,21 +9,29 @@
         "title": "Küche",
         "text": "Grundriss mit offener Küche mit Esstisch für 4 Personen. Einbauküche in offenem Grundriss.<br /><br />Ausstattung: Backofen, Kühlschrank, Gefrierschrank, Mikrowelle, Geschirrspüler<br />Zweiter Wasserhahn für gefiltertes Trinkwasser"
       },
-      "livingArea": {
+      "living": {
         "title": "Wohnbereich",
-        "text": "Verschiedene Ansichten des Wohnbereichs"
+        "text": "Wohnbereich mit Schlafsofa.<br /><br />Apple TV, Sony TV<br />Internet DSL, V-DSL, Wireless LAN, BluRay Player, Hifi"
       },
-      "sleepingArea": {
+      "floorplan": {
+        "title": "Grundriss",
+        "text": "Wohnungsgröße 72m²"
+      },
+      "connectorDoors": {
+        "title": "Verbindungstüren",
+        "text": "Doppeltüren zwischen Schlaf- und Hauptbereich"
+      },
+      "mirror": {
+        "title": "Spiegel",
+        "text": "Spiegel am Eingang"
+      },
+      "sleeping": {
         "title": "Schlafbereich",
-        "text": "Details des Schlafbereichs mit Doppelbett und Kleiderschrank"
+        "text": "Schlafzimmer mit großem Schrank und Zugang zum Kleiderschrank"
       },
       "bathroom": {
         "title": "Badezimmer",
-        "text": "Modernes Badezimmer mit Badewanne und zeitgemäßem Design"
-      },
-      "balcony": {
-        "title": "Balkon",
-        "text": "Zugang zum Balkon vom Küchenbereich"
+        "text": "Badezimmer mit Waschmaschine"
       }
     }
   },
@@ -37,21 +45,29 @@
         "title": "Kitchen",
         "text": "Floor-plan as open kitchen with dining table for 4 persons. Fitted kitchen in open plan kitchen.<br /><br />Inventory: Oven, fridge, deep fridge, microwave, dish washer<br />Secondary tub for filtered drinking water"
       },
-      "livingArea": {
-        "title": "Living Area",
-        "text": "Various views of the living area"
+      "living": {
+        "title": "Living",
+        "text": "Living area with a sleeping couch.<br /><br />Apple TV, Sony TV<br />Internet DSL, V-DSL, Wireless LAN, BluRay Player, Hifi"
       },
-      "sleepingArea": {
-        "title": "Sleeping Area",
-        "text": "Details of the sleeping area with double bed and wardrobe"
+      "floorplan": {
+        "title": "Floorplan",
+        "text": "Flat size 72m²"
+      },
+      "connectorDoors": {
+        "title": "Connector Doors",
+        "text": "Double Doors between Sleeping and Main"
+      },
+      "mirror": {
+        "title": "Mirror",
+        "text": "Mirror at the Entrance"
+      },
+      "sleeping": {
+        "title": "Sleeping",
+        "text": "Sleeping Room with big cupboard and entrance to wardrobe"
       },
       "bathroom": {
         "title": "Bathroom",
-        "text": "Modern bathroom with bathtub and contemporary design"
-      },
-      "balcony": {
-        "title": "Balcony",
-        "text": "Access to the balcony from the kitchen area"
+        "text": "Bathroom with washing maschine"
       }
     }
   }
