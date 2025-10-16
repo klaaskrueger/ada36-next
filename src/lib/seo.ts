@@ -188,7 +188,7 @@ export const websiteStructuredData = {
 // Funktion um SEO-Konfiguration basierend auf der Route zu erhalten
 export function getSEOConfigForRoute(pathname: string): SEOConfig {
   switch (pathname) {
-    case '/images':
+    case '/equipment':
       return imagesSEOConfig;
     case '/neighbourhood':
       return neighbourhoodSEOConfig;
@@ -215,7 +215,7 @@ export const imagesSEOConfig: SEOConfig = {
     "Berlin Apartment",
     "Verkauf Bilder"
   ],
-  canonical: "https://ada36.de/images"
+  canonical: "https://ada36.de/equipment"
 };
 
 export const neighbourhoodSEOConfig: SEOConfig = {

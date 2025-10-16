@@ -13,7 +13,7 @@ export default function ImagesPage() {
 
   return (
     <>
-      <Header navigationItems={navigationItems} currentPath="/images" />
+      <Header navigationItems={navigationItems} currentPath="/equipment" />
       <main className="page-content">
         <div className="container">
           {imageSections.map((section) => {

@@ -23,7 +23,7 @@ const Navigation: React.FC<NavigationProps> = ({ items, currentPath }) => {
     switch (url) {
       case '/':
         return t('navigation.loft');
-      case '/images':
+      case '/equipment':
         return t('navigation.images');
       case '/garden':
         return t('navigation.garden');

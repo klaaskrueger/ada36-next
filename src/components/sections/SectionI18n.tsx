@@ -4,6 +4,7 @@ import { SectionData } from '@/types';
 import Image from 'next/image';
 import { getImageConfig, getOptimizedSizes } from '@/data/imageConfig';
 import { useTranslation } from '@/hooks/useTranslation';
+import { useEffect, useState } from 'react';
 
 type TranslationValue = string | { [key: string]: string | TranslationValue };
 type TranslationsObject = Record<string, TranslationValue>;
@@ -17,6 +18,11 @@ interface SectionI18nProps {
 
 const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, className = '', showTitle = true }) => {
   const { t } = useTranslation(translations);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   // Get translation key based on section title and sorting number
   const getTranslationKey = (title: string, sortingNumber: number) => {
@@ -90,8 +96,8 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
   };
 
   const translationKey = getTranslationKey(section.title, section.sortingNumber);
-  const translatedTitle = t(`${translationKey}.title`);
-  const translatedText = t(`${translationKey}.text`);
+  const translatedTitle = isMounted ? t(`${translationKey}.title`) : '';
+  const translatedText = isMounted ? t(`${translationKey}.text`) : '';
 
   return (
     <section className={`section ${className}`}>
@@ -99,9 +105,9 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
       <div className="columns">
         <div className="content">
           <div className="port-text">
-            {showTitle && translatedTitle && <h1 className="title">{translatedTitle}</h1>}
-            {translatedText && (
-              <p 
+            {isMounted && showTitle && translatedTitle && <h3 className="title">{translatedTitle}</h3>}
+            {isMounted && translatedText && typeof translatedText === 'string' && translatedText.trim() && (
+              <div 
                 className="text" 
                 dangerouslySetInnerHTML={{ __html: translatedText }} 
               />
