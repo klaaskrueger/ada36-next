@@ -72,6 +72,10 @@
       "viewing": {
         "title": "Besichtigung",
         "text": "Die Wohnung kann nach Vereinbarung zeitnah besichtigt werden. Rufen Sie uns gerne an. Falls Sie uns nicht sofort erreichen, schicken Sie uns gerne eine WhatsApp oder eine E-Mail. Wir melden uns so schnell es geht."
+      },
+      "Garten": {
+        "title": "Garten",
+        "text": "Der Garten des Hauses ist eine kleine Entspannungsoase und lädt dazu ein, von Ihnen mitbenutzt zu werden. Ruhiger Gartenbereich mit schönem Ausblick."
       }
     }
   },
@@ -148,6 +152,10 @@
       "viewing": {
         "title": "Viewing",
         "text": "The apartment can be viewed promptly by appointment. Please feel free to call us. If you don't reach us immediately, please send us a WhatsApp or an email. We will get back to you as soon as possible."
+      },
+      "Garten": {
+        "title": "Garden",
+        "text": "The garden of the house is a small relaxation oasis and invites you to use it as well. Quiet garden area with beautiful view."
       }
     }
   }
