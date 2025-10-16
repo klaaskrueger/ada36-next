@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { siteConfig } from "@/data/navigation";
-import { generateMetadata, defaultSEOConfig, accommodationStructuredData, websiteStructuredData } from "@/lib/seo";
+import { generateMetadata, defaultSEOConfig, realEstateStructuredData, websiteStructuredData } from "@/lib/seo";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 
 export const metadata: Metadata = generateMetadata(defaultSEOConfig, siteConfig.url);
@@ -19,7 +19,7 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(accommodationStructuredData),
+            __html: JSON.stringify(realEstateStructuredData),
           }}
         />
         <script

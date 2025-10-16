@@ -15,18 +15,17 @@ export interface SEOConfig {
 }
 
 export const defaultSEOConfig: SEOConfig = {
-  title: "ADA36 Studio - Minimalistisches Loft in Kreuzberg, Berlin",
-  description: "Entdecken Sie das ADA36 Studio - ein minimalistisches 2-Zimmer-Loft im Herzen von Kreuzberg, Berlin. Perfekt für Touristen, Geschäftsreisende und digitale Nomaden. Moderne Ausstattung, zentrale Lage, authentisches Berlin-Erlebnis.",
+  title: "ADA36 Studio - Minimalistisches Loft in Kreuzberg, Berlin | Zum Verkauf",
+  description: "ADA36 Studio - Minimalistisches 2-Zimmer-Loft im Herzen von Kreuzberg, Berlin zum Verkauf. Perfekte Investment-Immobilie oder Traumwohnung. Moderne Ausstattung, zentrale Lage, authentisches Berlin-Erlebnis.",
   keywords: [
     "Berlin",
     "Kreuzberg",
     "Loft",
     "Apartment",
-    "Ferienwohnung",
-    "Unterkunft",
-    "Tourist",
-    "Geschäftsreise",
-    "Digitale Nomaden",
+    "Immobilie kaufen",
+    "Loft kaufen",
+    "Berlin Immobilie",
+    "Kreuzberg Immobilie",
     "ADA36",
     "Studio",
     "Adalbertstraße",
@@ -35,17 +34,17 @@ export const defaultSEOConfig: SEOConfig = {
     "Zentral",
     "Berlin Mitte",
     "Kreuzberg 36",
-    "Kurzzeitmiete",
-    "Wohnung mieten",
-    "Berlin Unterkunft",
-    "Kreuzberg Apartment",
-    "Berlin Loft",
-    "Ferienwohnung Berlin",
-    "Kurzzeitmiete Berlin",
-    "Business Trip Berlin",
-    "Tourist Berlin",
-    "Berlin Accommodation",
-    "Kreuzberg Accommodation"
+    "Immobilie verkaufen",
+    "Wohnung kaufen",
+    "Berlin Loft kaufen",
+    "Kreuzberg Apartment kaufen",
+    "Berlin Loft verkaufen",
+    "Immobilie Berlin",
+    "Kreuzberg Loft kaufen",
+    "Berlin Investment",
+    "Kreuzberg Investment",
+    "Eigentumswohnung Berlin",
+    "Loft Berlin kaufen"
   ],
   openGraph: {
     type: "website",
@@ -101,11 +100,11 @@ export function generateMetadata(config: SEOConfig, baseUrl: string = "https://a
   };
 }
 
-export const accommodationStructuredData = {
+export const realEstateStructuredData = {
   "@context": "https://schema.org",
-  "@type": "Accommodation",
-  "name": "ADA36 Studio",
-  "description": "Minimalistisches 2-Zimmer-Loft im Herzen von Kreuzberg, Berlin. Perfekt für Touristen, Geschäftsreisende und digitale Nomaden.",
+  "@type": "RealEstate",
+  "name": "ADA36 Studio - Loft zum Verkauf",
+  "description": "Minimalistisches 2-Zimmer-Loft im Herzen von Kreuzberg, Berlin zum Verkauf. Perfekte Investment-Immobilie oder Traumwohnung.",
   "url": "https://ada36.de",
   "image": [
     "https://ada36.de/assets/images/fullsize/living-01.webp",
@@ -125,12 +124,8 @@ export const accommodationStructuredData = {
     "latitude": "52.5025",
     "longitude": "13.4147"
   },
+  "propertyType": "Apartment",
   "amenityFeature": [
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "WiFi",
-      "value": true
-    },
     {
       "@type": "LocationFeatureSpecification", 
       "name": "Kitchen",
@@ -155,17 +150,15 @@ export const accommodationStructuredData = {
   "numberOfRooms": 2,
   "floorSize": {
     "@type": "QuantitativeValue",
-    "value": "65",
+    "value": "70",
     "unitCode": "MTK"
   },
-  "occupancy": {
-    "@type": "QuantitativeValue",
-    "maxValue": 4
-  },
-  "petsAllowed": false,
-  "smokingAllowed": false,
-  "checkinTime": "15:00",
-  "checkoutTime": "11:00"
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "EUR",
+    "description": "Loft zum Verkauf"
+  }
 };
 
 export const breadcrumbStructuredData = (items: Array<{name: string, url: string}>) => ({
@@ -183,11 +176,65 @@ export const websiteStructuredData = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "ADA36 Studio",
-  "description": "Minimalistisches Loft in Kreuzberg, Berlin - Perfekte Unterkunft für Touristen und Geschäftsreisende",
+  "description": "Minimalistisches Loft in Kreuzberg, Berlin zum Verkauf - Perfekte Investment-Immobilie oder Traumwohnung",
   "url": "https://ada36.de",
   "potentialAction": {
     "@type": "SearchAction",
     "target": "https://ada36.de/search?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
+};
+
+// Spezifische SEO-Konfigurationen für einzelne Seiten
+export const imagesSEOConfig: SEOConfig = {
+  title: "Bildergalerie - ADA36 Studio Kreuzberg Berlin | Loft Fotos zum Verkauf",
+  description: "Bildergalerie des ADA36 Studio Lofts in Kreuzberg, Berlin zum Verkauf. Professionelle Fotos aller Räume, Ausstattung und Details der Immobilie.",
+  keywords: [
+    "ADA36 Studio",
+    "Loft Bilder",
+    "Immobilienfotos",
+    "Verkaufsgalerie",
+    "Berlin Kreuzberg",
+    "Loft Fotos",
+    "Immobilie Bilder",
+    "Kreuzberg Loft",
+    "Berlin Apartment",
+    "Verkauf Bilder"
+  ],
+  canonical: "https://ada36.de/images"
+};
+
+export const neighbourhoodSEOConfig: SEOConfig = {
+  title: "Lage & Umgebung - ADA36 Studio Kreuzberg Berlin | Immobilie zum Verkauf",
+  description: "Perfekte Lage des ADA36 Studio Lofts in Kreuzberg, Berlin. Zentrale Position, Infrastruktur, Sehenswürdigkeiten und Investmentpotenzial.",
+  keywords: [
+    "ADA36 Studio",
+    "Kreuzberg Lage",
+    "Immobilienlage",
+    "Investment Berlin",
+    "Kreuzberg Umgebung",
+    "Berlin Mitte",
+    "Zentrale Lage",
+    "Infrastruktur",
+    "Sehenswürdigkeiten",
+    "Transport"
+  ],
+  canonical: "https://ada36.de/neighbourhood"
+};
+
+export const guidesSEOConfig: SEOConfig = {
+  title: "Objektinformationen - ADA36 Studio Kreuzberg Berlin | Details zum Verkauf",
+  description: "Detaillierte Objektinformationen des ADA36 Studio Lofts in Kreuzberg, Berlin. Ausstattung, technische Daten und Verkaufsdetails.",
+  keywords: [
+    "ADA36 Studio",
+    "Objektdetails",
+    "Ausstattung",
+    "Technische Daten",
+    "Verkaufsinfos",
+    "Berlin Kreuzberg",
+    "Loft Ausstattung",
+    "Immobilie Details",
+    "Verkauf Details"
+  ],
+  canonical: "https://ada36.de/guides"
 };

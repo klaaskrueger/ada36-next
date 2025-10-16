@@ -1,10 +1,12 @@
-'use client';
-
+import { Metadata } from 'next';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { navigationItems } from '@/data/navigation';
 import { useTranslation } from '@/hooks/useTranslation';
 import guidesTranslations from '@/data/translations/guides.json';
+import { generateMetadata, guidesSEOConfig } from '@/lib/seo';
+
+export const metadata: Metadata = generateMetadata(guidesSEOConfig);
 
 
 export default function GuidesPage() {

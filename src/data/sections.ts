@@ -74,16 +74,8 @@ export const homepageSections: SectionData[] = [
     imageText: "Ada 36 Studio - Balcony"
   },
   {
-    title: "Garden",
-    sortingNumber: 9,
-    label: "homepage",
-    text: "Garden area and outdoor space<br><br>Access to garden from the apartment",
-    imagePath: "/assets/images/fullsize/garden-new.webp",
-    imageText: "Ada 36 Studio - Garden"
-  },
-  {
     title: "Floorplan",
-    sortingNumber: 10,
+    sortingNumber: 9,
     label: "homepage",
     text: "Complete floor plan of the apartment<br><br>72 qm total area",
     imagePath: "/assets/images/fullsize/floorplan.webp",
@@ -91,7 +83,7 @@ export const homepageSections: SectionData[] = [
   },
   {
     title: "Wardrobe",
-    sortingNumber: 11,
+    sortingNumber: 10,
     label: "homepage",
     text: "Big wardrobe and storage space<br><br>Walk-in closet with lots of storage",
     imagePath: "/assets/images/fullsize/sleeping-cupboard.webp",
@@ -99,7 +91,7 @@ export const homepageSections: SectionData[] = [
   },
   {
     title: "Connector",
-    sortingNumber: 12,
+    sortingNumber: 11,
     label: "homepage",
     text: "Connector doors between sleeping and living area<br><br>Open plan design",
     imagePath: "/assets/images/fullsize/connector-doors-sleeping.webp",

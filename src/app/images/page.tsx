@@ -1,11 +1,13 @@
-'use client';
-
+import { Metadata } from 'next';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import SectionI18n from '@/components/sections/SectionI18n';
 import { navigationItems } from '@/data/navigation';
 import { imageSections } from '@/data/sections';
 import imagesTranslations from '@/data/translations/images.json';
+import { generateMetadata, imagesSEOConfig } from '@/lib/seo';
+
+export const metadata: Metadata = generateMetadata(imagesSEOConfig);
 
 export default function ImagesPage() {
   // Track which titles we've already shown to avoid duplicates
