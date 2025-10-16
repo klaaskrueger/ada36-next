@@ -14,7 +14,7 @@ export const homepageSections: SectionData[] = [
     sortingNumber: 2,
     label: "homepage",
     text: "Floor-plan as open kitchen with dining table for 4 persons. Fitted kitchen in open plan kitchen.<br><br>Inventory: Oven, fridge, deep fridge, microwave, dish washer<br>Secondary tub for filtered drinking water",
-    imagePath: "/assets/images/fullsize/kitchen-03.webp",
+    imagePath: "/assets/images/fullsize/kitchen-01.webp",
     imageText: "Ada 36 Studio - Kitchen"
   },
   {
@@ -70,7 +70,7 @@ export const homepageSections: SectionData[] = [
     sortingNumber: 9,
     label: "homepage",
     text: "Garden area and outdoor space<br><br>Access to garden from the apartment",
-    imagePath: "/assets/images/fullsize/garden.webp",
+    imagePath: "/assets/images/fullsize/garden-new.webp",
     imageText: "Ada 36 Studio - Garden"
   },
   {
@@ -157,24 +157,8 @@ export const imageSections: SectionData[] = [
     imageText: "Küche"
   },
   {
-    title: "Küche",
-    sortingNumber: 8,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/kitchen-02.webp",
-    imageText: "Küche"
-  },
-  {
-    title: "Küche",
-    sortingNumber: 9,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/kitchen-03.webp",
-    imageText: "Küche"
-  },
-  {
     title: "Schlafbereich",
-    sortingNumber: 10,
+    sortingNumber: 8,
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/sleeping-01.webp",
@@ -182,7 +166,7 @@ export const imageSections: SectionData[] = [
   },
   {
     title: "Schlafbereich",
-    sortingNumber: 11,
+    sortingNumber: 9,
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/sleeping-02.webp",
@@ -190,7 +174,7 @@ export const imageSections: SectionData[] = [
   },
   {
     title: "Schlafbereich",
-    sortingNumber: 12,
+    sortingNumber: 10,
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/sleeping-03.webp",
@@ -198,7 +182,7 @@ export const imageSections: SectionData[] = [
   },
   {
     title: "Schlafbereich",
-    sortingNumber: 13,
+    sortingNumber: 11,
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/sleeping-04.webp",
@@ -206,31 +190,15 @@ export const imageSections: SectionData[] = [
   },
   {
     title: "Badezimmer",
-    sortingNumber: 14,
+    sortingNumber: 12,
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/bathroom-01.webp",
     imageText: "Badezimmer"
   },
   {
-    title: "Badezimmer",
-    sortingNumber: 15,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/bathroom-02.webp",
-    imageText: "Badezimmer"
-  },
-  {
-    title: "Badezimmer",
-    sortingNumber: 16,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/bathroom-entrance.webp",
-    imageText: "Badezimmer Eingang"
-  },
-  {
     title: "Balkon",
-    sortingNumber: 17,
+    sortingNumber: 13,
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/balcony-01.webp",
@@ -238,63 +206,23 @@ export const imageSections: SectionData[] = [
   },
   {
     title: "Balkon",
-    sortingNumber: 18,
+    sortingNumber: 14,
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/balcony-02.webp",
     imageText: "Balkon"
   },
   {
-    title: "Balkon",
-    sortingNumber: 19,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/balcony-03.webp",
-    imageText: "Balkon"
-  },
-  {
     title: "Arbeitsbereich",
-    sortingNumber: 20,
+    sortingNumber: 15,
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/working-01.webp",
     imageText: "Arbeitsbereich"
   },
   {
-    title: "Eingang",
-    sortingNumber: 21,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/entrance.webp",
-    imageText: "Eingang"
-  },
-  {
     title: "Details",
-    sortingNumber: 22,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/shelf-detail.webp",
-    imageText: "Regal Details"
-  },
-  {
-    title: "Details",
-    sortingNumber: 23,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/cupboard-01.webp",
-    imageText: "Schrank Details"
-  },
-  {
-    title: "Details",
-    sortingNumber: 24,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/cat-statue.webp",
-    imageText: "Katzenstatue"
-  },
-  {
-    title: "Details",
-    sortingNumber: 25,
+    sortingNumber: 16,
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/mirror.webp",
@@ -302,26 +230,130 @@ export const imageSections: SectionData[] = [
   },
   {
     title: "Grundriss",
-    sortingNumber: 26,
+    sortingNumber: 17,
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/floorplan.webp",
     imageText: "Grundriss"
+  },
+  {
+    title: "Außenansicht",
+    sortingNumber: 18,
+    label: "images",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-aussenansicht-IMG_4513.webp",
+    imageText: "Außenansicht"
+  },
+  {
+    title: "Fahrstuhl",
+    sortingNumber: 19,
+    label: "images",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-fahrstuhl-IMG_4531.webp",
+    imageText: "Fahrstuhl"
+  },
+  {
+    title: "Garten",
+    sortingNumber: 20,
+    label: "images",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-garten-IMG_4524.webp",
+    imageText: "Garten"
+  },
+  {
+    title: "Garten",
+    sortingNumber: 21,
+    label: "images",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-garten-detail-IMG_4523.webp",
+    imageText: "Garten"
+  },
+  {
+    title: "Garten",
+    sortingNumber: 22,
+    label: "images",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-garten-von-oben_IMG_4721.webp",
+    imageText: "Garten"
+  },
+  {
+    title: "Garten",
+    sortingNumber: 23,
+    label: "images",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-gartenausblick-IMG_4528.webp",
+    imageText: "Garten"
+  },
+  {
+    title: "Garten",
+    sortingNumber: 24,
+    label: "images",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-im-garten-IMG_4520.webp",
+    imageText: "Garten"
+  },
+  {
+    title: "Hausflur",
+    sortingNumber: 25,
+    label: "images",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-hausflur-IMG_4516.webp",
+    imageText: "Hausflur"
+  },
+  {
+    title: "Hausflur",
+    sortingNumber: 26,
+    label: "images",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-hausflur-vertikal-IMG_4530.webp",
+    imageText: "Hausflur"
   }
 ];
 
 export const neighbourhoodSections: SectionData[] = [
   {
-    title: "Engelbecken",
+    title: "Markthalle 9",
     sortingNumber: 1,
     label: "neighbourhood",
-    text: "The Engelbecken is a beautiful park area near the apartment.<br><br>Perfect for jogging and relaxation.",
-    imagePath: "/assets/images/fullsize/engelbecken.webp",
-    imageText: "Engelbecken Park"
+    text: "Markthalle 9 - Historic market hall with excellent gastronomy scene.<br><br>Traditional market with modern food vendors and restaurants.",
+    imagePath: "/assets/images/fullsize/neighborhood-markthalle-9-IMG_4631.webp",
+    imageText: "Markthalle 9"
+  },
+  {
+    title: "Markthalle 9",
+    sortingNumber: 2,
+    label: "neighbourhood",
+    text: "Markthalle 9 - Historic market hall with excellent gastronomy scene.<br><br>Traditional market with modern food vendors and restaurants.",
+    imagePath: "/assets/images/fullsize/neighborhood-markthalle-9-aussen-IMG_3283.webp",
+    imageText: "Markthalle 9"
+  },
+  {
+    title: "Kunsthaus Bethanien",
+    sortingNumber: 3,
+    label: "neighbourhood",
+    text: "Kunsthaus Bethanien - A cultural center and art space in the neighborhood.<br><br>Historic building with contemporary art exhibitions.",
+    imagePath: "/assets/images/fullsize/neighborhood-bethanien.webp",
+    imageText: "Kunsthaus Bethanien"
+  },
+  {
+    title: "Spree Strand",
+    sortingNumber: 4,
+    label: "neighbourhood",
+    text: "Spree Strand - Beautiful riverbank area for walking and relaxation.<br><br>Perfect for jogging along the river.",
+    imagePath: "/assets/images/fullsize/neighborhood-spreestrand-IMG_3298.webp",
+    imageText: "Spree Strand"
+  },
+  {
+    title: "Nebenstraße",
+    sortingNumber: 5,
+    label: "neighbourhood",
+    text: "Nebenstraße - Local neighborhood street with typical Kreuzberg atmosphere.<br><br>Quiet residential area with local charm.",
+    imagePath: "/assets/images/fullsize/neighborhood-Nebenstr_IMG_4499.webp",
+    imageText: "Nebenstraße"
   },
   {
     title: "St. Michael Church",
-    sortingNumber: 3,
+    sortingNumber: 6,
     label: "neighbourhood",
     text: "St. Michael Church is a historic landmark in the area.<br><br>Beautiful architecture and history.",
     imagePath: "/assets/images/fullsize/st-michael-01.webp",
@@ -329,7 +361,7 @@ export const neighbourhoodSections: SectionData[] = [
   },
   {
     title: "St. Michael Church",
-    sortingNumber: 4,
+    sortingNumber: 7,
     label: "neighbourhood",
     text: "Different angle of St. Michael Church.<br><br>Historic building in Kreuzberg.",
     imagePath: "/assets/images/fullsize/st-michael-02.webp",

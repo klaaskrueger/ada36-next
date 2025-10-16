@@ -32,6 +32,26 @@
       "bathroom": {
         "title": "Badezimmer",
         "text": "Badezimmer mit Waschmaschine"
+      },
+      "working": {
+        "title": "Arbeitsbereich",
+        "text": "Arbeitsplatz mit Internet / Elektronik, Apple TV, Sony TV<br /><br />Internet DSL, V-DSL, Wireless LAN"
+      },
+      "balcony": {
+        "title": "Balkon",
+        "text": "Balkon mit Zugang von der Küche<br /><br />Balkonbereich zum Entspannen"
+      },
+      "garden": {
+        "title": "Garten",
+        "text": "Gartenbereich mit schönem Ausblick<br /><br />Ruhiger Gartenbereich"
+      },
+      "wardrobe": {
+        "title": "Kleiderschrank",
+        "text": "Großer Kleiderschrank und Stauraum<br /><br />Walk-in Closet mit viel Stauraum"
+      },
+      "connector": {
+        "title": "Verbindung",
+        "text": "Verbindungstüren zwischen Schlaf- und Wohnbereich<br /><br />Offener Grundriss"
       }
     }
   },
@@ -68,6 +88,26 @@
       "bathroom": {
         "title": "Bathroom",
         "text": "Bathroom with washing maschine"
+      },
+      "working": {
+        "title": "Working",
+        "text": "Working desk with Internet / electronics, Apple TV, Sony TV<br /><br />Internet DSL, V-DSL, Wireless LAN"
+      },
+      "balcony": {
+        "title": "Balcony",
+        "text": "Balcony with access from the kitchen<br /><br />Balcony area for relaxation"
+      },
+      "garden": {
+        "title": "Garden",
+        "text": "Garden area with beautiful view<br /><br />Quiet garden area"
+      },
+      "wardrobe": {
+        "title": "Wardrobe",
+        "text": "Big wardrobe and storage space<br /><br />Walk-in closet with lots of storage"
+      },
+      "connector": {
+        "title": "Connector",
+        "text": "Connector doors between sleeping and living area<br /><br />Open plan design"
       }
     }
   }

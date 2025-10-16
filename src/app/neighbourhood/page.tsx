@@ -24,27 +24,6 @@ export default function NeighbourhoodPage() {
               translations={neighbourhoodTranslations}
             />
           ))}
-          
-          {/* Google Maps Integration */}
-          <div className="columns">
-            <div className="content">
-              <div className="port-text">
-                <h1 className="title" id="google-map">{t('areaMap.title')}</h1>
-                <p className="text">{t('areaMap.text')}</p>
-                
-                <iframe
-                  src="https://www.google.com/maps/d/u/1/embed?mid=1-luuAvMrHfUhcdHFqkipzHM5d2c"
-                  width="100%"
-                  height="600"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Area Map - Ada36 Studio Neighbourhood"
-                />
-              </div>
-            </div>
-          </div>
         </div>
       </main>
       <Footer />

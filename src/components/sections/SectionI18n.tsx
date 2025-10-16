@@ -18,8 +18,8 @@ interface SectionI18nProps {
 const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, className = '', showTitle = true }) => {
   const { t } = useTranslation(translations);
 
-  // Get translation key based on section title
-  const getTranslationKey = (title: string) => {
+  // Get translation key based on section title and sorting number
+  const getTranslationKey = (title: string, sortingNumber: number) => {
     const keyMap: { [key: string]: string } = {
       // German titles for images page
       'Wohnbereich': 'sections.Wohnbereich',
@@ -31,6 +31,10 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
       'Eingang': 'sections.Eingang',
       'Details': 'sections.Details',
       'Grundriss': 'sections.Grundriss',
+      'Außenansicht': 'sections.Außenansicht',
+      'Fahrstuhl': 'sections.Fahrstuhl',
+      'Garten': 'sections.Garten',
+      'Hausflur': 'sections.Hausflur',
       // English titles (fallback)
       'Living Area': 'sections.livingArea',
       'Living Area Night': 'sections.livingAreaNight',
@@ -46,9 +50,29 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
       'Cat Statue': 'sections.catStatue',
       'Mirror': 'sections.mirror',
       'Floorplan': 'sections.floorplan',
+      'Exterior View': 'sections.Außenansicht',
+      'Elevator': 'sections.Fahrstuhl',
+      'Garden': 'sections.Garten',
+      'Hallway': 'sections.Hausflur',
+      // Homepage sections
+      'The Loft': 'sections.theLoft',
+      'Living': 'sections.living',
+      'Sleeping': 'sections.sleeping',
+      'Working': 'sections.working',
+      'Balcony': 'sections.balcony',
+      'Garden': 'sections.garden',
+      'Connector Doors': 'sections.connectorDoors',
+      'Floorplan': 'sections.floorplan',
+      'Mirror': 'sections.mirror',
+      'Wardrobe': 'sections.wardrobe',
+      'Connector': 'sections.connector',
       // Neighbourhood sections
       'Engelbecken': 'sections.engelbecken',
       'St. Michael Church': 'sections.stMichaelChurch',
+      'Kunsthaus Bethanien': 'sections.kunsthausBethanien',
+      'Markthalle 9': sortingNumber === 1 ? 'sections.markthalle9Innen' : 'sections.markthalle9Aussen',
+      'Spree Strand': 'sections.spreeStrand',
+      'Nebenstraße': 'sections.nebenstrasse',
       'Cold War History': 'sections.coldWarHistory',
       'Cold War History Text': 'sections.coldWarHistoryText',
     };
@@ -56,7 +80,7 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
     return keyMap[title] || `sections.${title.toLowerCase().replace(/\s+/g, '')}`;
   };
 
-  const translationKey = getTranslationKey(section.title);
+  const translationKey = getTranslationKey(section.title, section.sortingNumber);
   const translatedTitle = t(`${translationKey}.title`) || section.title;
   const translatedText = t(`${translationKey}.text`) || section.text;
 

@@ -1,6 +1,6 @@
 # Progress: ADA36 Next.js Migration
 
-## Projektstatus: **Implementierung abgeschlossen** (95% abgeschlossen)
+## Projektstatus: **Image Update 2025** (Neue Phase - 0% abgeschlossen)
 
 ### ✅ Abgeschlossen
 - [x] **Jekyll-Projekt Analyse** - Vollständige Analyse des bestehenden Projekts
@@ -20,12 +20,15 @@
 - [x] **Development Server** - Läuft erfolgreich
 
 ### 🔄 In Bearbeitung
-- [ ] **Performance Optimization** - Core Web Vitals optimieren
+- [ ] **Image Update 2025** - Neue Bilder analysieren und verarbeiten
 
 ### ⏳ Geplant
-- [ ] **Cross-browser Testing** - Testing auf verschiedenen Browsern
-- [ ] **Deployment** - Vercel Deployment und Domain-Setup
-- [ ] **Go-Live** - Produktions-Deployment
+- [ ] **Image Processing** - JPG/PNG zu WebP Konvertierung
+- [ ] **Image Replacement** - Veraltete Bilder ersetzen
+- [ ] **Content Integration** - Neue Textinhalte integrieren
+- [ ] **Configuration Update** - imageConfig.ts aktualisieren
+- [ ] **Testing & Optimization** - Performance und responsive Darstellung
+- [ ] **Deployment** - Aktualisierte Website deployen
 
 ## Detaillierte Fortschritte
 
@@ -59,11 +62,22 @@
 - SEO-Optimierung
 - Finale Anpassungen
 
-### Phase 6: Deployment (⏳ Geplant)
-- Vercel Setup
-- Domain-Konfiguration
-- SSL-Setup
-- Go-Live
+### Phase 6: Image Update 2025 (🔄 In Bearbeitung)
+- Neue Bilder analysieren und kategorisieren
+- Image Processing Pipeline erstellen
+- WebP Konvertierung implementieren
+- Image Replacement Strategie umsetzen
+
+### Phase 7: Content Integration (⏳ Geplant)
+- Neue Textinhalte in i18n-System integrieren
+- Sektionen mit aktualisierten Beschreibungen
+- Bilinguale Konsistenz sicherstellen
+
+### Phase 8: Final Deployment (⏳ Geplant)
+- Performance Testing
+- Cross-browser Testing
+- Produktions-Deployment
+- Monitoring und Optimierung
 
 ## Bekannte Herausforderungen
 

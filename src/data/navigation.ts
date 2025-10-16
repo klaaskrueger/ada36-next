@@ -4,7 +4,7 @@ export const navigationItems: NavigationItem[] = [
   { name: "Loft", url: "/" },
   { name: "Images", url: "/images" },
   { name: "Neighbourhood", url: "/neighbourhood" },
-  { name: "Guides", url: "/guides" }
+  { name: "Documents", url: "/documents" }
 ];
 
 export const siteConfig = {

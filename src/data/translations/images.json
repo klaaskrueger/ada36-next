@@ -38,6 +38,22 @@
       "Grundriss": {
         "title": "Grundriss",
         "text": ""
+      },
+      "Außenansicht": {
+        "title": "Außenansicht",
+        "text": ""
+      },
+      "Fahrstuhl": {
+        "title": "Fahrstuhl",
+        "text": ""
+      },
+      "Garten": {
+        "title": "Garten",
+        "text": ""
+      },
+      "Hausflur": {
+        "title": "Hausflur",
+        "text": ""
       }
     }
   },
@@ -79,6 +95,22 @@
       },
       "Grundriss": {
         "title": "Floorplan",
+        "text": ""
+      },
+      "Außenansicht": {
+        "title": "Exterior View",
+        "text": ""
+      },
+      "Fahrstuhl": {
+        "title": "Elevator",
+        "text": ""
+      },
+      "Garten": {
+        "title": "Garden",
+        "text": ""
+      },
+      "Hausflur": {
+        "title": "Hallway",
         "text": ""
       }
     }

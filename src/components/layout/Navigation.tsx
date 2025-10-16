@@ -27,8 +27,8 @@ const Navigation: React.FC<NavigationProps> = ({ items, currentPath }) => {
         return t('navigation.images');
       case '/neighbourhood':
         return t('navigation.neighbourhood');
-      case '/guides':
-        return t('navigation.guides');
+      case '/documents':
+        return t('navigation.documents');
       default:
         return url;
     }

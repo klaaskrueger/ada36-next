@@ -1,7 +1,7 @@
 # Active Context: ADA36 Next.js Migration
 
 ## Aktueller Fokus
-**Phase 5: Internationalisierung (i18n) implementiert** - Vollständige mehrsprachige Unterstützung (Deutsch/Englisch) mit automatischer Spracherkennung implementiert.
+**Phase 6: Image Update 2025** - Vollständige Aktualisierung der Website-Bilder mit neuen, hochwertigen Fotos von 2025. Ersetzung aller veralteten Innenaufnahmen und Integration neuer Textinhalte.
 
 ## Letzte Aktivitäten
 - ✅ Vollständige Analyse des ADA36 Jekyll-Projekts
@@ -58,13 +58,12 @@
 - **Layout**: Column-basierte Layout-Struktur
 
 ## Nächste Schritte
-1. **SEO-Metadaten i18n** - SEO-Metadaten für beide Sprachen anpassen
-2. **Testing** - i18n-Funktionalität testen und optimieren
-3. **Deployment** - Vercel Deployment und Domain-Setup
-4. **Performance-Optimierung** - Core Web Vitals optimieren
-5. **Cross-browser Testing** - Device und Browser Testing
-6. **Go-Live** - Produktions-Deployment
-7. **SEO-Monitoring** - Google Search Console Setup und Keyword-Tracking
+1. **Image Processing** - Neue 2025 Bilder analysieren und zu WebP konvertieren
+2. **Image Replacement** - Veraltete Innenaufnahmen durch neue Fotos ersetzen
+3. **Content Integration** - Neue Textinhalte in i18n-System integrieren
+4. **Configuration Update** - imageConfig.ts mit neuen Bilddimensionen aktualisieren
+5. **Testing & Optimization** - Performance und responsive Darstellung testen
+6. **Deployment** - Aktualisierte Website deployen
 
 ## Aktive Entscheidungen
 - **Framework**: Next.js 14+ mit App Router
@@ -78,9 +77,9 @@
 - **Deployment-Workflow**: Bei Deploy-Befehl automatisch Git Commit und Push ausführen
 
 ## Offene Fragen
-- Sollen alle JavaScript-Funktionen (Parallax, etc.) beibehalten werden?
-- Welche Performance-Optimierungen sind prioritär?
-- Soll ein CMS für Content-Updates integriert werden?
+- Welche neuen Bilder sollen als Priority-Loading markiert werden?
+- Sollen alle neuen Haus-Außenaufnahmen integriert werden?
+- Wie sollen die neuen Textinhalte in bestehende Sektionen integriert werden?
 
 ## Risiken und Herausforderungen
 - **Komplexität**: Viele Jekyll-spezifische Features zu migrieren

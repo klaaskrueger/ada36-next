@@ -1,0 +1,59 @@
+{
+  "de": {
+    "pageTitle": "Dokumente",
+    "pageDescription": "Alle wichtigen Dokumente für das ADA36 Studio in Kreuzberg, Berlin. Grundbuch, Teilungserklärung, Energieausweis und weitere relevante Unterlagen.",
+    "categories": {
+      "Alle": "Alle",
+      "Grundbuch": "Grundbuch",
+      "Wirtschaftsplan": "Wirtschaftsplan",
+      "ETV Protokolle": "ETV Protokolle",
+      "WEG Dokumente": "WEG Dokumente",
+      "Instandsetzung": "Instandsetzung",
+      "Energieausweis": "Energieausweis",
+      "Grundstück": "Grundstück",
+      "Mietvertrag": "Mietvertrag",
+      "Grundriss": "Grundriss",
+      "Versicherung": "Versicherung",
+      "Teilungserklärung": "Teilungserklärung"
+    },
+    "filters": {
+      "filterByCategory": "Nach Kategorie filtern:",
+      "showAll": "Alle anzeigen"
+    },
+    "documentInfo": {
+      "download": "Herunterladen",
+      "view": "Anzeigen",
+      "date": "Datum:",
+      "category": "Kategorie:"
+    }
+  },
+  "en": {
+    "pageTitle": "Documents",
+    "pageDescription": "All important documents for the ADA36 Studio in Kreuzberg, Berlin. Land register, partition declaration, energy certificate and other relevant documents.",
+    "categories": {
+      "Alle": "All",
+      "Grundbuch": "Land Register",
+      "Wirtschaftsplan": "Economic Plan",
+      "ETV Protokolle": "ETV Minutes",
+      "WEG Dokumente": "WEG Documents",
+      "Instandsetzung": "Maintenance",
+      "Energieausweis": "Energy Certificate",
+      "Grundstück": "Property",
+      "Mietvertrag": "Rental Agreement",
+      "Grundriss": "Floor Plan",
+      "Versicherung": "Insurance",
+      "Grundstück": "Property",
+      "Teilungserklärung": "Partition Declaration"
+    },
+    "filters": {
+      "filterByCategory": "Filter by category:",
+      "showAll": "Show all"
+    },
+    "documentInfo": {
+      "download": "Download",
+      "view": "View",
+      "date": "Date:",
+      "category": "Category:"
+    }
+  }
+}

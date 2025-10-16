@@ -44,6 +44,45 @@ main {
   padding-top: 0;
 }
 
+/* Hero Video Styles */
+.hero-video {
+  margin-bottom: 2rem;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero-video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .hero-video {
+    margin-bottom: 1rem;
+  }
+  
+  .video-container {
+    border-radius: 4px;
+  }
+  
+  .hero-video-iframe {
+    border-radius: 4px;
+  }
+}
+
 @media (min-width: 1400px) {
   .section {
     padding-top: 0;
@@ -519,5 +558,109 @@ h4 {
 @media (min-width: 1200px) {
   .legal-page p {
     font-size: 0.7em !important; /* 30% smaller than large screen base size */
+  }
+}
+
+/* Documents Page Styles */
+.documents-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.document-card {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.document-card:hover {
+  background: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.document-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.document-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.document-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  line-height: 1.3;
+}
+
+.document-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.document-category {
+  font-size: 0.8rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.document-date {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.document-actions {
+  flex-shrink: 0;
+}
+
+.document-button {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.document-button:hover {
+  background: #5a6268;
+}
+
+@media (max-width: 768px) {
+  .document-card {
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
+  
+  .document-info {
+    order: 2;
+  }
+  
+  .document-actions {
+    order: 3;
   }
 }

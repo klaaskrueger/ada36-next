@@ -18,6 +18,26 @@
       "stMichaelChurch2": {
         "title": "St. Michael Kirche",
         "text": "Anderer Blickwinkel der St. Michael Kirche.<br /><br />Historisches Gebäude in Kreuzberg."
+      },
+      "kunsthausBethanien": {
+        "title": "Kunsthaus Bethanien",
+        "text": "Kunsthaus Bethanien - Ein Kulturzentrum und Kunstort in der Nachbarschaft.<br /><br />Historisches Gebäude mit zeitgenössischen Kunstausstellungen."
+      },
+      "markthalle9Innen": {
+        "title": "Markthalle 9",
+        "text": "Markthalle 9 - Historische Markthalle mit ausgezeichneter Gastronomieszene.<br /><br />Traditioneller Markt mit modernen Lebensmittelhändlern und Restaurants."
+      },
+      "markthalle9Aussen": {
+        "title": "Markthalle 9",
+        "text": "Markthalle 9 - Historische Markthalle mit ausgezeichneter Gastronomieszene.<br /><br />Traditioneller Markt mit modernen Lebensmittelhändlern und Restaurants."
+      },
+      "spreeStrand": {
+        "title": "Spree Strand",
+        "text": "Spree Strand - Schönes Flussufergebiet zum Spazierengehen und Entspannen.<br /><br />Perfekt zum Joggen entlang des Flusses."
+      },
+      "nebenstrasse": {
+        "title": "Nebenstraße",
+        "text": "Nebenstraße - Lokale Nachbarschaftsstraße mit typischer Kreuzberg-Atmosphäre.<br /><br />Ruhiges Wohngebiet mit lokalem Charme."
       }
     }
   },
@@ -40,6 +60,26 @@
       "stMichaelChurch2": {
         "title": "St. Michael Church",
         "text": "Different angle of St. Michael Church.<br /><br />Historic building in Kreuzberg."
+      },
+      "kunsthausBethanien": {
+        "title": "Kunsthaus Bethanien",
+        "text": "Kunsthaus Bethanien - A cultural center and art space in the neighborhood.<br /><br />Historic building with contemporary art exhibitions."
+      },
+      "markthalle9Innen": {
+        "title": "Markthalle 9",
+        "text": "Markthalle 9 - Historic market hall with excellent gastronomy scene.<br /><br />Traditional market with modern food vendors and restaurants."
+      },
+      "markthalle9Aussen": {
+        "title": "Markthalle 9",
+        "text": "Markthalle 9 - Historic market hall with excellent gastronomy scene.<br /><br />Traditional market with modern food vendors and restaurants."
+      },
+      "spreeStrand": {
+        "title": "Spree Strand",
+        "text": "Spree Strand - Beautiful riverbank area for walking and relaxation.<br /><br />Perfect for jogging along the river."
+      },
+      "nebenstrasse": {
+        "title": "Side Street",
+        "text": "Side Street - Local neighborhood street with typical Kreuzberg atmosphere.<br /><br />Quiet residential area with local charm."
       }
     }
   }

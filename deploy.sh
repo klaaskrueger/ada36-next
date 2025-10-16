@@ -46,10 +46,41 @@ if [ ! -d "out" ]; then
     exit 1
 fi
 
-# Step 3: Copy WebP images to output directory
-echo -e "${YELLOW}📁 Copying WebP images to output directory...${NC}"
-mkdir -p out/assets/images/fullsize
-cp public/assets/images/fullsize/*.webp out/assets/images/fullsize/ 2>/dev/null || echo "No WebP files to copy"
+# Step 3: Check if images have changed
+echo -e "${YELLOW}🔍 Checking for image changes...${NC}"
+
+# Create checksum file for images if it doesn't exist
+IMAGES_CHECKSUM_FILE=".images-checksum"
+IMAGES_DIR="public/assets/images/fullsize"
+
+# Calculate current checksum of all images
+if [ -d "$IMAGES_DIR" ]; then
+    CURRENT_CHECKSUM=$(find "$IMAGES_DIR" -name "*.webp" -o -name "*.jpg" -o -name "*.png" | sort | xargs md5sum 2>/dev/null | md5sum | cut -d' ' -f1)
+else
+    CURRENT_CHECKSUM=""
+fi
+
+# Read previous checksum
+if [ -f "$IMAGES_CHECKSUM_FILE" ]; then
+    PREVIOUS_CHECKSUM=$(cat "$IMAGES_CHECKSUM_FILE")
+else
+    PREVIOUS_CHECKSUM=""
+fi
+
+# Compare checksums
+if [ "$CURRENT_CHECKSUM" = "$PREVIOUS_CHECKSUM" ] && [ -n "$CURRENT_CHECKSUM" ]; then
+    echo -e "${GREEN}✅ No image changes detected, skipping image upload${NC}"
+    SKIP_IMAGES=true
+else
+    echo -e "${YELLOW}📁 Images changed, copying to output directory...${NC}"
+    mkdir -p out/assets/images/fullsize
+    cp public/assets/images/fullsize/*.webp out/assets/images/fullsize/ 2>/dev/null || echo "No WebP files to copy"
+    
+    # Save new checksum
+    echo "$CURRENT_CHECKSUM" > "$IMAGES_CHECKSUM_FILE"
+    echo -e "${GREEN}✅ Image checksum updated${NC}"
+    SKIP_IMAGES=false
+fi
 
 # Step 4: Upload to FTP server
 echo -e "${YELLOW}📤 Uploading to FTP server...${NC}"
@@ -65,10 +96,20 @@ quit" 2>/dev/null || echo "Backup creation failed, continuing..."
 
 # Upload new files
 echo -e "${YELLOW}🔄 Syncing files to server...${NC}"
-lftp -u $FTP_USERNAME,$FTP_PASSWORD sftp://$FTP_HOST -e "
+
+if [ "$SKIP_IMAGES" = true ]; then
+    echo -e "${YELLOW}📤 Uploading files (excluding images)...${NC}"
+    lftp -u $FTP_USERNAME,$FTP_PASSWORD sftp://$FTP_HOST -e "
+cd ada36;
+mirror -R out/ . --delete --verbose --exclude-glob .DS_Store --exclude-glob '*.jpg' --exclude-glob 'assets/images/fullsize/*';
+quit"
+else
+    echo -e "${YELLOW}📤 Uploading all files (including images)...${NC}"
+    lftp -u $FTP_USERNAME,$FTP_PASSWORD sftp://$FTP_HOST -e "
 cd ada36;
 mirror -R out/ . --delete --verbose --exclude-glob .DS_Store --exclude-glob '*.jpg';
 quit"
+fi
 
 if [ $? -eq 0 ]; then
     echo -e "${GREEN}✅ Upload completed successfully!${NC}"
@@ -89,5 +130,10 @@ echo -e "${GREEN}🎉 Deployment completed successfully!${NC}"
 echo -e "${GREEN}📊 Deployment summary:${NC}"
 echo "  - Build: ✅ Completed"
 echo "  - Upload: ✅ Completed"
+if [ "$SKIP_IMAGES" = true ]; then
+    echo "  - Images: ⏭️ Skipped (no changes)"
+else
+    echo "  - Images: ✅ Uploaded (changes detected)"
+fi
 echo "  - Verification: ✅ Completed"
 echo "  - Website: https://ada36.de"
