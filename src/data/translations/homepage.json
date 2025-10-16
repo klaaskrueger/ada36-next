@@ -3,15 +3,19 @@
     "sections": {
       "theLoft": {
         "title": "Das Loft",
-        "text": "<b>Minimalistisches Design 2-Zimmer-Apartment im Zentrum von Kreuzberg.</b><br /><br />Grundriss mit offener Küche mit Esstisch für 4 Personen und Zugang zum Balkon, Wohnbereich mit Schlafsofa und Schreibtisch. Schlafzimmer mit Doppelbett (160x200 cm) und großem Kleiderschrank. Walk-in Closet.<br />Bad mit Wanne."
+        "text": "<b>Einzigartiges Loft Apartment - Barriere- und Provisionsfrei!</b><br /><br />Dieses charmante und großzügige 2-Zimmer Loft bietet Ihnen eine ideale Mischung aus moderner Innenarchitektur und zeitgemäßer Funktionalität in einer der begehrtesten Lagen Berlins.<br /><br />Wohnen und Arbeiten: Hier können Sie es verbinden.<br /><br />Das Loft befindet sich im 3. Obergeschoss eines modernen Wohnhauses in der Adalbertstraße. Noch in der angesagten Mitte und nur ein paar hundert Meter bis ins hippe Kreuzberg."
+      },
+      "Ausführliche Beschreibung": {
+        "title": "Ausführliche Beschreibung",
+        "text": "<h3>Wohnräume</h3><p>Das Herzstück des Lofts, der Hauptraum, beinhaltet eine voll ausgestattete amerikanische Küche mit Küchenblock. Es gibt sehr viel Platz für einen großzügigen Essbereich sowie eine Sofalandschaft zum Entspannen.</p><p>Die ganze Bodenfläche ist mit hochwertigem Eichenparkett ausgestattet.</p><p>Vom Hauptraum kommen Sie auf den mit Holzdielen bestückten hübschen Balkon, das Bad und in das zweite Zimmer, das als Schlafzimmer genutzt werden kann.</p><p>Vom Schlafzimmer mit genügend Platz für ein Doppelbett und einen großen Wandschrank gehen Sie direkt in das Walking Closet bzw. den Stauraum. Hier finden Sie auch einen Safe für Ihre Wertsachen.</p><p>Durch Öffnen der breiten bis unter die Decke reichenden Flügeltüren können Sie beide Räume zu einem Raum verbinden.</p><p>Durch die Integration der großen Fensterfront zum Balkon tritt außerdem viel natürliches Licht in die Räumlichkeiten.</p><h3>Garten & Außenbereich</h3><p>Den Garten des Hauses ist eine kleine Entspannungsoase und lädt dazu ein, von Ihnen mitbenutzt zu werden.</p><h3>Verfügbarkeit</h3><p>Das Loft hat zur Zeit keine Mieter und steht damit frei für Ihren sofortigen Einzug. In den letzten Jahren wurde es erfolgreich möbliert vermietet.</p><h3>Besichtigung</h3><p>Die Wohnung kann nach Vereinbarung zeitnah besichtigt werden. Rufen Sie uns gerne an. Falls Sie uns nicht sofort erreichen, schicken Sie uns gerne eine WhatsApp oder eine E-Mail. Wir melden uns so schnell es geht.</p>"
       },
       "kitchen": {
         "title": "Küche",
-        "text": "Grundriss mit offener Küche mit Esstisch für 4 Personen. Einbauküche in offenem Grundriss.<br /><br />Ausstattung: Backofen, Kühlschrank, Gefrierschrank, Mikrowelle, Geschirrspüler<br />Zweiter Wasserhahn für gefiltertes Trinkwasser"
+        "text": "Das Herzstück des Lofts, der Hauptraum, beinhaltet eine voll ausgestattete amerikanische Küche mit Küchenblock. Es gibt sehr viel Platz für einen großzügigen Essbereich sowie eine Sofalandschaft zum Entspannen.<br /><br />Einbauküche mit Markengeräten: Induktionsherd mit Abzugshaube, Backofen, Mikrowelle, Geschirrspülmaschine, großer Kühl- und Gefrierschrank"
       },
       "living": {
         "title": "Wohnbereich",
-        "text": "Wohnbereich mit Schlafsofa.<br /><br />Apple TV, Sony TV<br />Internet DSL, V-DSL, Wireless LAN, BluRay Player, Hifi"
+        "text": "Die ganze Bodenfläche ist mit hochwertigem Eichenparkett ausgestattet. Vom Hauptraum kommen Sie auf den mit Holzdielen bestückten hübschen Balkon, das Bad und in das zweite Zimmer, das als Schlafzimmer genutzt werden kann.<br /><br />Durch die Integration der großen Fensterfront zum Balkon tritt außerdem viel natürliches Licht in die Räumlichkeiten."
       },
       "floorplan": {
         "title": "Grundriss",
@@ -27,11 +31,11 @@
       },
       "sleeping": {
         "title": "Schlafbereich",
-        "text": "Schlafzimmer mit großem Schrank und Zugang zum Kleiderschrank"
+        "text": "Vom Schlafzimmer mit genügend Platz für ein Doppelbett und einen großen Wandschrank gehen Sie direkt in das Walking Closet bzw. den Stauraum. Hier finden Sie auch einen Safe für Ihre Wertsachen.<br /><br />Durch Öffnen der breiten bis unter die Decke reichenden Flügeltüren können Sie beide Räume zu einem Raum verbinden."
       },
       "bathroom": {
         "title": "Badezimmer",
-        "text": "Badezimmer mit Waschmaschine"
+        "text": "Das Bad mit großen weißen Kacheln gefliest. Hochwertige Ausstattung für modernen Komfort."
       },
       "working": {
         "title": "Arbeitsbereich",
@@ -39,19 +43,35 @@
       },
       "balcony": {
         "title": "Balkon",
-        "text": "Balkon mit Zugang von der Küche<br /><br />Balkonbereich zum Entspannen"
+        "text": "Der Balkon hat Holzdielen auf Türschwellenhöhe und genügend Platz für ein 2er-Sofa und Tischchen für das Outdoor-Living. Barrierefreie Balkonrampe vorhanden."
       },
       "garden": {
         "title": "Garten",
-        "text": "Gartenbereich mit schönem Ausblick<br /><br />Ruhiger Gartenbereich"
+        "text": "Den Garten des Hauses ist eine kleine Entspannungsoase und lädt dazu ein, von Ihnen mitbenutzt zu werden. Ruhiger Gartenbereich mit schönem Ausblick."
       },
       "wardrobe": {
-        "title": "Kleiderschrank",
-        "text": "Großer Kleiderschrank und Stauraum<br /><br />Walk-in Closet mit viel Stauraum"
+        "title": "Walk-in Closet",
+        "text": "Großer Kleiderschrank mit viel Stauraum<br /><br />Walk-in Closet mit viel Stauraum"
       },
       "connector": {
         "title": "Verbindung",
         "text": "Verbindungstüren zwischen Schlaf- und Wohnbereich<br /><br />Offener Grundriss"
+      },
+      "availability": {
+        "title": "Verfügbarkeit",
+        "text": "Das Loft hat zur Zeit keine Mieter und steht damit frei für Ihren sofortigen Einzug. In den letzten Jahren wurde es erfolgreich möbliert vermietet."
+      },
+      "investment": {
+        "title": "Renditeobjekt",
+        "text": "Das Loft wurde sechs Jahre erfolgreich möbliert vermietet. Letzte Mieteinnahme: 1850 Euro/Monat. (Unterlagen zur Einsicht vorhanden)"
+      },
+      "condition": {
+        "title": "Zustand & Renovierung",
+        "text": "Die Wohnung wurde 2017 komplett saniert und 2025 renoviert. Sie befindet sich in einem sehr gepflegten Zustand."
+      },
+      "viewing": {
+        "title": "Besichtigung",
+        "text": "Die Wohnung kann nach Vereinbarung zeitnah besichtigt werden. Rufen Sie uns gerne an. Falls Sie uns nicht sofort erreichen, schicken Sie uns gerne eine WhatsApp oder eine E-Mail. Wir melden uns so schnell es geht."
       }
     }
   },
@@ -59,15 +79,19 @@
     "sections": {
       "theLoft": {
         "title": "The Loft",
-        "text": "<b>Minimalist design 2-room-apartment at the center of Kreuzberg.</b><br /><br />Floor-plan as open kitchen with dining table for 4 persons and access to the balcony, living area with a sleeping sofa and a desk. Bedroom with a double bed (160x200 cm) and a big wardrobe. Walk-in closet.<br />Bath with tub."
+        "text": "<b>Unique Loft Apartment - Barrier-free and Commission-free!</b><br /><br />This charming and spacious 2-room loft offers you an ideal blend of modern interior architecture and contemporary functionality in one of Berlin's most sought-after locations.<br /><br />Living and working: You can combine them here.<br /><br />The loft is located on the 3rd floor of a modern residential building on Adalbertstraße. Still in trendy Mitte and only a few hundred meters to hip Kreuzberg."
+      },
+      "Ausführliche Beschreibung": {
+        "title": "Detailed Description",
+        "text": "<h3>Living spaces</h3><p>The heart of the loft, the main room, includes a fully equipped American kitchen with kitchen island. There is plenty of space for a generous dining area as well as a sofa landscape for relaxing.</p><p>The entire floor area is equipped with high-quality oak parquet flooring.</p><p>From the main room you can access the pretty balcony with wooden planks, the bathroom and the second room that can be used as a bedroom.</p><p>From the bedroom with enough space for a double bed and a large wall closet, you go directly into the walking closet or storage room. Here you will also find a safe for your valuables.</p><p>By opening the wide French doors that reach to the ceiling, you can connect both rooms into one room.</p><p>Through the integration of the large window front to the balcony, plenty of natural light also enters the rooms.</p><h3>Garden & outdoor area</h3><p>The garden of the house is a small relaxation oasis and invites you to use it as well.</p><h3>Availability</h3><p>The loft currently has no tenants and is therefore free for your immediate occupancy. In recent years it has been successfully rented furnished.</p><h3>Viewing</h3><p>The apartment can be viewed promptly by appointment. Please feel free to call us. If you don't reach us immediately, please send us a WhatsApp or an email. We will get back to you as soon as possible.</p>"
       },
       "kitchen": {
         "title": "Kitchen",
-        "text": "Floor-plan as open kitchen with dining table for 4 persons. Fitted kitchen in open plan kitchen.<br /><br />Inventory: Oven, fridge, deep fridge, microwave, dish washer<br />Secondary tub for filtered drinking water"
+        "text": "The heart of the loft, the main room, includes a fully equipped American kitchen with kitchen island. There is plenty of space for a generous dining area as well as a sofa landscape for relaxing.<br /><br />Fitted kitchen with brand-name appliances: Induction stovetop with exhaust hood, oven, microwave, dishwasher, large refrigerator-freezer combination"
       },
       "living": {
         "title": "Living",
-        "text": "Living area with a sleeping couch.<br /><br />Apple TV, Sony TV<br />Internet DSL, V-DSL, Wireless LAN, BluRay Player, Hifi"
+        "text": "The entire floor area is equipped with high-quality oak parquet flooring. From the main room you can access the pretty balcony with wooden planks, the bathroom and the second room that can be used as a bedroom.<br /><br />Through the integration of the large window front to the balcony, plenty of natural light also enters the rooms."
       },
       "floorplan": {
         "title": "Floorplan",
@@ -83,11 +107,11 @@
       },
       "sleeping": {
         "title": "Sleeping",
-        "text": "Sleeping Room with big cupboard and entrance to wardrobe"
+        "text": "From the bedroom with enough space for a double bed and a large wall closet, you go directly into the walking closet or storage room. Here you will also find a safe for your valuables.<br /><br />By opening the wide French doors that reach to the ceiling, you can connect both rooms into one room."
       },
       "bathroom": {
         "title": "Bathroom",
-        "text": "Bathroom with washing maschine"
+        "text": "The bathroom with large white tiles. High-quality equipment for modern comfort."
       },
       "working": {
         "title": "Working",
@@ -95,19 +119,35 @@
       },
       "balcony": {
         "title": "Balcony",
-        "text": "Balcony with access from the kitchen<br /><br />Balcony area for relaxation"
+        "text": "The balcony has wooden decking at door threshold height and enough space for a 2-seater sofa and small table for outdoor living. Barrier-free balcony ramp available."
       },
       "garden": {
         "title": "Garden",
-        "text": "Garden area with beautiful view<br /><br />Quiet garden area"
+        "text": "The garden of the house is a small relaxation oasis and invites you to use it as well. Quiet garden area with beautiful view."
       },
       "wardrobe": {
-        "title": "Wardrobe",
+        "title": "Walk-in Closet",
         "text": "Big wardrobe and storage space<br /><br />Walk-in closet with lots of storage"
       },
       "connector": {
         "title": "Connector",
         "text": "Connector doors between sleeping and living area<br /><br />Open plan design"
+      },
+      "availability": {
+        "title": "Availability",
+        "text": "The loft currently has no tenants and is therefore free for your immediate occupancy. In recent years it has been successfully rented furnished."
+      },
+      "investment": {
+        "title": "Investment Property",
+        "text": "The loft was successfully rented furnished for six years. Last rental income: 1850 euros/month. (Documentation available for inspection)"
+      },
+      "condition": {
+        "title": "Condition & Renovation",
+        "text": "The apartment was completely renovated in 2017 and refreshed in 2025. It is in very well-maintained condition."
+      },
+      "viewing": {
+        "title": "Viewing",
+        "text": "The apartment can be viewed promptly by appointment. Please feel free to call us. If you don't reach us immediately, please send us a WhatsApp or an email. We will get back to you as soon as possible."
       }
     }
   }

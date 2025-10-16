@@ -3,13 +3,17 @@
     "pageTitle": "Bildergalerie",
     "pageDescription": "Entdecken Sie unsere umfassende Bildergalerie des ADA36 Studios in Kreuzberg, Berlin. Professionelle Fotos zeigen alle Bereiche des minimalistischen Lofts.",
     "sections": {
+      "Ausstattung": {
+        "title": "Ausstattung",
+        "text": "<h3>Einbauküche mit Markengeräten</h3><p>- Induktionsherd mit Abzugshaube<br />- Backofen<br />- Mikrowelle<br />- Geschirrspülmaschine<br />- Großer Kühl- und Gefrierschrank</p><p>Hochwertiges Eichenparkett in allen Zimmern<br />Das Bad mit großen weißen Kacheln gefliest</p><p>Der Balkon hat Holzdielen auf Türschwellenhöhe und genügend Platz für ein 2er-Sofa und Tischchen für das Outdoor-Living.</p><p>- Fahrstuhl vorhanden<br />- Breite Flügeltüren<br />- Barrierefreie Balkonrampe</p><h3>Bei Nutzung als Renditeobjekt</h3><p>Das Loft wurde sechs Jahre erfolgreich möbliert vermietet<br />Letzte Mieteinnahme: 1850 Euro/Monat<br />(Unterlagen zur Einsicht vorhanden)</p><h3>Zustand & Renovierung</h3><p>Die Wohnung wurde 2017 komplett saniert und 2025 renoviert.<br />Sie befindet sich in einem sehr gepflegten Zustand.</p><h3>Besichtigung</h3><p>Die Wohnung kann nach Vereinbarung zeitnah besichtigt werden.<br />Rufen Sie uns gerne an.<br />Falls Sie uns nicht sofort erreichen, schicken Sie uns gerne eine WhatsApp oder eine E-Mail.<br />Wir melden uns so schnell es geht.</p>"
+      },
       "Wohnbereich": {
         "title": "Wohnbereich",
         "text": ""
       },
       "Küche": {
         "title": "Küche",
-        "text": ""
+        "text": "Einbauküche mit Markengeräten: Induktionsherd mit Abzugshaube, Backofen, Mikrowelle, Geschirrspülmaschine, großer Kühl- und Gefrierschrank. Hochwertiges Eichenparkett in allen Zimmern."
       },
       "Schlafbereich": {
         "title": "Schlafbereich",
@@ -17,11 +21,11 @@
       },
       "Badezimmer": {
         "title": "Badezimmer",
-        "text": ""
+        "text": "Das Bad mit großen weißen Kacheln gefliest. Hochwertige Ausstattung für modernen Komfort."
       },
       "Balkon": {
         "title": "Balkon",
-        "text": ""
+        "text": "Der Balkon hat Holzdielen auf Türschwellenhöhe und genügend Platz für ein 2er-Sofa und Tischchen für das Outdoor-Living. Barrierefreie Balkonrampe vorhanden."
       },
       "Arbeitsbereich": {
         "title": "Arbeitsbereich",
@@ -45,15 +49,19 @@
       },
       "Fahrstuhl": {
         "title": "Fahrstuhl",
-        "text": ""
-      },
-      "Garten": {
-        "title": "Garten",
-        "text": ""
+        "text": "Fahrstuhl vorhanden für bequemen Zugang zu allen Etagen."
       },
       "Hausflur": {
         "title": "Hausflur",
         "text": ""
+      },
+      "Investment": {
+        "title": "Renditeobjekt",
+        "text": "Das Loft wurde sechs Jahre erfolgreich möbliert vermietet. Letzte Mieteinnahme: 1850 Euro/Monat. (Unterlagen zur Einsicht vorhanden)"
+      },
+      "Zustand": {
+        "title": "Zustand & Renovierung",
+        "text": "Die Wohnung wurde 2017 komplett saniert und 2025 renoviert. Sie befindet sich in einem sehr gepflegten Zustand."
       }
     }
   },
@@ -61,13 +69,17 @@
     "pageTitle": "Image Gallery",
     "pageDescription": "Discover our comprehensive image gallery of the ADA36 Studio in Kreuzberg, Berlin. Professional photos show all areas of the minimalist loft.",
     "sections": {
+      "Ausstattung": {
+        "title": "Equipment",
+        "text": "<h3>Fitted kitchen with brand-name appliances</h3><p>- Induction stovetop with exhaust hood<br />- Oven<br />- Microwave<br />- Dishwasher<br />- Large refrigerator-freezer combination</p><p>High-quality oak parquet flooring in all rooms<br />The bathroom with large white tiles</p><p>The balcony has wooden decking at door threshold height and enough space for a 2-seater sofa and small table for outdoor living.</p><p>- Elevator available<br />- Wide French doors<br />- Barrier-free balcony ramp</p><h3>As an investment property</h3><p>The loft was successfully rented furnished for six years<br />Last rental income: 1850 euros/month<br />(Documentation available for inspection)</p><h3>Condition & renovation</h3><p>The apartment was completely renovated in 2017 and refreshed in 2025.<br />It is in very well-maintained condition.</p><h3>Viewing</h3><p>The apartment can be viewed promptly by appointment.<br />Please feel free to call us.<br />If you don't reach us immediately, please send us a WhatsApp or an email.<br />We will get back to you as soon as possible.</p>"
+      },
       "Wohnbereich": {
         "title": "Living Area",
         "text": ""
       },
       "Küche": {
         "title": "Kitchen",
-        "text": ""
+        "text": "Fitted kitchen with brand-name appliances: Induction stovetop with exhaust hood, oven, microwave, dishwasher, large refrigerator-freezer combination. High-quality oak parquet flooring in all rooms."
       },
       "Schlafbereich": {
         "title": "Sleeping Area",
@@ -75,11 +87,11 @@
       },
       "Badezimmer": {
         "title": "Bathroom",
-        "text": ""
+        "text": "The bathroom with large white tiles. High-quality equipment for modern comfort."
       },
       "Balkon": {
         "title": "Balcony",
-        "text": ""
+        "text": "The balcony has wooden decking at door threshold height and enough space for a 2-seater sofa and small table for outdoor living. Barrier-free balcony ramp available."
       },
       "Arbeitsbereich": {
         "title": "Working Area",
@@ -103,15 +115,23 @@
       },
       "Fahrstuhl": {
         "title": "Elevator",
-        "text": ""
+        "text": "Elevator available for convenient access to all floors."
       },
       "Garten": {
         "title": "Garden",
-        "text": ""
+        "text": "The garden of the house is a small relaxation oasis and invites you to use it as well."
       },
       "Hausflur": {
         "title": "Hallway",
         "text": ""
+      },
+      "Investment": {
+        "title": "Investment Property",
+        "text": "The loft was successfully rented furnished for six years. Last rental income: 1850 euros/month. (Documentation available for inspection)"
+      },
+      "Zustand": {
+        "title": "Condition & Renovation",
+        "text": "The apartment was completely renovated in 2017 and refreshed in 2025. It is in very well-maintained condition."
       }
     }
   }

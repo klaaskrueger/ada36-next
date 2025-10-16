@@ -4,9 +4,13 @@
     "pageDescription": "Entdecken Sie die Umgebung des ADA36 Studios in Kreuzberg, Berlin. Interaktive Karte mit Sehenswürdigkeiten und wichtigen Orten.",
     "areaMap": {
       "title": "Gebietskarte",
-      "text": "Nahegelegene Orte und Fahrradwege"
+      "text": "Hier wohnen Sie zeitnah zentral mit exzellenter Anbindung im beliebten Mitte/Kreuzberg. Ob Shopping am Alexanderplatz, in ein Restaurant oder in eines der angesagten Bars und Clubs in Kreuzberg: Das können Sie von hier aus zu Fuß erreichen."
     },
     "sections": {
+      "Lage & Anbindung": {
+        "title": "Lage & Anbindung",
+        "text": "<h3>Zentrale Lage</h3><p>Hier wohnen Sie zeitnah zentral mit exzellenter Anbindung im beliebten Mitte/Kreuzberg</p><p>Ob Shopping am Alexanderplatz, in ein Restaurant oder in eines der angesagten Bars und Clubs in Kreuzberg: Das können Sie von hier aus zu Fuß erreichen</p><h3>Verkehrsanbindung</h3><p>2 Minuten bis zur nächsten Bushaltestelle<br />7 Minuten zur U-Bahn-Station Heinrich-Heine-Straße<br />500m zum Kunsthaus Bethanien<br />800m zum angesagten Foodmarket in der historischen \"Markthalle 9\"<br />900m zur Ausgehmeile Oranienstraße mit diversen Clubs, Kneipen und Cafés<br />3 Minuten zum Spreeufer<br />500m zum Fernbahnhof Ostbahnhof mit riesigem 24/7 Supermarkt<br />Zum Alexanderplatz kommt man in 8 Minuten mit dem Fahrrad oder in 15 Minuten mit den öffentlichen Verkehrsmitteln</p><h3>Kultur um die Ecke</h3><p>Kunsthaus Bethanien<br />Restaurant Drei Schwestern im Kunsthaus<br />Markthalle 9 - Alte historische Markthalle mit exzellenter Gastronomieszene<br />Restaurant am Engelbecken, direkt in der Grün-Oase Engelbecken gelegen<br />Oranienstraße - eine der bekanntesten Ausgehmeilen in Kreuzberg mit zahlreichen Cafés, Clubs und Restaurants</p>"
+      },
       "engelbecken": {
         "title": "Engelbecken",
         "text": "Das Engelbecken ist ein schöner Parkbereich in der Nähe der Wohnung.<br /><br />Perfekt zum Joggen und Entspannen."
@@ -21,11 +25,11 @@
       },
       "kunsthausBethanien": {
         "title": "Kunsthaus Bethanien",
-        "text": "Kunsthaus Bethanien - Ein Kulturzentrum und Kunstort in der Nachbarschaft.<br /><br />Historisches Gebäude mit zeitgenössischen Kunstausstellungen."
+        "text": "Kunsthaus Bethanien - Ein Kulturzentrum und Kunstort in der Nachbarschaft. 500m zum Kunsthaus Bethanien.<br /><br />Historisches Gebäude mit zeitgenössischen Kunstausstellungen."
       },
       "markthalle9Innen": {
         "title": "Markthalle 9",
-        "text": "Markthalle 9 - Historische Markthalle mit ausgezeichneter Gastronomieszene.<br /><br />Traditioneller Markt mit modernen Lebensmittelhändlern und Restaurants."
+        "text": "Markthalle 9 - Alte historische Markthalle mit exzellenter Gastronomieszene. 800m zum angesagten Foodmarket in der historischen Markthalle 9.<br /><br />Traditioneller Markt mit modernen Lebensmittelhändlern und Restaurants."
       },
       "markthalle9Aussen": {
         "title": "Markthalle 9",
@@ -33,7 +37,7 @@
       },
       "spreeStrand": {
         "title": "Spree Strand",
-        "text": "Spree Strand - Schönes Flussufergebiet zum Spazierengehen und Entspannen.<br /><br />Perfekt zum Joggen entlang des Flusses."
+        "text": "Spree Strand - Schönes Flussufergebiet zum Spazierengehen und Entspannen. 3 Minuten zum Spreeufer.<br /><br />Perfekt zum Joggen entlang des Flusses."
       },
       "nebenstrasse": {
         "title": "Nebenstraße",
@@ -41,7 +45,7 @@
       },
       "alexanderplatz": {
         "title": "Alexanderplatz",
-        "text": "Alexanderplatz - Berühmter Platz in Berlin mit historischer Bedeutung.<br /><br />Wichtiger Verkehrsknotenpunkt und Einkaufsbereich."
+        "text": "Alexanderplatz - Berühmter Platz in Berlin mit historischer Bedeutung. Zum Alexanderplatz kommt man in 8 Minuten mit dem Fahrrad oder in 15 Minuten mit den öffentlichen Verkehrsmitteln.<br /><br />Wichtiger Verkehrsknotenpunkt und Einkaufsbereich."
       },
       "dreiSchwestern": {
         "title": "3 Schwestern",
@@ -60,8 +64,20 @@
         "text": "Kirche Bethanien - Historisches Kirchengebäude in der Gegend.<br /><br />Schöne Architektur und spirituelles Zentrum."
       },
       "kircheBethanien2": {
-        "title": "Kirche Bethanien 2",
-        "text": "Kirche Bethanien - Anderer Blick auf die historische Kirche.<br /><br />Architektonische Details und Nachbarschaftskontext."
+        "title": "",
+        "text": ""
+      },
+      "transportation": {
+        "title": "Verkehrsanbindung",
+        "text": "2 Minuten bis zur nächsten Bushaltestelle. 7 Minuten zur U-Bahn-Station Heinrich-Heine-Straße. 500m zum Fernbahnhof Ostbahnhof mit riesigem 24/7 Supermarkt."
+      },
+      "oranienstrasse": {
+        "title": "Oranienstraße",
+        "text": "Oranienstraße - eine der bekanntesten Ausgehmeilen in Kreuzberg mit zahlreichen Cafés, Clubs und Restaurants. 900m zur Ausgehmeile Oranienstraße mit diversen Clubs, Kneipen und Cafés."
+      },
+      "restaurantEngelbecken": {
+        "title": "Restaurant am Engelbecken",
+        "text": "Restaurant am Engelbecken, direkt in der Grün-Oase Engelbecken gelegen. Perfekter Ort für entspannte Mahlzeiten in ruhiger Umgebung."
       }
     }
   },
@@ -70,9 +86,13 @@
     "pageDescription": "Discover the neighbourhood of the ADA36 Studio in Kreuzberg, Berlin. Interactive map with attractions and important places.",
     "areaMap": {
       "title": "Area Map",
-      "text": "Nearby Locations and Biking Trails"
+      "text": "Trendy Mitte/Kreuzberg. Whether shopping at Alexanderplatz, in a restaurant or in one of the trendy bars and clubs in Kreuzberg: You can reach all of this on foot from here."
     },
     "sections": {
+      "Lage & Anbindung": {
+        "title": "Location & Transportation",
+        "text": "<h3>Central location</h3><p>Here you live centrally with excellent connections in the popular Mitte/Kreuzberg</p><p>Whether shopping at Alexanderplatz, in a restaurant or in one of the trendy bars and clubs in Kreuzberg: You can reach all of this on foot from here</p><h3>Transportation</h3><p>2 minutes to the next bus stop<br />7 minutes to U-Bahn station Heinrich-Heine-Straße<br />500m to Kunsthaus Bethanien<br />800m to the trendy food market in the historic \"Markthalle 9\"<br />900m to the nightlife mile Oranienstraße with various clubs, bars and cafés<br />3 minutes to the Spree riverbank<br />500m to Ostbahnhof long-distance train station with a huge 24/7 supermarket<br />To Alexanderplatz you can get there in 8 minutes by bike or in 15 minutes by public transport</p><h3>Culture around the corner</h3><p>Kunsthaus Bethanien<br />Restaurant Drei Schwestern in the art house<br />Markthalle 9 - Historic old market hall with excellent gastronomy scene<br />Restaurant am Engelbecken, located directly in the green oasis Engelbecken<br />Oranienstraße - one of the most famous nightlife streets in Kreuzberg with numerous cafés, clubs and restaurants</p>"
+      },
       "engelbecken": {
         "title": "Engelbecken",
         "text": "The Engelbecken is a beautiful park area near the apartment.<br /><br />Perfect for jogging and relaxation."
@@ -87,11 +107,11 @@
       },
       "kunsthausBethanien": {
         "title": "Kunsthaus Bethanien",
-        "text": "Kunsthaus Bethanien - A cultural center and art space in the neighborhood.<br /><br />Historic building with contemporary art exhibitions."
+        "text": "Kunsthaus Bethanien - A cultural center and art space in the neighborhood. 500m to Kunsthaus Bethanien.<br /><br />Historic building with contemporary art exhibitions."
       },
       "markthalle9Innen": {
         "title": "Markthalle 9",
-        "text": "Markthalle 9 - Historic market hall with excellent gastronomy scene.<br /><br />Traditional market with modern food vendors and restaurants."
+        "text": "Markthalle 9 - Historic old market hall with excellent gastronomy scene. 800m to the trendy food market in the historic Markthalle 9.<br /><br />Traditional market with modern food vendors and restaurants."
       },
       "markthalle9Aussen": {
         "title": "Markthalle 9",
@@ -99,7 +119,7 @@
       },
       "spreeStrand": {
         "title": "Spree Strand",
-        "text": "Spree Strand - Beautiful riverbank area for walking and relaxation.<br /><br />Perfect for jogging along the river."
+        "text": "Spree Strand - Beautiful riverbank area for walking and relaxation. 3 minutes to the Spree riverbank.<br /><br />Perfect for jogging along the river."
       },
       "nebenstrasse": {
         "title": "Side Street",
@@ -107,7 +127,7 @@
       },
       "alexanderplatz": {
         "title": "Alexanderplatz",
-        "text": "Alexanderplatz - Famous square in Berlin with historic significance.<br /><br />Major transportation hub and shopping area."
+        "text": "Alexanderplatz - Famous square in Berlin with historic significance. To Alexanderplatz you can get there in 8 minutes by bike or in 15 minutes by public transport.<br /><br />Major transportation hub and shopping area."
       },
       "dreiSchwestern": {
         "title": "3 Schwestern",
@@ -126,8 +146,20 @@
         "text": "Church Bethanien - Historic church building in the area.<br /><br />Beautiful architecture and spiritual center."
       },
       "kircheBethanien2": {
-        "title": "Church Bethanien 2",
-        "text": "Church Bethanien - Different view of the historic church.<br /><br />Architectural details and neighborhood context."
+        "title": "",
+        "text": ""
+      },
+      "transportation": {
+        "title": "Transportation",
+        "text": "2 minutes to the next bus stop. 7 minutes to U-Bahn station Heinrich-Heine-Straße. 500m to Ostbahnhof long-distance train station with a huge 24/7 supermarket."
+      },
+      "oranienstrasse": {
+        "title": "Oranienstraße",
+        "text": "Oranienstraße - one of the most famous nightlife streets in Kreuzberg with numerous cafés, clubs and restaurants. 900m to the nightlife mile Oranienstraße with various clubs, bars and cafés."
+      },
+      "restaurantEngelbecken": {
+        "title": "Restaurant am Engelbecken",
+        "text": "Restaurant am Engelbecken, located directly in the green oasis Engelbecken. Perfect place for relaxed meals in a quiet environment."
       }
     }
   }

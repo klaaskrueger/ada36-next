@@ -10,6 +10,14 @@ export const homepageSections: SectionData[] = [
     imageText: "Ada 36 Studio"
   },
   {
+    title: "Ausführliche Beschreibung",
+    sortingNumber: 1.5,
+    label: "homepage",
+    text: "",
+    imagePath: "/assets/images/fullsize/living-01.webp",
+    imageText: "Ausführliche Beschreibung"
+  },
+  {
     title: "Kitchen",
     sortingNumber: 2,
     label: "homepage",
@@ -100,6 +108,14 @@ export const homepageSections: SectionData[] = [
 ];
 
 export const imageSections: SectionData[] = [
+  {
+    title: "Ausstattung",
+    sortingNumber: 0,
+    label: "images",
+    text: "",
+    imagePath: "/assets/images/fullsize/living-01.webp",
+    imageText: "Ausstattung"
+  },
   {
     title: "Wohnbereich",
     sortingNumber: 1,
@@ -253,48 +269,8 @@ export const imageSections: SectionData[] = [
     imageText: "Fahrstuhl"
   },
   {
-    title: "Garten",
-    sortingNumber: 20,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/house-garten-IMG_4524.webp",
-    imageText: "Garten"
-  },
-  {
-    title: "Garten",
-    sortingNumber: 21,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/house-garten-detail-IMG_4523.webp",
-    imageText: "Garten"
-  },
-  {
-    title: "Garten",
-    sortingNumber: 22,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/house-garten-von-oben_IMG_4721.webp",
-    imageText: "Garten"
-  },
-  {
-    title: "Garten",
-    sortingNumber: 23,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/house-gartenausblick-IMG_4528.webp",
-    imageText: "Garten"
-  },
-  {
-    title: "Garten",
-    sortingNumber: 24,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/house-im-garten-IMG_4520.webp",
-    imageText: "Garten"
-  },
-  {
     title: "Hausflur",
-    sortingNumber: 25,
+    sortingNumber: 20,
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/house-hausflur-IMG_4516.webp",
@@ -302,7 +278,7 @@ export const imageSections: SectionData[] = [
   },
   {
     title: "Hausflur",
-    sortingNumber: 26,
+    sortingNumber: 21,
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/house-hausflur-vertikal-IMG_4530.webp",
@@ -310,20 +286,71 @@ export const imageSections: SectionData[] = [
   }
 ];
 
+export const gardenSections: SectionData[] = [
+  {
+    title: "Im Garten",
+    sortingNumber: 0,
+    label: "garden",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-im-garten-IMG_4520.webp",
+    imageText: "Im Garten"
+  },
+  {
+    title: "Garten",
+    sortingNumber: 1,
+    label: "garden",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-garten-IMG_4524.webp",
+    imageText: "Garten"
+  },
+  {
+    title: "Garten Detail",
+    sortingNumber: 2,
+    label: "garden",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-garten-detail-IMG_4523.webp",
+    imageText: "Garten Detail"
+  },
+  {
+    title: "Garten von oben",
+    sortingNumber: 3,
+    label: "garden",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-garten-von-oben_IMG_4721.webp",
+    imageText: "Garten von oben"
+  },
+  {
+    title: "Gartenausblick",
+    sortingNumber: 4,
+    label: "garden",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-gartenausblick-IMG_4528.webp",
+    imageText: "Gartenausblick"
+  }
+];
+
 export const neighbourhoodSections: SectionData[] = [
   {
     title: "Markthalle 9",
-    sortingNumber: 1,
+    sortingNumber: 0,
     label: "neighbourhood",
-    text: "Markthalle 9 - Historic market hall with excellent gastronomy scene.<br><br>Traditional market with modern food vendors and restaurants.",
+    text: "",
     imagePath: "/assets/images/fullsize/neighborhood-markthalle-9-IMG_4631.webp",
     imageText: "Markthalle 9"
+  },
+  {
+    title: "Lage & Anbindung",
+    sortingNumber: 1,
+    label: "neighbourhood",
+    text: "",
+    imagePath: "",
+    imageText: ""
   },
   {
     title: "Markthalle 9",
     sortingNumber: 2,
     label: "neighbourhood",
-    text: "Markthalle 9 - Historic market hall with excellent gastronomy scene.<br><br>Traditional market with modern food vendors and restaurants.",
+    text: "",
     imagePath: "/assets/images/fullsize/neighborhood-markthalle-9-aussen-IMG_3283.webp",
     imageText: "Markthalle 9"
   },
@@ -331,7 +358,7 @@ export const neighbourhoodSections: SectionData[] = [
     title: "Kunsthaus Bethanien",
     sortingNumber: 3,
     label: "neighbourhood",
-    text: "Kunsthaus Bethanien - A cultural center and art space in the neighborhood.<br><br>Historic building with contemporary art exhibitions.",
+    text: "",
     imagePath: "/assets/images/fullsize/neighborhood-bethanien.webp",
     imageText: "Kunsthaus Bethanien"
   },
@@ -339,7 +366,7 @@ export const neighbourhoodSections: SectionData[] = [
     title: "Spree Strand",
     sortingNumber: 4,
     label: "neighbourhood",
-    text: "Spree Strand - Beautiful riverbank area for walking and relaxation.<br><br>Perfect for jogging along the river.",
+    text: "",
     imagePath: "/assets/images/fullsize/neighborhood-spreestrand-IMG_3298.webp",
     imageText: "Spree Strand"
   },
@@ -347,7 +374,7 @@ export const neighbourhoodSections: SectionData[] = [
     title: "Nebenstraße",
     sortingNumber: 5,
     label: "neighbourhood",
-    text: "Nebenstraße - Local neighborhood street with typical Kreuzberg atmosphere.<br><br>Quiet residential area with local charm.",
+    text: "",
     imagePath: "/assets/images/fullsize/neighborhood-Nebenstr_IMG_4499.webp",
     imageText: "Nebenstraße"
   },
@@ -411,7 +438,7 @@ export const neighbourhoodSections: SectionData[] = [
     title: "Church Bethanien 2",
     sortingNumber: 13,
     label: "neighbourhood",
-    text: "Church Bethanien - Different view of the historic church.<br><br>Architectural details and neighborhood context.",
+    text: "",
     imagePath: "/assets/images/fullsize/neighborhood-church-bethanien-2-IMG_3285.webp",
     imageText: "Church Bethanien 2"
   },

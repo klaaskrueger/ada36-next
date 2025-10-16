@@ -1,0 +1,54 @@
+{
+  "de": {
+    "pageTitle": "Garten",
+    "pageDescription": "Entdecken Sie den wunderschönen Gartenbereich des ADA36 Studios in Kreuzberg, Berlin. Eine kleine Entspannungsoase für die Bewohner.",
+    "sections": {
+      "Im Garten": {
+        "title": "Im Garten",
+        "text": "Den Garten des Hauses ist eine kleine Entspannungsoase und lädt dazu ein, von Ihnen mitbenutzt zu werden."
+      },
+      "Garten": {
+        "title": "Garten",
+        "text": ""
+      },
+      "Garten Detail": {
+        "title": "Garten Detail",
+        "text": ""
+      },
+      "Garten von oben": {
+        "title": "Garten von oben",
+        "text": ""
+      },
+      "Gartenausblick": {
+        "title": "Gartenausblick",
+        "text": ""
+      }
+    }
+  },
+  "en": {
+    "pageTitle": "Garden",
+    "pageDescription": "Discover the beautiful garden area of ADA36 Studio in Kreuzberg, Berlin. A small relaxation oasis for residents.",
+    "sections": {
+      "Im Garten": {
+        "title": "In the garden",
+        "text": "The garden of the house is a small relaxation oasis and invites you to use it as well."
+      },
+      "Garten": {
+        "title": "Garden",
+        "text": ""
+      },
+      "Garten Detail": {
+        "title": "Garden Detail",
+        "text": ""
+      },
+      "Garten von oben": {
+        "title": "Garden from above",
+        "text": ""
+      },
+      "Gartenausblick": {
+        "title": "Garden view",
+        "text": ""
+      }
+    }
+  }
+}

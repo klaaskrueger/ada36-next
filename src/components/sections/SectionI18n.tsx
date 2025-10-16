@@ -34,7 +34,12 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
       'Außenansicht': 'sections.Außenansicht',
       'Fahrstuhl': 'sections.Fahrstuhl',
       'Garten': 'sections.Garten',
+      'Garten Detail': 'sections.Garten Detail',
+      'Garten von oben': 'sections.Garten von oben',
+      'Gartenausblick': 'sections.Gartenausblick',
+      'Im Garten': 'sections.Im Garten',
       'Hausflur': 'sections.Hausflur',
+      'Ausstattung': 'sections.Ausstattung',
       // English titles (fallback)
       'Living Area': 'sections.livingArea',
       'Living Area Night': 'sections.livingAreaNight',
@@ -56,6 +61,7 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
       'Hallway': 'sections.Hausflur',
       // Homepage sections
       'The Loft': 'sections.theLoft',
+      'Ausführliche Beschreibung': 'sections.Ausführliche Beschreibung',
       'Living': 'sections.living',
       'Sleeping': 'sections.sleeping',
       'Working': 'sections.working',
@@ -63,6 +69,7 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
       'Wardrobe': 'sections.wardrobe',
       'Connector': 'sections.connector',
       // Neighbourhood sections
+      'Lage & Anbindung': 'sections.Lage & Anbindung',
       'Engelbecken': 'sections.engelbecken',
       'St. Michael Church': 'sections.stMichaelChurch',
       'Kunsthaus Bethanien': 'sections.kunsthausBethanien',
@@ -75,15 +82,16 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
       '3 Schwestern': 'sections.dreiSchwestern',
       'Art Space': 'sections.kunstRaum',
       'Café in Köpenicker Straße': 'sections.cafeKoepenickerStr',
-      'Church Bethanien': sortingNumber === 12 ? 'sections.kircheBethanien' : 'sections.kircheBethanien2',
+      'Church Bethanien': 'sections.kircheBethanien',
+      'Church Bethanien 2': 'sections.kircheBethanien2',
     };
 
     return keyMap[title] || `sections.${title.toLowerCase().replace(/\s+/g, '')}`;
   };
 
   const translationKey = getTranslationKey(section.title, section.sortingNumber);
-  const translatedTitle = t(`${translationKey}.title`) || section.title;
-  const translatedText = t(`${translationKey}.text`) || section.text;
+  const translatedTitle = t(`${translationKey}.title`);
+  const translatedText = t(`${translationKey}.text`);
 
   return (
     <section className={`section ${className}`}>
