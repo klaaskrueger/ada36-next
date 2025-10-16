@@ -96,6 +96,14 @@ export const homepageSections: SectionData[] = [
     text: "Connector doors between sleeping and living area<br><br>Open plan design",
     imagePath: "/assets/images/fullsize/connector-doors-sleeping.webp",
     imageText: "Ada 36 Studio - Connector"
+  },
+  {
+    title: "Garten",
+    sortingNumber: 12,
+    label: "homepage",
+    text: "Der Garten des Hauses ist eine kleine Entspannungsoase und lädt dazu ein, von Ihnen mitbenutzt zu werden. Ruhiger Gartenbereich mit schönem Ausblick.",
+    imagePath: "/assets/images/fullsize/house-im-garten-IMG_4520.webp",
+    imageText: "ADA36 Studio - Garten"
   }
 ];
 
