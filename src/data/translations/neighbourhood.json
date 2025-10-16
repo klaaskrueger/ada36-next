@@ -4,7 +4,7 @@
     "pageDescription": "Entdecken Sie die Umgebung des ADA36 Studios in Kreuzberg, Berlin. Interaktive Karte mit Sehenswürdigkeiten und wichtigen Orten.",
     "areaMap": {
       "title": "Gebietskarte",
-      "text": "Hier wohnen Sie zeitnah zentral mit exzellenter Anbindung im beliebten Mitte/Kreuzberg. Ob Shopping am Alexanderplatz, in ein Restaurant oder in eines der angesagten Bars und Clubs in Kreuzberg: Das können Sie von hier aus zu Fuß erreichen."
+      "text": "Hier wohnen Sie zeitnah zentral mit exzellenter Anbindung im beliebten Mitte/Kreuzberg - dem kreativen Herzen Berlins. Ob Shopping am Alexanderplatz, kulinarische Entdeckungen in der Markthalle 9 oder pulsierendes Nachtleben in der Oranienstraße: Das authentische Berlin können Sie von hier aus zu Fuß erreichen."
     },
     "sections": {
       "Lage & Anbindung": {
@@ -13,55 +13,55 @@
       },
       "engelbecken": {
         "title": "Engelbecken",
-        "text": "Das Engelbecken ist ein schöner Parkbereich in der Nähe der Wohnung.<br /><br />Perfekt zum Joggen und Entspannen."
+        "text": "Das Engelbecken - Historische Parkanlage mit Wasserbecken und Wasserspielplatz im Herzen Kreuzbergs.<br /><br />Idyllische Grünanlage mit Spazierwegen, Spielplatz und Restaurant direkt am Wasser."
       },
       "stMichaelChurch": {
         "title": "St. Michael Kirche",
-        "text": "St. Michael Kirche ist ein historisches Wahrzeichen in der Gegend.<br /><br />Schöne Architektur und Geschichte."
+        "text": "St. Michael Kirche - Neugotische Kirche aus dem 19. Jahrhundert, Teil des historischen Bethanien-Komplexes am Mariannenplatz.<br /><br />Erbaut zwischen 1845-1847 als Teil der Diakonissenanstalt Bethanien, mit beeindruckender neugotischer Architektur und bewegter Geschichte."
       },
       "stMichaelChurch2": {
         "title": "St. Michael Kirche",
-        "text": "Anderer Blickwinkel der St. Michael Kirche.<br /><br />Historisches Gebäude in Kreuzberg."
+        "text": "St. Michael Kirche - Zweiter Blickwinkel der neugotischen Kirche im Bethanien-Komplex.<br /><br />Zeugnis der preußischen Architektur des 19. Jahrhunderts und Teil der historischen Diakonissenanstalt Bethanien."
       },
       "kunsthausBethanien": {
         "title": "Kunsthaus Bethanien",
-        "text": "Kunsthaus Bethanien - Ein Kulturzentrum und Kunstort in der Nachbarschaft. 500m zum Kunsthaus Bethanien.<br /><br />Historisches Gebäude mit zeitgenössischen Kunstausstellungen."
+        "text": "Kunsthaus Bethanien - Ehemaliges Krankenhaus aus dem 19. Jahrhundert, heute Atelierhaus für internationale Künstler. 500m zum Kunsthaus Bethanien.<br /><br />Historisches Backsteingebäude mit wechselnden Ausstellungen und Ateliers für zeitgenössische Kunst."
       },
       "markthalle9Innen": {
         "title": "Markthalle 9",
-        "text": "Markthalle 9 - Alte historische Markthalle mit exzellenter Gastronomieszene. 800m zum angesagten Foodmarket in der historischen Markthalle 9.<br /><br />Traditioneller Markt mit modernen Lebensmittelhändlern und Restaurants."
+        "text": "Markthalle 9 - Historische Markthalle aus dem 19. Jahrhundert mit legendärem Street Food Thursday. 800m zum angesagten Foodmarket in der historischen Markthalle 9.<br /><br />Kulinarisches Zentrum mit regionalen Händlern, internationalen Street Food Ständen und wöchentlichen Spezialitätenmärkten."
       },
       "markthalle9Aussen": {
         "title": "Markthalle 9",
-        "text": "Markthalle 9 - Historische Markthalle mit ausgezeichneter Gastronomieszene.<br /><br />Traditioneller Markt mit modernen Lebensmittelhändlern und Restaurants."
+        "text": "Markthalle 9 - Historische Backstein-Markthalle aus dem 19. Jahrhundert mit legendärer Street Food Szene.<br /><br />Kulinarisches Zentrum Kreuzbergs mit regionalen Produkten, internationalen Spezialitäten und wöchentlichen Food Markets."
       },
       "spreeStrand": {
         "title": "Spree Strand",
-        "text": "Spree Strand - Schönes Flussufergebiet zum Spazierengehen und Entspannen. 3 Minuten zum Spreeufer.<br /><br />Perfekt zum Joggen entlang des Flusses."
+        "text": "Spree Strand - Promenade entlang der Spree mit Blick auf Berlins Skyline. 3 Minuten zum Spreeufer.<br /><br />Beliebte Jogging-Strecke, Spazierwege und entspannende Flussatmosphäre mitten in der Stadt."
       },
       "nebenstrasse": {
         "title": "Nebenstraße",
-        "text": "Nebenstraße - Lokale Nachbarschaftsstraße mit typischer Kreuzberg-Atmosphäre.<br /><br />Ruhiges Wohngebiet mit lokalem Charme."
+        "text": "Nebenstraße Melchiorstraße - Authentische Kreuzberger Wohnstraße mit Altbau-Charme und multikultureller Atmosphäre.<br /><br />Ruhiges Wohngebiet mit typischen Berliner Mietshäusern und lokaler Kiezkultur."
       },
       "alexanderplatz": {
         "title": "Alexanderplatz",
-        "text": "Alexanderplatz - Berühmter Platz in Berlin mit historischer Bedeutung. Zum Alexanderplatz kommt man in 8 Minuten mit dem Fahrrad oder in 15 Minuten mit den öffentlichen Verkehrsmitteln.<br /><br />Wichtiger Verkehrsknotenpunkt und Einkaufsbereich."
+        "text": "Alexanderplatz - Historischer Platz im Herzen Berlins, bekannt für Fernsehturm und Weltzeituhr. Zum Alexanderplatz kommt man in 8 Minuten mit dem Fahrrad oder in 15 Minuten mit den öffentlichen Verkehrsmitteln.<br /><br />Wichtiger Verkehrsknotenpunkt, Shopping-Destination und historisches Symbol der DDR-Vergangenheit."
       },
       "dreiSchwestern": {
         "title": "3 Schwestern",
-        "text": "3 Schwestern - Lokales Wahrzeichen in der Nachbarschaft.<br /><br />Historische Architektur und kulturelle Bedeutung."
+        "text": "3 Schwestern - Restaurant im Kunsthaus Bethanien mit regionaler Küche und historischem Ambiente.<br /><br />Kulinarische Perle in historischen Gemäuern mit Blick auf den Kreuzberger Kiez."
       },
       "kunstRaum": {
         "title": "Kunst Raum",
-        "text": "Kunst Raum - Zeitgenössischer Kunstort in der Nachbarschaft.<br /><br />Kreativer Hub für lokale Künstler und Ausstellungen."
+        "text": "Kunst Raum - Zeitgenössischer Ausstellungsraum für lokale und internationale Künstler.<br /><br />Kreativer Hub mit wechselnden Ausstellungen, Ateliers und kulturellen Veranstaltungen im Kreuzberger Kunstviertel."
       },
       "cafeKoepenickerStr": {
         "title": "Café in der Köpenicker Straße",
-        "text": "Café in der Köpenicker Straße - Lokales Café mit Nachbarschafts-Charme.<br /><br />Perfekter Ort für Kaffee und Entspannung."
+        "text": "Café in der Köpenicker Straße - Authentisches Kreuzberger Café mit multikulturellem Flair.<br /><br />Beliebter Treffpunkt für Einheimische und Besucher mit typischer Berliner Kaffeehaus-Atmosphäre."
       },
       "kircheBethanien": {
         "title": "Kirche Bethanien",
-        "text": "Kirche Bethanien - Historisches Kirchengebäude in der Gegend.<br /><br />Schöne Architektur und spirituelles Zentrum."
+        "text": "Kirche Bethanien - Historische Kirche des Bethanien-Komplexes, erbaut 1845-1847 im Auftrag von König Friedrich Wilhelm IV.<br /><br />Teil der ehemaligen Diakonissenanstalt mit neugotischer Architektur und bewegter Geschichte von Krankenhaus zu Kulturzentrum."
       },
       "kircheBethanien2": {
         "title": "",
@@ -73,7 +73,7 @@
       },
       "oranienstrasse": {
         "title": "Oranienstraße",
-        "text": "Oranienstraße - eine der bekanntesten Ausgehmeilen in Kreuzberg mit zahlreichen Cafés, Clubs und Restaurants. 900m zur Ausgehmeile Oranienstraße mit diversen Clubs, Kneipen und Cafés."
+        "text": "Oranienstraße - Legendäre Ausgehmeile Kreuzbergs mit alternativen Clubs, Bars und internationalen Restaurants. 900m zur Ausgehmeile Oranienstraße mit diversen Clubs, Kneipen und Cafés.<br /><br />Pulsierendes Nachtleben, Street Art und multikulturelle Gastronomie im Herzen des SO36 Kiezes."
       },
       "restaurantEngelbecken": {
         "title": "Restaurant am Engelbecken",
@@ -86,7 +86,7 @@
     "pageDescription": "Discover the neighbourhood of the ADA36 Studio in Kreuzberg, Berlin. Interactive map with attractions and important places.",
     "areaMap": {
       "title": "Area Map",
-      "text": "Trendy Mitte/Kreuzberg. Whether shopping at Alexanderplatz, in a restaurant or in one of the trendy bars and clubs in Kreuzberg: You can reach all of this on foot from here."
+      "text": "Trendy Mitte/Kreuzberg - the creative heart of Berlin. Whether shopping at Alexanderplatz, culinary discoveries at Markthalle 9 or pulsating nightlife on Oranienstraße: You can reach authentic Berlin on foot from here."
     },
     "sections": {
       "Lage & Anbindung": {
@@ -95,55 +95,55 @@
       },
       "engelbecken": {
         "title": "Engelbecken",
-        "text": "The Engelbecken is a beautiful park area near the apartment.<br /><br />Perfect for jogging and relaxation."
+        "text": "The Engelbecken - Historic park with water basin and water playground in the heart of Kreuzberg.<br /><br />Idyllic green space with walking paths, playground and restaurant directly by the water."
       },
       "stMichaelChurch": {
         "title": "St. Michael Church",
-        "text": "St. Michael Church is a historic landmark in the area.<br /><br />Beautiful architecture and history."
+        "text": "St. Michael Church - Neo-Gothic church from the 19th century, part of the historic Bethanien complex at Mariannenplatz.<br /><br />Built between 1845-1847 as part of the Bethanien Diakonissenanstalt, with impressive neo-Gothic architecture and eventful history."
       },
       "stMichaelChurch2": {
         "title": "St. Michael Church",
-        "text": "Different angle of St. Michael Church.<br /><br />Historic building in Kreuzberg."
+        "text": "St. Michael Church - Second view of the neo-Gothic church in the Bethanien complex.<br /><br />Testament to Prussian architecture of the 19th century and part of the historic Bethanien Diakonissenanstalt."
       },
       "kunsthausBethanien": {
         "title": "Kunsthaus Bethanien",
-        "text": "Kunsthaus Bethanien - A cultural center and art space in the neighborhood. 500m to Kunsthaus Bethanien.<br /><br />Historic building with contemporary art exhibitions."
+        "text": "Kunsthaus Bethanien - Former 19th century hospital, now an atelier house for international artists. 500m to Kunsthaus Bethanien.<br /><br />Historic brick building with rotating exhibitions and studios for contemporary art."
       },
       "markthalle9Innen": {
         "title": "Markthalle 9",
-        "text": "Markthalle 9 - Historic old market hall with excellent gastronomy scene. 800m to the trendy food market in the historic Markthalle 9.<br /><br />Traditional market with modern food vendors and restaurants."
+        "text": "Markthalle 9 - Historic 19th century market hall with legendary Street Food Thursday. 800m to the trendy food market in the historic Markthalle 9.<br /><br />Culinary center with regional vendors, international street food stands and weekly specialty markets."
       },
       "markthalle9Aussen": {
         "title": "Markthalle 9",
-        "text": "Markthalle 9 - Historic market hall with excellent gastronomy scene.<br /><br />Traditional market with modern food vendors and restaurants."
+        "text": "Markthalle 9 - Historic 19th century brick market hall with legendary street food scene.<br /><br />Culinary center of Kreuzberg with regional products, international specialties and weekly food markets."
       },
       "spreeStrand": {
         "title": "Spree Strand",
-        "text": "Spree Strand - Beautiful riverbank area for walking and relaxation. 3 minutes to the Spree riverbank.<br /><br />Perfect for jogging along the river."
+        "text": "Spree Strand - Promenade along the Spree with views of Berlin's skyline. 3 minutes to the Spree riverbank.<br /><br />Popular jogging route, walking paths and relaxing riverside atmosphere in the heart of the city."
       },
       "nebenstrasse": {
         "title": "Side Street",
-        "text": "Side Street - Local neighborhood street with typical Kreuzberg atmosphere.<br /><br />Quiet residential area with local charm."
+        "text": "Side Street - Authentic Kreuzberg residential street with historic building charm and multicultural atmosphere.<br /><br />Quiet neighborhood with typical Berlin tenement houses and local district culture."
       },
       "alexanderplatz": {
         "title": "Alexanderplatz",
-        "text": "Alexanderplatz - Famous square in Berlin with historic significance. To Alexanderplatz you can get there in 8 minutes by bike or in 15 minutes by public transport.<br /><br />Major transportation hub and shopping area."
+        "text": "Alexanderplatz - Historic square in the heart of Berlin, famous for TV tower and world clock. To Alexanderplatz you can get there in 8 minutes by bike or in 15 minutes by public transport.<br /><br />Major transportation hub, shopping destination and historic symbol of GDR past."
       },
       "dreiSchwestern": {
         "title": "3 Schwestern",
-        "text": "3 Schwestern - Local landmark building in the neighborhood.<br /><br />Historic architecture and cultural significance."
+        "text": "3 Schwestern - Restaurant in Kunsthaus Bethanien with regional cuisine and historic ambiance.<br /><br />Culinary gem in historic walls with views of the Kreuzberg neighborhood."
       },
       "kunstRaum": {
         "title": "Art Space",
-        "text": "Art Space - Contemporary art venue in the neighborhood.<br /><br />Creative hub for local artists and exhibitions."
+        "text": "Art Space - Contemporary exhibition space for local and international artists.<br /><br />Creative hub with rotating exhibitions, studios and cultural events in Kreuzberg's art district."
       },
       "cafeKoepenickerStr": {
         "title": "Café in Köpenicker Straße",
-        "text": "Café in Köpenicker Straße - Local café with neighborhood charm.<br /><br />Perfect spot for coffee and relaxation."
+        "text": "Café in Köpenicker Straße - Authentic Kreuzberg café with multicultural flair.<br /><br />Popular meeting point for locals and visitors with typical Berlin coffeehouse atmosphere."
       },
       "kircheBethanien": {
         "title": "Church Bethanien",
-        "text": "Church Bethanien - Historic church building in the area.<br /><br />Beautiful architecture and spiritual center."
+        "text": "Church Bethanien - Historic church of the Bethanien complex, built 1845-1847 by order of King Friedrich Wilhelm IV.<br /><br />Part of the former Diakonissenanstalt with neo-Gothic architecture and eventful history from hospital to cultural center."
       },
       "kircheBethanien2": {
         "title": "",
@@ -155,7 +155,7 @@
       },
       "oranienstrasse": {
         "title": "Oranienstraße",
-        "text": "Oranienstraße - one of the most famous nightlife streets in Kreuzberg with numerous cafés, clubs and restaurants. 900m to the nightlife mile Oranienstraße with various clubs, bars and cafés."
+        "text": "Oranienstraße - Legendary nightlife mile of Kreuzberg with alternative clubs, bars and international restaurants. 900m to the nightlife mile Oranienstraße with various clubs, bars and cafés.<br /><br />Pulsating nightlife, street art and multicultural gastronomy in the heart of the SO36 district."
       },
       "restaurantEngelbecken": {
         "title": "Restaurant am Engelbecken",
