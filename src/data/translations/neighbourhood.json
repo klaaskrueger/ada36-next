@@ -38,6 +38,30 @@
       "nebenstrasse": {
         "title": "Nebenstraße",
         "text": "Nebenstraße - Lokale Nachbarschaftsstraße mit typischer Kreuzberg-Atmosphäre.<br /><br />Ruhiges Wohngebiet mit lokalem Charme."
+      },
+      "alexanderplatz": {
+        "title": "Alexanderplatz",
+        "text": "Alexanderplatz - Berühmter Platz in Berlin mit historischer Bedeutung.<br /><br />Wichtiger Verkehrsknotenpunkt und Einkaufsbereich."
+      },
+      "dreiSchwestern": {
+        "title": "3 Schwestern",
+        "text": "3 Schwestern - Lokales Wahrzeichen in der Nachbarschaft.<br /><br />Historische Architektur und kulturelle Bedeutung."
+      },
+      "kunstRaum": {
+        "title": "Kunst Raum",
+        "text": "Kunst Raum - Zeitgenössischer Kunstort in der Nachbarschaft.<br /><br />Kreativer Hub für lokale Künstler und Ausstellungen."
+      },
+      "cafeKoepenickerStr": {
+        "title": "Café in der Köpenicker Straße",
+        "text": "Café in der Köpenicker Straße - Lokales Café mit Nachbarschafts-Charme.<br /><br />Perfekter Ort für Kaffee und Entspannung."
+      },
+      "kircheBethanien": {
+        "title": "Kirche Bethanien",
+        "text": "Kirche Bethanien - Historisches Kirchengebäude in der Gegend.<br /><br />Schöne Architektur und spirituelles Zentrum."
+      },
+      "kircheBethanien2": {
+        "title": "Kirche Bethanien 2",
+        "text": "Kirche Bethanien - Anderer Blick auf die historische Kirche.<br /><br />Architektonische Details und Nachbarschaftskontext."
       }
     }
   },
@@ -80,6 +104,30 @@
       "nebenstrasse": {
         "title": "Side Street",
         "text": "Side Street - Local neighborhood street with typical Kreuzberg atmosphere.<br /><br />Quiet residential area with local charm."
+      },
+      "alexanderplatz": {
+        "title": "Alexanderplatz",
+        "text": "Alexanderplatz - Famous square in Berlin with historic significance.<br /><br />Major transportation hub and shopping area."
+      },
+      "dreiSchwestern": {
+        "title": "3 Schwestern",
+        "text": "3 Schwestern - Local landmark building in the neighborhood.<br /><br />Historic architecture and cultural significance."
+      },
+      "kunstRaum": {
+        "title": "Art Space",
+        "text": "Art Space - Contemporary art venue in the neighborhood.<br /><br />Creative hub for local artists and exhibitions."
+      },
+      "cafeKoepenickerStr": {
+        "title": "Café in Köpenicker Straße",
+        "text": "Café in Köpenicker Straße - Local café with neighborhood charm.<br /><br />Perfect spot for coffee and relaxation."
+      },
+      "kircheBethanien": {
+        "title": "Church Bethanien",
+        "text": "Church Bethanien - Historic church building in the area.<br /><br />Beautiful architecture and spiritual center."
+      },
+      "kircheBethanien2": {
+        "title": "Church Bethanien 2",
+        "text": "Church Bethanien - Different view of the historic church.<br /><br />Architectural details and neighborhood context."
       }
     }
   }

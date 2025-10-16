@@ -71,6 +71,11 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
       'Nebenstraße': 'sections.nebenstrasse',
       'Cold War History': 'sections.coldWarHistory',
       'Cold War History Text': 'sections.coldWarHistoryText',
+      'Alexanderplatz': 'sections.alexanderplatz',
+      '3 Schwestern': 'sections.dreiSchwestern',
+      'Art Space': 'sections.kunstRaum',
+      'Café in Köpenicker Straße': 'sections.cafeKoepenickerStr',
+      'Church Bethanien': sortingNumber === 12 ? 'sections.kircheBethanien' : 'sections.kircheBethanien2',
     };
 
     return keyMap[title] || `sections.${title.toLowerCase().replace(/\s+/g, '')}`;

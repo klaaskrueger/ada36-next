@@ -367,4 +367,52 @@ export const neighbourhoodSections: SectionData[] = [
     imagePath: "/assets/images/fullsize/st-michael-02.webp",
     imageText: "St. Michael Church 2"
   },
+  {
+    title: "Alexanderplatz",
+    sortingNumber: 8,
+    label: "neighbourhood",
+    text: "Alexanderplatz - Famous square in Berlin with historic significance.<br><br>Major transportation hub and shopping area.",
+    imagePath: "/assets/images/fullsize/neighborhood-alexanderplatz-IMG_3706.webp",
+    imageText: "Alexanderplatz"
+  },
+  {
+    title: "3 Schwestern",
+    sortingNumber: 9,
+    label: "neighbourhood",
+    text: "3 Schwestern - Local landmark building in the neighborhood.<br><br>Historic architecture and cultural significance.",
+    imagePath: "/assets/images/fullsize/neighborhood-3-schwestern-IMG_3717.webp",
+    imageText: "3 Schwestern"
+  },
+  {
+    title: "Art Space",
+    sortingNumber: 10,
+    label: "neighbourhood",
+    text: "Art Space - Contemporary art venue in the neighborhood.<br><br>Creative hub for local artists and exhibitions.",
+    imagePath: "/assets/images/fullsize/neighborhood-artspace-IMG_3437.webp",
+    imageText: "Art Space"
+  },
+  {
+    title: "Café in Köpenicker Straße",
+    sortingNumber: 11,
+    label: "neighbourhood",
+    text: "Café in Köpenicker Straße - Local café with neighborhood charm.<br><br>Perfect spot for coffee and relaxation.",
+    imagePath: "/assets/images/fullsize/neighborhood-cafe-in-koepenicker-str-IMG_3713.webp",
+    imageText: "Café in Köpenicker Straße"
+  },
+  {
+    title: "Church Bethanien",
+    sortingNumber: 12,
+    label: "neighbourhood",
+    text: "Church Bethanien - Historic church building in the area.<br><br>Beautiful architecture and spiritual center.",
+    imagePath: "/assets/images/fullsize/neighborhood-church-bethanien-IMG_3286.webp",
+    imageText: "Church Bethanien"
+  },
+  {
+    title: "Church Bethanien 2",
+    sortingNumber: 13,
+    label: "neighbourhood",
+    text: "Church Bethanien - Different view of the historic church.<br><br>Architectural details and neighborhood context.",
+    imagePath: "/assets/images/fullsize/neighborhood-church-bethanien-2-IMG_3285.webp",
+    imageText: "Church Bethanien 2"
+  },
 ];
