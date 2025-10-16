@@ -46,43 +46,68 @@ if [ ! -d "out" ]; then
     exit 1
 fi
 
-# Step 3: Check if images have changed
-echo -e "${YELLOW}🔍 Checking for image changes...${NC}"
+# Step 3: Clear out directory completely
+echo -e "${YELLOW}🧹 Clearing out directory...${NC}"
+rm -rf out/*
+echo -e "${GREEN}✅ Out directory cleared${NC}"
 
-# Create checksum file for images if it doesn't exist
-IMAGES_CHECKSUM_FILE=".images-checksum"
+# Step 4: Check if images and documents have changed
+echo -e "${YELLOW}🔍 Checking for asset changes...${NC}"
+
+# Create checksum file for assets if it doesn't exist
+ASSETS_CHECKSUM_FILE=".assets-checksum"
 IMAGES_DIR="public/assets/images/fullsize"
+DOCS_DIR="public/assets/documents"
 
-# Calculate current checksum of all images
+# Calculate current checksum of all assets
+CURRENT_CHECKSUM=""
 if [ -d "$IMAGES_DIR" ]; then
-    CURRENT_CHECKSUM=$(find "$IMAGES_DIR" -name "*.webp" -o -name "*.jpg" -o -name "*.png" | sort | xargs md5sum 2>/dev/null | md5sum | cut -d' ' -f1)
-else
-    CURRENT_CHECKSUM=""
+    # Only include WebP files, exclude JPGs and backup directories
+    IMAGES_CHECKSUM=$(find "$IMAGES_DIR" -name "*.webp" -not -path "*/fullsize-backup-*" | sort | xargs md5sum 2>/dev/null | md5sum | cut -d' ' -f1)
+    CURRENT_CHECKSUM="$CURRENT_CHECKSUM$IMAGES_CHECKSUM"
+fi
+
+if [ -d "$DOCS_DIR" ]; then
+    DOCS_CHECKSUM=$(find "$DOCS_DIR" -name "*.pdf" | sort | xargs md5sum 2>/dev/null | md5sum | cut -d' ' -f1)
+    CURRENT_CHECKSUM="$CURRENT_CHECKSUM$DOCS_CHECKSUM"
 fi
 
 # Read previous checksum
-if [ -f "$IMAGES_CHECKSUM_FILE" ]; then
-    PREVIOUS_CHECKSUM=$(cat "$IMAGES_CHECKSUM_FILE")
+if [ -f "$ASSETS_CHECKSUM_FILE" ]; then
+    PREVIOUS_CHECKSUM=$(cat "$ASSETS_CHECKSUM_FILE")
 else
     PREVIOUS_CHECKSUM=""
 fi
 
 # Compare checksums
 if [ "$CURRENT_CHECKSUM" = "$PREVIOUS_CHECKSUM" ] && [ -n "$CURRENT_CHECKSUM" ]; then
-    echo -e "${GREEN}✅ No image changes detected, skipping image upload${NC}"
-    SKIP_IMAGES=true
+    echo -e "${GREEN}✅ No asset changes detected, skipping asset upload${NC}"
+    SKIP_ASSETS=true
 else
-    echo -e "${YELLOW}📁 Images changed, copying to output directory...${NC}"
-    mkdir -p out/assets/images/fullsize
-    cp public/assets/images/fullsize/*.webp out/assets/images/fullsize/ 2>/dev/null || echo "No WebP files to copy"
+    echo -e "${YELLOW}📁 Assets changed, copying to output directory...${NC}"
+    
+    # Copy images (only WebP files)
+    if [ -d "$IMAGES_DIR" ]; then
+        mkdir -p out/assets/images/fullsize
+        # Copy only WebP files, exclude JPGs and backup directories
+        find "$IMAGES_DIR" -name "*.webp" -not -path "*/fullsize-backup-*" -exec cp {} out/assets/images/fullsize/ \; 2>/dev/null || echo "No WebP files to copy"
+        echo -e "${GREEN}✅ Images (WebP only) copied to output directory${NC}"
+    fi
+    
+    # Copy documents
+    if [ -d "$DOCS_DIR" ]; then
+        mkdir -p out/assets/documents
+        cp public/assets/documents/*.pdf out/assets/documents/ 2>/dev/null || echo "No PDF files to copy"
+        echo -e "${GREEN}✅ Documents copied to output directory${NC}"
+    fi
     
     # Save new checksum
-    echo "$CURRENT_CHECKSUM" > "$IMAGES_CHECKSUM_FILE"
-    echo -e "${GREEN}✅ Image checksum updated${NC}"
-    SKIP_IMAGES=false
+    echo "$CURRENT_CHECKSUM" > "$ASSETS_CHECKSUM_FILE"
+    echo -e "${GREEN}✅ Asset checksum updated${NC}"
+    SKIP_ASSETS=false
 fi
 
-# Step 4: Upload to FTP server
+# Step 5: Upload to FTP server
 echo -e "${YELLOW}📤 Uploading to FTP server...${NC}"
 echo "Server: $FTP_HOST"
 echo "Target: /ada36"
@@ -97,17 +122,17 @@ quit" 2>/dev/null || echo "Backup creation failed, continuing..."
 # Upload new files
 echo -e "${YELLOW}🔄 Syncing files to server...${NC}"
 
-if [ "$SKIP_IMAGES" = true ]; then
-    echo -e "${YELLOW}📤 Uploading files (excluding images)...${NC}"
+if [ "$SKIP_ASSETS" = true ]; then
+    echo -e "${YELLOW}📤 Uploading files (excluding assets)...${NC}"
     lftp -u $FTP_USERNAME,$FTP_PASSWORD sftp://$FTP_HOST -e "
 cd ada36;
-mirror -R out/ . --delete --verbose --exclude-glob .DS_Store --exclude-glob '*.jpg' --exclude-glob 'assets/images/fullsize/*';
+mirror -R out/ . --delete --verbose --exclude-glob .DS_Store --exclude-glob 'assets/images/fullsize/*' --exclude-glob 'assets/documents/*';
 quit"
 else
-    echo -e "${YELLOW}📤 Uploading all files (including images)...${NC}"
+    echo -e "${YELLOW}📤 Uploading all files (including assets)...${NC}"
     lftp -u $FTP_USERNAME,$FTP_PASSWORD sftp://$FTP_HOST -e "
 cd ada36;
-mirror -R out/ . --delete --verbose --exclude-glob .DS_Store --exclude-glob '*.jpg';
+mirror -R out/ . --delete --verbose --exclude-glob .DS_Store;
 quit"
 fi
 
@@ -119,21 +144,22 @@ else
     exit 1
 fi
 
-# Step 5: Verify upload
+# Step 6: Verify upload
 echo -e "${YELLOW}🔍 Verifying upload...${NC}"
 lftp -u $FTP_USERNAME,$FTP_PASSWORD sftp://$FTP_HOST -e "
 cd ada36;
-ls -la index.html;
+ls -l index.html;
 quit"
 
 echo -e "${GREEN}🎉 Deployment completed successfully!${NC}"
 echo -e "${GREEN}📊 Deployment summary:${NC}"
 echo "  - Build: ✅ Completed"
+echo "  - Out Directory: ✅ Cleared and rebuilt"
 echo "  - Upload: ✅ Completed"
-if [ "$SKIP_IMAGES" = true ]; then
-    echo "  - Images: ⏭️ Skipped (no changes)"
+if [ "$SKIP_ASSETS" = true ]; then
+    echo "  - Assets: ⏭️ Skipped (no changes)"
 else
-    echo "  - Images: ✅ Uploaded (changes detected)"
+    echo "  - Assets: ✅ Uploaded (changes detected)"
 fi
 echo "  - Verification: ✅ Completed"
 echo "  - Website: https://ada36.de"
