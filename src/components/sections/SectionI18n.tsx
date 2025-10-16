@@ -59,11 +59,7 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
       'Living': 'sections.living',
       'Sleeping': 'sections.sleeping',
       'Working': 'sections.working',
-      'Balcony': 'sections.balcony',
-      'Garden': 'sections.garden',
       'Connector Doors': 'sections.connectorDoors',
-      'Floorplan': 'sections.floorplan',
-      'Mirror': 'sections.mirror',
       'Wardrobe': 'sections.wardrobe',
       'Connector': 'sections.connector',
       // Neighbourhood sections
