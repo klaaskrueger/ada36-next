@@ -185,6 +185,20 @@ export const websiteStructuredData = {
   }
 };
 
+// Funktion um SEO-Konfiguration basierend auf der Route zu erhalten
+export function getSEOConfigForRoute(pathname: string): SEOConfig {
+  switch (pathname) {
+    case '/images':
+      return imagesSEOConfig;
+    case '/neighbourhood':
+      return neighbourhoodSEOConfig;
+    case '/guides':
+      return guidesSEOConfig;
+    default:
+      return defaultSEOConfig;
+  }
+}
+
 // Spezifische SEO-Konfigurationen für einzelne Seiten
 export const imagesSEOConfig: SEOConfig = {
   title: "Bildergalerie - ADA36 Studio Kreuzberg Berlin | Loft Fotos zum Verkauf",
