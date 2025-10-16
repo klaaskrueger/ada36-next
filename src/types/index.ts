@@ -1,7 +1,7 @@
 export interface SectionData {
   title: string;
   sortingNumber: number;
-  label: 'homepage' | 'images' | 'neighbourhood';
+  label: 'homepage' | 'images' | 'neighbourhood' | 'garden';
   text: string;
   imagePath: string;
   imageText: string;
