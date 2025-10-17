@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // output: 'export', // Commented out for development
+  output: 'export', // Enable static export for deployment
   trailingSlash: true,
   images: {
     unoptimized: true,
