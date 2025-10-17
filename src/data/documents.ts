@@ -44,13 +44,6 @@ export const documents: DocumentData[] = [
     date: "2022-04-29"
   },
   {
-    id: "etv-protokoll-2021",
-    title: "ETV Protokoll 2021",
-    filename: "Protokoll ETV 2021.pdf",
-    category: "ETV Protokolle",
-    date: "2021"
-  },
-  {
     id: "weg-aufteilungplan",
     title: "WEG Adalbertstr 36 - Aufteilungplan",
     filename: "WEG Adalbertstr 36 - Aufteilungplan.pdf",
@@ -61,12 +54,6 @@ export const documents: DocumentData[] = [
     title: "Umlaufbeschluss",
     filename: "Umlaufbeschluss.pdf",
     category: "WEG Dokumente"
-  },
-  {
-    id: "ka-instandsetzung",
-    title: "KA Instandsetzung Terrassen Seitenflügel",
-    filename: "KA Instandsetzung Terrassen Seitenflügel.pdf",
-    category: "Instandsetzung"
   },
   {
     id: "energieausweis",

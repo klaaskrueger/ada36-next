@@ -30,7 +30,12 @@ export default function DocumentsPage() {
             <div className="content">
               <div className="port-text">
                 <h1 className="title">{t('pageTitle')}</h1>
-                <p className="text">{t('pageDescription')}</p>
+                <p className="text">{t('pageDescription').split('\n').map((line, index) => (
+                  <span key={index}>
+                    {line}
+                    {index < t('pageDescription').split('\n').length - 1 && <br />}
+                  </span>
+                ))}</p>
               </div>
             </div>
           </div>
@@ -52,9 +57,6 @@ export default function DocumentsPage() {
                   <h3 className="document-title">{document.title}</h3>
                   <div className="document-meta">
                     <span className="document-category">{t(`categories.${document.category}`)}</span>
-                    {document.date && (
-                      <span className="document-date">{document.date}</span>
-                    )}
                   </div>
                 </div>
                 <div className="document-actions">

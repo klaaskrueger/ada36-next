@@ -105,28 +105,20 @@ export const imageSections: SectionData[] = [
     sortingNumber: 0,
     label: "images",
     text: "",
-    imagePath: "/assets/images/fullsize/living-01.webp",
+    imagePath: "",
     imageText: "Ausstattung"
   },
   {
-    title: "Wohnbereich",
+    title: "Küche",
     sortingNumber: 1,
     label: "images",
     text: "",
-    imagePath: "/assets/images/fullsize/living-01.webp",
-    imageText: "Wohnbereich"
+    imagePath: "/assets/images/fullsize/kitchen-01.webp",
+    imageText: "Küche"
   },
   {
     title: "Wohnbereich",
-    sortingNumber: 2,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/living-02.webp",
-    imageText: "Wohnbereich"
-  },
-  {
-    title: "Wohnbereich",
-    sortingNumber: 3,
+    sortingNumber: 4,
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/living-03.webp",
@@ -134,35 +126,11 @@ export const imageSections: SectionData[] = [
   },
   {
     title: "Wohnbereich",
-    sortingNumber: 4,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/living-04.webp",
-    imageText: "Wohnbereich"
-  },
-  {
-    title: "Wohnbereich",
-    sortingNumber: 5,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/living-05.webp",
-    imageText: "Wohnbereich"
-  },
-  {
-    title: "Wohnbereich",
-    sortingNumber: 6,
+    sortingNumber: 7,
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/living-night.webp",
     imageText: "Wohnbereich Nacht"
-  },
-  {
-    title: "Küche",
-    sortingNumber: 7,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/kitchen-01.webp",
-    imageText: "Küche"
   },
   {
     title: "Schlafbereich",
@@ -178,14 +146,6 @@ export const imageSections: SectionData[] = [
     label: "images",
     text: "",
     imagePath: "/assets/images/fullsize/sleeping-02.webp",
-    imageText: "Schlafbereich"
-  },
-  {
-    title: "Schlafbereich",
-    sortingNumber: 10,
-    label: "images",
-    text: "",
-    imagePath: "/assets/images/fullsize/sleeping-03.webp",
     imageText: "Schlafbereich"
   },
   {
