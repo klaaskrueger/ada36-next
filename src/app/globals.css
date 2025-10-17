@@ -348,7 +348,7 @@ main {
 }
 
 .port-text {
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Typography */
@@ -390,16 +390,16 @@ h4 {
 .title {
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   color: var(--primary-color);
-  padding: 5px 0 20px 15px;
+  padding: 20px 0 6.8px 15px;
   line-height: 1.05;
 }
 
 .text {
   font-size: 16px;
   line-height: 1.4;
-  padding: 0px 0 30px 15px;
+  padding: 0px 0 9px 15px;
   color: var(--text-color);
 }
 
@@ -500,7 +500,7 @@ h4 {
   }
   
   .content {
-    padding: 1rem 0;
+    padding: 0.25rem 0;
   }
 }
 

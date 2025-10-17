@@ -16,7 +16,7 @@ export const homepageLoftSections: SectionData[] = [
     title: "Wohnzimmer",
     sortingNumber: 2,
     label: "homepage",
-    text: "Living area with a sleeping couch.<br><br>Apple TV, Sony TV<br>Internet DSL, V-DSL, Wireless LAN, BluRay Player, Hifi",
+    text: "Living area with a sleeping couch.<br><br>",
     imagePath: "/assets/images/fullsize/Wohnzimmer-IMG_4759.webp",
     imageText: "Ada 36 Studio - Wohnzimmer"
   },
