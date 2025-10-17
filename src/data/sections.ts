@@ -10,14 +10,6 @@ export const homepageSections: SectionData[] = [
     imageText: "Ada 36 Studio"
   },
   {
-    title: "Ausführliche Beschreibung",
-    sortingNumber: 1.5,
-    label: "homepage",
-    text: "",
-    imagePath: "/assets/images/fullsize/living-01.webp",
-    imageText: "Ausführliche Beschreibung"
-  },
-  {
     title: "Kitchen",
     sortingNumber: 2,
     label: "homepage",
