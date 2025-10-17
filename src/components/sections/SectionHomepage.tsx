@@ -47,6 +47,9 @@ const SectionHomepage: React.FC<SectionHomepageProps> = ({ section, translations
       'Bad': 'sections.bad',
       'Grundriss 2025': 'sections.grundriss2025',
       'Garten': 'sections.Garten',
+      'Garten Detail': 'sections.gartendetail',
+      'Garten von oben': 'sections.gartenvonoben',
+      'Gartenausblick': 'sections.gartenausblick',
       // Legacy mappings for backward compatibility
       'kitchen': 'sections.kitchen',
       'living': 'sections.living',
@@ -68,8 +71,8 @@ const SectionHomepage: React.FC<SectionHomepageProps> = ({ section, translations
   };
 
   const translationKey = getHomepageTranslationKey(section.title, section.sortingNumber);
-  const translatedTitle = isMounted ? t(`${translationKey}.title`) : '';
-  const translatedText = isMounted ? t(`${translationKey}.text`) : '';
+  const translatedTitle = isMounted && section.title ? t(`${translationKey}.title`) : '';
+  const translatedText = isMounted && section.text ? t(`${translationKey}.text`) : '';
 
   return (
     <section className={`section ${className}`}>

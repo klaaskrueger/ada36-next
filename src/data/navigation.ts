@@ -3,7 +3,6 @@ import { NavigationItem } from '@/types';
 export const navigationItems: NavigationItem[] = [
   { name: "Loft", url: "/" },
   { name: "Images", url: "/equipment" },
-  { name: "Garden", url: "/garden" },
   { name: "Neighbourhood", url: "/neighbourhood" },
   { name: "Documents", url: "/documents" }
 ];

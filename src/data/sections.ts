@@ -9,36 +9,28 @@ export const homepageLoftSections: SectionData[] = [
     sortingNumber: 1,
     label: "homepage",
     text: "<b>Minimalist design 2-room-apartment at the center of Kreuzberg.</b> <br><br>Floor-plan as open kitchen with dining table for 4 persons and access to the balcony, living area with a sleeping sofa and a desk. Bedroom with a double bed (160x200 cm) and a big wardrobe. Walk-in closet.<br> Bath with tub.",
+    imagePath: "/assets/images/fullsize/Wohnzimmer-IMG_4759.webp",
+    imageText: "Ada36 Studio - Wohnzimmer"
+  },
+  {
+    title: "",
+    sortingNumber: 2,
+    label: "homepage",
+    text: "",
     imagePath: "/assets/images/fullsize/wohnzimmer_IMG_4728.webp",
     imageText: "Ada 36 Studio"
   },
   {
-    title: "Wohnzimmer",
-    sortingNumber: 2,
-    label: "homepage",
-    text: "Living area with a sleeping couch.<br><br>",
-    imagePath: "/assets/images/fullsize/Wohnzimmer-IMG_4759.webp",
-    imageText: "Ada 36 Studio - Wohnzimmer"
-  },
-  {
-    title: "Wohnzimmer Sofa",
+    title: "Ess- und Loungebereich",
     sortingNumber: 3,
     label: "homepage",
-    text: "Comfortable living area with sofa for relaxation",
-    imagePath: "/assets/images/fullsize/Wohnzimmer-sofa-IMG_4731.webp",
-    imageText: "Ada 36 Studio - Wohnzimmer Sofa"
-  },
-  {
-    title: "Wohnzimmer Esstisch",
-    sortingNumber: 4,
-    label: "homepage",
-    text: "Dining area with table for 4 persons",
+    text: "",
     imagePath: "/assets/images/fullsize/wohnzimmer-esstisch-IMG_4733.webp",
     imageText: "Ada 36 Studio - Wohnzimmer Esstisch"
   },
   {
     title: "Wohnzimmer Ausblick",
-    sortingNumber: 5,
+    sortingNumber: 4,
     label: "homepage",
     text: "Beautiful view from the living room",
     imagePath: "/assets/images/fullsize/wohnzimmer-ausblick-IMG_4730.webp",
@@ -46,23 +38,15 @@ export const homepageLoftSections: SectionData[] = [
   },
   {
     title: "Amerikanische Küche",
-    sortingNumber: 6,
+    sortingNumber: 5,
     label: "homepage",
     text: "Floor-plan as open kitchen with dining table for 4 persons. Fitted kitchen in open plan kitchen.<br><br>Inventory: Oven, fridge, deep fridge, microwave, dish washer<br>Secondary tub for filtered drinking water",
     imagePath: "/assets/images/fullsize/amerikanische-Kueche-IMG_4737.webp",
     imageText: "Ada 36 Studio - Amerikanische Küche"
   },
   {
-    title: "Schlafzimmer",
-    sortingNumber: 7,
-    label: "homepage",
-    text: "Bedroom with a double bed (160x200 cm) and a big wardrobe. Walk-in closet.<br><br>Blinds/curtains in bedroom",
-    imagePath: "/assets/images/fullsize/Schlafzimmer_IMG_4722.webp",
-    imageText: "Ada 36 Studio - Schlafzimmer"
-  },
-  {
     title: "Schlafzimmer Ausblick",
-    sortingNumber: 8,
+    sortingNumber: 6,
     label: "homepage",
     text: "Beautiful view from the bedroom",
     imagePath: "/assets/images/fullsize/schlafzimmer-ausblick-IMG_4771.webp",
@@ -70,7 +54,7 @@ export const homepageLoftSections: SectionData[] = [
   },
   {
     title: "Begehbarer Kleiderschrank",
-    sortingNumber: 9,
+    sortingNumber: 7,
     label: "homepage",
     text: "Big wardrobe and storage space<br><br>Walk-in closet with lots of storage",
     imagePath: "/assets/images/fullsize/begehbarer-kleiderschrank-IMG_4726.webp",
@@ -78,7 +62,7 @@ export const homepageLoftSections: SectionData[] = [
   },
   {
     title: "Schlafzimmer Kleiderschrank",
-    sortingNumber: 10,
+    sortingNumber: 8,
     label: "homepage",
     text: "Additional wardrobe space in bedroom",
     imagePath: "/assets/images/fullsize/Schlafzimmer_kleiderschrank_IMG_4724.webp",
@@ -86,7 +70,7 @@ export const homepageLoftSections: SectionData[] = [
   },
   {
     title: "Flügeltüren",
-    sortingNumber: 11,
+    sortingNumber: 9,
     label: "homepage",
     text: "Connector doors between sleeping and living area<br><br>Open plan design",
     imagePath: "/assets/images/fullsize/fluegeltueren-IMG_4756.webp",
@@ -94,7 +78,7 @@ export const homepageLoftSections: SectionData[] = [
   },
   {
     title: "Schlafzimmer Flügeltüren",
-    sortingNumber: 12,
+    sortingNumber: 10,
     label: "homepage",
     text: "French doors in bedroom area",
     imagePath: "/assets/images/fullsize/schlafzimmer-fluegeltueren-IMG_4775.webp",
@@ -102,7 +86,7 @@ export const homepageLoftSections: SectionData[] = [
   },
   {
     title: "Wohnzimmer Geschlossene Flügeltüren",
-    sortingNumber: 13,
+    sortingNumber: 11,
     label: "homepage",
     text: "Closed French doors in living area",
     imagePath: "/assets/images/fullsize/wohnzimmer-geschlossene-fluegeltueren-IMG_4778.webp",
@@ -110,7 +94,7 @@ export const homepageLoftSections: SectionData[] = [
   },
   {
     title: "Balkon",
-    sortingNumber: 14,
+    sortingNumber: 12,
     label: "homepage",
     text: "Balcony with access from the kitchen<br><br>Balcony area for relaxation",
     imagePath: "/assets/images/fullsize/balkon-IMG_4743.webp",
@@ -118,7 +102,7 @@ export const homepageLoftSections: SectionData[] = [
   },
   {
     title: "Ausblick Balkon",
-    sortingNumber: 15,
+    sortingNumber: 13,
     label: "homepage",
     text: "Beautiful view from the balcony",
     imagePath: "/assets/images/fullsize/ausblick-balkon-IMG_4750.webp",
@@ -126,7 +110,7 @@ export const homepageLoftSections: SectionData[] = [
   },
   {
     title: "Bad",
-    sortingNumber: 16,
+    sortingNumber: 14,
     label: "homepage",
     text: "Bath with tub, washing machine<br><br>Bathroom with tub",
     imagePath: "/assets/images/fullsize/Bad_IMG_4713.webp",
@@ -134,7 +118,7 @@ export const homepageLoftSections: SectionData[] = [
   },
   {
     title: "Grundriss 2025",
-    sortingNumber: 17,
+    sortingNumber: 15,
     label: "homepage",
     text: "Complete floor plan of the apartment<br><br>72 qm total area",
     imagePath: "/assets/images/fullsize/grundriss-adalberstr-2025.webp",
@@ -142,11 +126,35 @@ export const homepageLoftSections: SectionData[] = [
   },
   {
     title: "Garten",
-    sortingNumber: 18,
+    sortingNumber: 16,
     label: "homepage",
-    text: "Der Garten des Hauses ist eine kleine Entspannungsoase und lädt dazu ein, von Ihnen mitbenutzt zu werden. Ruhiger Gartenbereich mit schönem Ausblick.",
+    text: "Der Garten des Hauses ist eine kleine Entspannungsoase und lädt dazu ein, von Ihnen mitbenutzt zu werden.",
     imagePath: "/assets/images/fullsize/house-im-garten-IMG_4520.webp",
     imageText: "ADA36 Studio - Garten"
+  },
+  {
+    title: "Garten Detail",
+    sortingNumber: 17,
+    label: "homepage",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-garten-detail-IMG_4523.webp",
+    imageText: "Garten Detail"
+  },
+  {
+    title: "Garten von oben",
+    sortingNumber: 18,
+    label: "homepage",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-garten-von-oben_IMG_4721.webp",
+    imageText: "Garten von oben"
+  },
+  {
+    title: "Gartenausblick",
+    sortingNumber: 19,
+    label: "homepage",
+    text: "",
+    imagePath: "/assets/images/fullsize/house-gartenausblick-IMG_4528.webp",
+    imageText: "Gartenausblick"
   }
 ];
 
@@ -218,61 +226,8 @@ export const equipmentPageSections: SectionData[] = [
     imagePath: "/assets/images/fullsize/house-hausflur-IMG_4516.webp",
     imageText: "Hausflur"
   },
-  {
-    title: "Garten",
-    sortingNumber: 1009,
-    label: "equipment",
-    text: "",
-    imagePath: "/assets/images/fullsize/house-im-garten-IMG_4520.webp",
-    imageText: "Garten"
-  }
 ];
 
-// =============================================================================
-// GARDEN PAGE SECTIONS - Garden-specific images
-// =============================================================================
-export const gardenPageSections: SectionData[] = [
-  {
-    title: "Im Garten",
-    sortingNumber: 2001,
-    label: "garden",
-    text: "",
-    imagePath: "/assets/images/fullsize/house-im-garten-IMG_4520.webp",
-    imageText: "Im Garten"
-  },
-  {
-    title: "Garten",
-    sortingNumber: 2002,
-    label: "garden",
-    text: "",
-    imagePath: "/assets/images/fullsize/house-garten-IMG_4524.webp",
-    imageText: "Garten"
-  },
-  {
-    title: "Garten Detail",
-    sortingNumber: 2003,
-    label: "garden",
-    text: "",
-    imagePath: "/assets/images/fullsize/house-garten-detail-IMG_4523.webp",
-    imageText: "Garten Detail"
-  },
-  {
-    title: "Garten von oben",
-    sortingNumber: 2004,
-    label: "garden",
-    text: "",
-    imagePath: "/assets/images/fullsize/house-garten-von-oben_IMG_4721.webp",
-    imageText: "Garten von oben"
-  },
-  {
-    title: "Gartenausblick",
-    sortingNumber: 2005,
-    label: "garden",
-    text: "",
-    imagePath: "/assets/images/fullsize/house-gartenausblick-IMG_4528.webp",
-    imageText: "Gartenausblick"
-  }
-];
 
 // =============================================================================
 // NEIGHBOURHOOD PAGE SECTIONS - Neighborhood and surrounding area images
@@ -397,5 +352,4 @@ export const neighbourhoodPageSections: SectionData[] = [
 // =============================================================================
 export const homepageSections = homepageLoftSections;
 export const imageSections = equipmentPageSections;
-export const gardenSections = gardenPageSections;
 export const neighbourhoodSections = neighbourhoodPageSections;

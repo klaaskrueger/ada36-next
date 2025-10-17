@@ -2,8 +2,8 @@
   "de": {
     "sections": {
       "theLoft": {
-        "title": "Das Loft",
-        "text": "<b>Einzigartiges Loft Apartment<br />Barriere- und Provisionsfrei!</b><br /><br />Dieses charmante und großzügige 2-Zimmer Loft bietet Ihnen eine ideale Mischung aus moderner Innenarchitektur und zeitgemäßer Funktionalität in einer der begehrtesten Lagen Berlins.<br /><br /><b>Wohnen und Arbeiten: Hier können Sie es verbinden.</b><br /><br />Das Loft befindet sich im 3. Obergeschoss eines modernen Wohnhauses in der Adalbertstraße. Noch in der angesagten Mitte und nur ein paar hundert Meter bis ins hippe Kreuzberg."
+        "title": "Einzigartiges Loft Apartment - Provisionsfrei",
+        "text": "<b>Dieses charmante und großzügige 2-Zimmer Loft bietet Ihnen moderne Innenarchitektur.</br> Und das in einer der begehrtesten Lagen Berlins.</b><br /><br />Das Loft befindet sich im 3. Obergeschoss eines modernen Wohnhauses in der Adalbertstraße.<br />Noch in der angesagten Mitte und nur ein paar hundert Meter bis ins hippe Kreuzberg.<br /><br /><b>Wohnen und Arbeiten: Hier können Sie es verbinden.</b>"
       },
       "Ausführliche Beschreibung": {
         "title": "Ausführliche Beschreibung",
@@ -42,8 +42,8 @@
         "text": "Arbeitsplatz mit Internet / Elektronik, Apple TV, Sony TV<br /><br />Internet DSL, V-DSL, Wireless LAN"
       },
       "Balkon": {
-        "title": "Balkon",
-        "text": "Der Balkon hat Holzdielen auf Türschwellenhöhe und genügend Platz für ein 2er-Sofa und Tischchen für das Outdoor-Living. Barrierefreie Balkonrampe vorhanden."
+        "title": "Balkon Ausblick",
+        "text": ""
       },
       "garden": {
         "title": "Garten",
@@ -75,7 +75,7 @@
       },
       "Garten": {
         "title": "Garten",
-        "text": "Der Garten des Hauses ist eine kleine Entspannungsoase und lädt dazu ein, von Ihnen mitbenutzt zu werden. Ruhiger Gartenbereich mit schönem Ausblick."
+        "text": "Der Garten des Hauses ist eine kleine Entspannungsoase und lädt dazu ein, von Ihnen mitbenutzt zu werden."
       },
       "wohnzimmer": {
         "title": "Wohnzimmer",
@@ -85,57 +85,57 @@
         "title": "Wohnzimmer Sofa",
         "text": "Komfortabler Wohnbereich mit Sofa zum Entspannen"
       },
-      "wohnzimmeresstisch": {
-        "title": "Wohnzimmer Esstisch",
-        "text": "Essbereich mit Tisch für 4 Personen"
+      "s": {
+        "title": "S",
+        "text": "Ess-und Loungebereich"
       },
       "wohnzimmerausblick": {
-        "title": "Wohnzimmer Ausblick",
-        "text": "Schöner Ausblick aus dem Wohnzimmer"
+        "title": "Arbeitsbereich / Essbereich / Küche",
+        "text": ""
       },
       "amerikanischeküche": {
         "title": "Amerikanische Küche",
-        "text": "Grundriss als offene Küche mit Esstisch für 4 Personen. Einbauküche in offenem Küchengrundriss.<br><br>Inventar: Backofen, Kühlschrank, Tiefkühlschrank, Mikrowelle, Geschirrspülmaschine<br>Sekundärer Wasserhahn für gefiltertes Trinkwasser"
+        "text": "mit Backofen, Kühlschrank, Tiefkühlschrank, Mikrowelle, Geschirrspülmaschine<br>Sekundärer Wasserhahn für gefiltertes Trinkwasser. Markengeräte!"
       },
       "schlafzimmer": {
         "title": "Schlafzimmer",
         "text": "Schlafzimmer mit Doppelbett (160x200 cm) und großem Kleiderschrank. Walk-in Closet."
       },
       "schlafzimmerausblick": {
-        "title": "Schlafzimmer Ausblick",
-        "text": "Schöner Ausblick aus dem Schlafzimmer"
+        "title": "Detail Schlafzimmer",
+        "text": ""
       },
       "begehbarerkleiderschrank": {
-        "title": "Begehbarer Kleiderschrank",
-        "text": "Großer Kleiderschrank und Stauraum<br><br>Walk-in Closet"
+        "title": "Begehbarer Kleiderschrank / Walk-in Closet",
+        "text": ""
       },
       "schlafzimmerkleiderschrank": {
-        "title": "Schlafzimmer Kleiderschrank",
-        "text": "Zusätzlicher Kleiderschrank im Schlafzimmer"
+        "title": "Schlafzimmer Kleiderschrank mit Blick auf Walk-in Closet",
+        "text": ""
       },
       "flügeltüren": {
-        "title": "Flügeltüren",
-        "text": "Verbindungstüren zwischen Schlaf- und Wohnbereich<br><br>Offener Grundriss"
+        "title": "Flügeltüren, die Schlaf- und Wohnbereich verbinden",
+        "text": ""
       },
       "schlafzimmerflügeltüren": {
-        "title": "Schlafzimmer Flügeltüren",
-        "text": "Flügeltüren im Schlafzimmerbereich"
+        "title": "",
+        "text": ""
       },
       "wohnzimmergeschlosseneflügeltüren": {
-        "title": "Wohnzimmer Geschlossene Flügeltüren",
-        "text": "Geschlossene Flügeltüren im Wohnbereich"
+        "title": "Geschlossene Flügeltüren",
+        "text": ""
       },
       "Ausblick Balkon": {
-        "title": "Ausblick Balkon",
-        "text": "Schöner Ausblick vom Balkon"
+        "title": "",
+        "text": ""
       },
       "bad": {
-        "title": "Bad",
-        "text": "Bad mit Wanne, Waschmaschine<br><br>Badezimmer mit Wanne"
+        "title": "Bad mit Badewanne",
+        "text": ""
       },
       "grundriss2025": {
-        "title": "Grundriss 2025",
-        "text": "Vollständiger Grundriss der Wohnung<br><br>72 qm Gesamtfläche"
+        "title": "Grundriss",
+        "text": "72 qm Gesamtfläche"
       },
       "Schlafzimmer Kleiderschrank": {
         "title": "Schlafzimmer Kleiderschrank",
@@ -144,14 +144,34 @@
       "Bad": {
         "title": "Bad",
         "text": "Bad mit Wanne und Waschmaschine"
+      },
+      "ess-undloungebereich": {
+        "title": "Ess- und Loungebereich",
+        "text": ""
+      },
+      "Garten": {
+        "title": "Garten",
+        "text": "Der Garten des Hauses ist eine kleine Entspannungsoase und lädt dazu ein, von Ihnen mitbenutzt zu werden."
+      },
+      "gartendetail": {
+        "title": "Garten Detail",
+        "text": ""
+      },
+      "gartenvonoben": {
+        "title": "Garten von oben",
+        "text": ""
+      },
+      "gartenausblick": {
+        "title": "Gartenausblick",
+        "text": ""
       }
     }
   },
   "en": {
     "sections": {
       "theLoft": {
-        "title": "The Loft",
-        "text": "<b>Unique Loft Apartment<br />Barrier-free and Commission-free!</b><br /><br />This charming and spacious 2-room loft offers you an ideal blend of modern interior architecture and contemporary functionality in one of Berlin's most sought-after locations.<br /><br /><b>Living and working: You can combine them here.</b><br /><br />The loft is located on the 3rd floor of a modern residential building on Adalbertstraße. Still in trendy Mitte and only a few hundred meters to hip Kreuzberg."
+        "title": "Unique Loft Apartment - Commission-free",
+        "text": "<b>This charming and spacious 2-room loft offers you modern interior architecture.</br> And that in one of Berlin's most sought-after locations.</b><br /><br />The loft is located on the 3rd floor of a modern residential building on Adalbertstraße.<br />Still in trendy Mitte and only a few hundred meters to hip Kreuzberg.<br /><br /><b>Living and working: You can combine them here.</b>"
       },
       "Ausführliche Beschreibung": {
         "title": "Detailed Description",
@@ -190,8 +210,8 @@
         "text": "Working desk with Internet / electronics, Apple TV, Sony TV<br /><br />Internet DSL, V-DSL, Wireless LAN"
       },
       "Balkon": {
-        "title": "Balcony",
-        "text": "The balcony has wooden decking at door threshold height and enough space for a 2-seater sofa and small table for outdoor living. Barrier-free balcony ramp available."
+        "title": "Balcony View",
+        "text": ""
       },
       "garden": {
         "title": "Garden",
@@ -223,7 +243,7 @@
       },
       "Garten": {
         "title": "Garden",
-        "text": "The garden of the house is a small relaxation oasis and invites you to use it as well. Quiet garden area with beautiful view."
+        "text": "The garden of the house is a small relaxation oasis and invites you to use it as well."
       },
       "wohnzimmer": {
         "title": "Living Room",
@@ -233,57 +253,57 @@
         "title": "Living Room Sofa",
         "text": "Comfortable living area with sofa for relaxation"
       },
-      "wohnzimmeresstisch": {
-        "title": "Living Room Dining Table",
-        "text": "Dining area with table for 4 persons"
+      "s": {
+        "title": "S",
+        "text": "Dining and Lounge Area"
       },
       "wohnzimmerausblick": {
-        "title": "Living Room View",
-        "text": "Beautiful view from the living room"
+        "title": "Work Area / Dining Area / Kitchen",
+        "text": ""
       },
       "amerikanischeküche": {
         "title": "American Kitchen",
-        "text": "Floor-plan as open kitchen with dining table for 4 persons. Fitted kitchen in open plan kitchen.<br><br>Inventory: Oven, fridge, deep fridge, microwave, dish washer<br>Secondary tub for filtered drinking water"
+        "text": "with oven, fridge, deep fridge, microwave, dish washer<br>Secondary tap for filtered drinking water. Brand appliances!"
       },
       "schlafzimmer": {
         "title": "Bedroom",
         "text": "Bedroom with a double bed (160x200 cm) and a big wardrobe. Walk-in closet."
       },
       "schlafzimmerausblick": {
-        "title": "Bedroom View",
-        "text": "Beautiful view from the bedroom"
+        "title": "Bedroom Detail",
+        "text": ""
       },
       "begehbarerkleiderschrank": {
-        "title": "Walk-in Closet",
-        "text": "Big wardrobe and storage space<br><br>Walk-in closet with lots of storage"
+        "title": "Walk-in Closet / Begehbarer Kleiderschrank",
+        "text": ""
       },
       "schlafzimmerkleiderschrank": {
-        "title": "Bedroom Wardrobe",
-        "text": "Additional wardrobe space in bedroom"
+        "title": "Bedroom Wardrobe with View to Walk-in Closet",
+        "text": ""
       },
       "flügeltüren": {
-        "title": "French Doors",
-        "text": "Connector doors between sleeping and living area<br><br>Open plan design"
+        "title": "French Doors connecting Bedroom and Living Area",
+        "text": ""
       },
       "schlafzimmerflügeltüren": {
-        "title": "Bedroom French Doors",
-        "text": "French doors in bedroom area"
+        "title": "",
+        "text": ""
       },
       "wohnzimmergeschlosseneflügeltüren": {
-        "title": "Living Room Closed French Doors",
-        "text": "Closed French doors in living area"
+        "title": "Closed French Doors",
+        "text": ""
       },
       "Ausblick Balkon": {
-        "title": "Balcony View",
-        "text": "Beautiful view from the balcony"
+        "title": "",
+        "text": ""
       },
       "bad": {
-        "title": "Bathroom",
-        "text": "Bath with tub, washing machine<br><br>Bathroom with tub"
+        "title": "Bathroom with Bathtub",
+        "text": ""
       },
       "grundriss2025": {
-        "title": "Floor Plan 2025",
-        "text": "Complete floor plan of the apartment<br><br>72 qm total area"
+        "title": "Floor Plan",
+        "text": "72 qm total area"
       },
       "Schlafzimmer Kleiderschrank": {
         "title": "Bedroom Wardrobe",
@@ -292,6 +312,26 @@
       "Bad": {
         "title": "Bathroom",
         "text": "Bath with tub and washing machine"
+      },
+      "ess-undloungebereich": {
+        "title": "Dining and Lounge Area",
+        "text": ""
+      },
+      "Garten": {
+        "title": "Garden",
+        "text": "The garden of the house is a small relaxation oasis and invites you to use it as well."
+      },
+      "gartendetail": {
+        "title": "Garden Detail",
+        "text": ""
+      },
+      "gartenvonoben": {
+        "title": "Garden from Above",
+        "text": ""
+      },
+      "gartenausblick": {
+        "title": "Garden View",
+        "text": ""
       }
     }
   }
