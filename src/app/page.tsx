@@ -17,13 +17,13 @@ export default function HomePage() {
           <section className="section hero-video">
             <div className="video-container">
               <iframe 
-                src="https://player.vimeo.com/video/1127898937?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                src="https://player.vimeo.com/video/1128258021?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;loop=1" 
                 width="1920" 
                 height="1080" 
                 frameBorder="0" 
                 allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
                 referrerPolicy="strict-origin-when-cross-origin" 
-                title="adalbertstr-movie"
+                title="Ada36"
                 className="hero-video-iframe"
               ></iframe>
             </div>
