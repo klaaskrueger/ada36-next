@@ -97,7 +97,7 @@ export const documents: DocumentData[] = [
   {
     id: "grundriss-bemasst",
     title: "Grundriss bemasst aus Teilungserklärung",
-    filename: "Grundriss bemasst aus Teilungserklärung.jpg",
+    filename: "Grundriss bemasst aus Teilungserklärung.pdf",
     category: "Grundriss"
   },
   {
