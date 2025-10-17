@@ -48,7 +48,7 @@ export const defaultSEOConfig: SEOConfig = {
   ],
   openGraph: {
     type: "website",
-    images: ["https://ada36.de/assets/images/fullsize/Wohnzimmer-IMG_4759.webp"]
+    images: ["https://ada36.de/assets/images/fullsize/Wohnzimmer-IMG_4759-whatsapp.jpg?v=2"]
   }
 };
 
@@ -107,7 +107,7 @@ export const realEstateStructuredData = {
   "description": "Minimalistisches 2-Zimmer-Loft im Herzen von Kreuzberg, Berlin zum Verkauf. Perfekte Investment-Immobilie oder Traumwohnung.",
   "url": "https://ada36.de",
   "image": [
-    "https://ada36.de/assets/images/fullsize/Wohnzimmer-IMG_4759.webp",
+    "https://ada36.de/assets/images/fullsize/Wohnzimmer-IMG_4759-whatsapp.jpg?v=2",
     "https://ada36.de/assets/images/fullsize/amerikanische-Kueche-IMG_4737.webp",
     "https://ada36.de/assets/images/fullsize/Schlafzimmer_IMG_4722.webp"
   ],
