@@ -12,8 +12,8 @@
         "text": ""
       },
       "Küche": {
-        "title": "Küche",
-        "text": "Einbauküche mit Markengeräten: Induktionsherd mit Abzugshaube, Backofen, Mikrowelle, Geschirrspülmaschine, großer Kühl- und Gefrierschrank. Hochwertiges Eichenparkett in allen Zimmern."
+        "title": "",
+        "text": ""
       },
       "Schlafbereich": {
         "title": "Schlafbereich",
@@ -55,6 +55,18 @@
         "title": "Hausflur",
         "text": ""
       },
+      "Schlafzimmer Kleiderschrank": {
+        "title": "Schlafzimmer Kleiderschrank",
+        "text": "Begehbarer Kleiderschrank und Stauraum. Walk-in closet mit viel Stauraum für Kleidung und persönliche Gegenstände."
+      },
+      "Bad": {
+        "title": "Bad",
+        "text": "Bad mit Wanne und Waschmaschine"
+      },
+      "Garten": {
+        "title": "Garten",
+        "text": "Der Garten des Hauses ist eine kleine Entspannungsoase und lädt dazu ein, von Ihnen mitbenutzt zu werden. Ruhiger Gartenbereich mit schönem Ausblick."
+      },
       "Investment": {
         "title": "Renditeobjekt",
         "text": "Das Loft wurde sechs Jahre erfolgreich möbliert vermietet. Letzte Mieteinnahme: 1850 Euro/Monat. (Unterlagen zur Einsicht vorhanden)"
@@ -78,8 +90,8 @@
         "text": ""
       },
       "Küche": {
-        "title": "Kitchen",
-        "text": "Fitted kitchen with brand-name appliances: Induction stovetop with exhaust hood, oven, microwave, dishwasher, large refrigerator-freezer combination. High-quality oak parquet flooring in all rooms."
+        "title": "",
+        "text": ""
       },
       "Schlafbereich": {
         "title": "Sleeping Area",
@@ -124,6 +136,14 @@
       "Hausflur": {
         "title": "Hallway",
         "text": ""
+      },
+      "Schlafzimmer Kleiderschrank": {
+        "title": "Bedroom Wardrobe",
+        "text": "Walk-in closet and storage space. Walk-in closet with lots of storage for clothing and personal items."
+      },
+      "Bad": {
+        "title": "Bathroom",
+        "text": "Bathroom with bathtub and washing machine. Fully equipped bathroom with modern appliances."
       },
       "Investment": {
         "title": "Investment Property",

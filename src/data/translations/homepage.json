@@ -41,7 +41,7 @@
         "title": "Arbeitsbereich",
         "text": "Arbeitsplatz mit Internet / Elektronik, Apple TV, Sony TV<br /><br />Internet DSL, V-DSL, Wireless LAN"
       },
-      "balcony": {
+      "Balkon": {
         "title": "Balkon",
         "text": "Der Balkon hat Holzdielen auf Türschwellenhöhe und genügend Platz für ein 2er-Sofa und Tischchen für das Outdoor-Living. Barrierefreie Balkonrampe vorhanden."
       },
@@ -76,6 +76,74 @@
       "Garten": {
         "title": "Garten",
         "text": "Der Garten des Hauses ist eine kleine Entspannungsoase und lädt dazu ein, von Ihnen mitbenutzt zu werden. Ruhiger Gartenbereich mit schönem Ausblick."
+      },
+      "wohnzimmer": {
+        "title": "Wohnzimmer",
+        "text": "Wohnbereich mit einem Schlafsofa.<br><br>Apple TV, Sony TV<br>Internet DSL, V-DSL, Wireless LAN, BluRay Player, Hifi"
+      },
+      "wohnzimmersofa": {
+        "title": "Wohnzimmer Sofa",
+        "text": "Komfortabler Wohnbereich mit Sofa zum Entspannen"
+      },
+      "wohnzimmeresstisch": {
+        "title": "Wohnzimmer Esstisch",
+        "text": "Essbereich mit Tisch für 4 Personen"
+      },
+      "wohnzimmerausblick": {
+        "title": "Wohnzimmer Ausblick",
+        "text": "Schöner Ausblick aus dem Wohnzimmer"
+      },
+      "amerikanischeküche": {
+        "title": "Amerikanische Küche",
+        "text": "Grundriss als offene Küche mit Esstisch für 4 Personen. Einbauküche in offenem Küchengrundriss.<br><br>Inventar: Backofen, Kühlschrank, Tiefkühlschrank, Mikrowelle, Geschirrspülmaschine<br>Sekundärer Wasserhahn für gefiltertes Trinkwasser"
+      },
+      "schlafzimmer": {
+        "title": "Schlafzimmer",
+        "text": "Schlafzimmer mit Doppelbett (160x200 cm) und großem Kleiderschrank. Walk-in Closet."
+      },
+      "schlafzimmerausblick": {
+        "title": "Schlafzimmer Ausblick",
+        "text": "Schöner Ausblick aus dem Schlafzimmer"
+      },
+      "begehbarerkleiderschrank": {
+        "title": "Begehbarer Kleiderschrank",
+        "text": "Großer Kleiderschrank und Stauraum<br><br>Walk-in Closet mit viel Stauraum"
+      },
+      "schlafzimmerkleiderschrank": {
+        "title": "Schlafzimmer Kleiderschrank",
+        "text": "Zusätzlicher Kleiderschrank im Schlafzimmer"
+      },
+      "flügeltüren": {
+        "title": "Flügeltüren",
+        "text": "Verbindungstüren zwischen Schlaf- und Wohnbereich<br><br>Offener Grundriss"
+      },
+      "schlafzimmerflügeltüren": {
+        "title": "Schlafzimmer Flügeltüren",
+        "text": "Flügeltüren im Schlafzimmerbereich"
+      },
+      "wohnzimmergeschlosseneflügeltüren": {
+        "title": "Wohnzimmer Geschlossene Flügeltüren",
+        "text": "Geschlossene Flügeltüren im Wohnbereich"
+      },
+      "Ausblick Balkon": {
+        "title": "Ausblick Balkon",
+        "text": "Schöner Ausblick vom Balkon"
+      },
+      "bad": {
+        "title": "Bad",
+        "text": "Bad mit Wanne, Waschmaschine<br><br>Badezimmer mit Wanne"
+      },
+      "grundriss2025": {
+        "title": "Grundriss 2025",
+        "text": "Vollständiger Grundriss der Wohnung<br><br>72 qm Gesamtfläche"
+      },
+      "Schlafzimmer Kleiderschrank": {
+        "title": "Schlafzimmer Kleiderschrank",
+        "text": "Zusätzlicher Kleiderschrank im Schlafzimmer"
+      },
+      "Bad": {
+        "title": "Bad",
+        "text": "Bad mit Wanne und Waschmaschine"
       }
     }
   },
@@ -121,7 +189,7 @@
         "title": "Working",
         "text": "Working desk with Internet / electronics, Apple TV, Sony TV<br /><br />Internet DSL, V-DSL, Wireless LAN"
       },
-      "balcony": {
+      "Balkon": {
         "title": "Balcony",
         "text": "The balcony has wooden decking at door threshold height and enough space for a 2-seater sofa and small table for outdoor living. Barrier-free balcony ramp available."
       },
@@ -156,6 +224,74 @@
       "Garten": {
         "title": "Garden",
         "text": "The garden of the house is a small relaxation oasis and invites you to use it as well. Quiet garden area with beautiful view."
+      },
+      "wohnzimmer": {
+        "title": "Living Room",
+        "text": "Living area with a sleeping couch.<br><br>Apple TV, Sony TV<br>Internet DSL, V-DSL, Wireless LAN, BluRay Player, Hifi"
+      },
+      "wohnzimmersofa": {
+        "title": "Living Room Sofa",
+        "text": "Comfortable living area with sofa for relaxation"
+      },
+      "wohnzimmeresstisch": {
+        "title": "Living Room Dining Table",
+        "text": "Dining area with table for 4 persons"
+      },
+      "wohnzimmerausblick": {
+        "title": "Living Room View",
+        "text": "Beautiful view from the living room"
+      },
+      "amerikanischeküche": {
+        "title": "American Kitchen",
+        "text": "Floor-plan as open kitchen with dining table for 4 persons. Fitted kitchen in open plan kitchen.<br><br>Inventory: Oven, fridge, deep fridge, microwave, dish washer<br>Secondary tub for filtered drinking water"
+      },
+      "schlafzimmer": {
+        "title": "Bedroom",
+        "text": "Bedroom with a double bed (160x200 cm) and a big wardrobe. Walk-in closet."
+      },
+      "schlafzimmerausblick": {
+        "title": "Bedroom View",
+        "text": "Beautiful view from the bedroom"
+      },
+      "begehbarerkleiderschrank": {
+        "title": "Walk-in Closet",
+        "text": "Big wardrobe and storage space<br><br>Walk-in closet with lots of storage"
+      },
+      "schlafzimmerkleiderschrank": {
+        "title": "Bedroom Wardrobe",
+        "text": "Additional wardrobe space in bedroom"
+      },
+      "flügeltüren": {
+        "title": "French Doors",
+        "text": "Connector doors between sleeping and living area<br><br>Open plan design"
+      },
+      "schlafzimmerflügeltüren": {
+        "title": "Bedroom French Doors",
+        "text": "French doors in bedroom area"
+      },
+      "wohnzimmergeschlosseneflügeltüren": {
+        "title": "Living Room Closed French Doors",
+        "text": "Closed French doors in living area"
+      },
+      "Ausblick Balkon": {
+        "title": "Balcony View",
+        "text": "Beautiful view from the balcony"
+      },
+      "bad": {
+        "title": "Bathroom",
+        "text": "Bath with tub, washing machine<br><br>Bathroom with tub"
+      },
+      "grundriss2025": {
+        "title": "Floor Plan 2025",
+        "text": "Complete floor plan of the apartment<br><br>72 qm total area"
+      },
+      "Schlafzimmer Kleiderschrank": {
+        "title": "Bedroom Wardrobe",
+        "text": "Additional wardrobe space in bedroom"
+      },
+      "Bad": {
+        "title": "Bathroom",
+        "text": "Bath with tub and washing machine"
       }
     }
   }

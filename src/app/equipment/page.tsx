@@ -4,7 +4,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import SectionI18n from '@/components/sections/SectionI18n';
 import { navigationItems } from '@/data/navigation';
-import { imageSections } from '@/data/sections';
+import { equipmentPageSections } from '@/data/sections';
 import imagesTranslations from '@/data/translations/images.json';
 
 export default function ImagesPage() {
@@ -16,7 +16,7 @@ export default function ImagesPage() {
       <Header navigationItems={navigationItems} currentPath="/equipment" />
       <main className="page-content">
         <div className="container">
-          {imageSections.map((section) => {
+          {equipmentPageSections.map((section) => {
             const shouldShowTitle = !shownTitles.has(section.title);
             if (shouldShowTitle) {
               shownTitles.add(section.title);

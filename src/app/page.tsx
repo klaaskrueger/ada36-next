@@ -4,7 +4,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import SectionI18n from '@/components/sections/SectionI18n';
 import { navigationItems } from '@/data/navigation';
-import { homepageSections } from '@/data/sections';
+import { homepageLoftSections } from '@/data/sections';
 import homepageTranslations from '@/data/translations/homepage.json';
 
 export default function HomePage() {
@@ -29,8 +29,8 @@ export default function HomePage() {
             </div>
           </section>
 
-          {/* Homepage Sections */}
-          {homepageSections.map((section) => (
+          {/* Homepage Loft Sections */}
+          {homepageLoftSections.map((section) => (
             <SectionI18n 
               key={section.sortingNumber} 
               section={section} 

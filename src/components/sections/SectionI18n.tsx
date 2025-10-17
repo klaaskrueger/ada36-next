@@ -46,6 +46,9 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
       'Im Garten': 'sections.Im Garten',
       'Hausflur': 'sections.Hausflur',
       'Ausstattung': 'sections.Ausstattung',
+      'Schlafzimmer Kleiderschrank': 'sections.Schlafzimmer Kleiderschrank',
+      'Bad': 'sections.Bad',
+      'Ausblick Balkon': 'sections.Ausblick Balkon',
       // English titles (fallback)
       'Living Area': 'sections.livingArea',
       'Living Area Night': 'sections.livingAreaNight',
@@ -117,22 +120,13 @@ const SectionI18n: React.FC<SectionI18nProps> = ({ section, translations, classN
       </div>
       <div className="columns">
         <div className="content-image">
-          {section.imagePath && (() => {
-            const imageConfig = getImageConfig(section.imagePath);
-            return (
-              <Image
-                src={section.imagePath}
-                alt={section.imageText}
-                className="section-image"
-                width={imageConfig.width}
-                height={imageConfig.height}
-                priority={imageConfig.priority}
-                sizes={getOptimizedSizes(imageConfig.aspectRatio)}
-                placeholder="blur"
-                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
-              />
-            );
-          })()}
+          {section.imagePath && (
+            <img
+              src={section.imagePath}
+              alt={section.imageText}
+              className="section-image"
+            />
+          )}
         </div>
       </div>
     </section>

@@ -4,7 +4,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import SectionI18n from '@/components/sections/SectionI18n';
 import { navigationItems } from '@/data/navigation';
-import { gardenSections } from '@/data/sections';
+import { gardenPageSections } from '@/data/sections';
 import gardenTranslations from '@/data/translations/garden.json';
 
 export default function GardenPage() {
@@ -16,7 +16,7 @@ export default function GardenPage() {
       <Header navigationItems={navigationItems} currentPath="/garden" />
       <main className="page-content">
         <div className="container">
-          {gardenSections.map((section) => {
+          {gardenPageSections.map((section) => {
             const shouldShowTitle = !shownTitles.has(section.title);
             if (shouldShowTitle) {
               shownTitles.add(section.title);

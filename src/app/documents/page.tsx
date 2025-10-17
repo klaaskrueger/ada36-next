@@ -24,16 +24,17 @@ export default function DocumentsPage() {
   return (
     <>
       <Header navigationItems={navigationItems} currentPath="/documents" />
-      <main className="page-content">
+      <main className="page-content documents-page">
         <div className="container">
           <div className="columns">
             <div className="content">
               <div className="port-text">
                 <h1 className="title">{t('pageTitle')}</h1>
-                <p className="text">{t('pageDescription').split('\n').map((line, index) => (
+                <p className="text">{t('pageDescription').split('. ').map((sentence, index) => (
                   <span key={index}>
-                    {line}
-                    {index < t('pageDescription').split('\n').length - 1 && <br />}
+                    {sentence}{index === 0 ? '.' : ''}
+                    {index === 0 && <br />}
+                    {index > 0 && index < t('pageDescription').split('. ').length - 1 && '. '}
                   </span>
                 ))}</p>
               </div>
@@ -54,8 +55,8 @@ export default function DocumentsPage() {
                   </svg>
                 </div>
                 <div className="document-info">
-                  <h3 className="document-title">{document.title}</h3>
-                  <div className="document-meta">
+                  <div className="document-title-row">
+                    <h3 className="document-title">{document.title}</h3>
                     <span className="document-category">{t(`categories.${document.category}`)}</span>
                   </div>
                 </div>

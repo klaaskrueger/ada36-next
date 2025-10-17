@@ -48,6 +48,33 @@ export const imageConfigs: Record<string, ImageConfig> = {
   'living-night.webp': { width: 1200, height: 800, aspectRatio: 1.5 },
   'kitchen-01.webp': { width: 1200, height: 800, aspectRatio: 1.5 },
   'kitchen-02.webp': { width: 1200, height: 800, aspectRatio: 1.5 },
+  
+  // 2025 New images
+  'house-im-garten-IMG_4520.webp': { width: 1200, height: 800, aspectRatio: 1.5 },
+  
+  // 2025 Flat images (4032x2268 = 16:9 aspect ratio)
+  'Bad_IMG_4713.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'amerikanische-Kueche-IMG_4737.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'ausblick-balkon-IMG_4750.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'balkon-IMG_4743.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'fluegeltueren-IMG_4756.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'schlafzimmer-fluegeltueren-IMG_4775.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'wohnzimmer-geschlossene-fluegeltueren-IMG_4778.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'wohnzimmer_IMG_4728.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'Wohnzimmer-IMG_4759.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  
+  // 2025 Flat images (5712x3213 = 16:9 aspect ratio)
+  'Schlafzimmer_IMG_4722.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'Schlafzimmer_kleiderschrank_IMG_4724.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'Wohnzimmer-sofa-IMG_4731.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'schlafzimmer-ausblick-IMG_4771.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'wohnzimmer-IMG_4754.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'wohnzimmer-ausblick-IMG_4730.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'wohnzimmer-esstisch-IMG_4733.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  'begehbarer-kleiderschrank-IMG_4726.webp': { width: 1200, height: 675, aspectRatio: 1.78 },
+  
+  // 2025 Flat images (2000x1548 = 4:3 aspect ratio)
+  'grundriss-adalberstr-2025.webp': { width: 1200, height: 900, aspectRatio: 1.33 },
 };
 
 // Default configuration for unknown images
