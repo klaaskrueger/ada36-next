@@ -2,7 +2,7 @@
 
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import SectionI18n from '@/components/sections/SectionI18n';
+import SectionHomepage from '@/components/sections/SectionHomepage';
 import { navigationItems } from '@/data/navigation';
 import { homepageLoftSections } from '@/data/sections';
 import homepageTranslations from '@/data/translations/homepage.json';
@@ -31,7 +31,7 @@ export default function HomePage() {
 
           {/* Homepage Loft Sections */}
           {homepageLoftSections.map((section) => (
-            <SectionI18n 
+            <SectionHomepage 
               key={section.sortingNumber} 
               section={section} 
               translations={homepageTranslations}

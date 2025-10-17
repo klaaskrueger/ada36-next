@@ -2,10 +2,10 @@
 
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import SectionI18n from '@/components/sections/SectionI18n';
+import SectionEquipment from '@/components/sections/SectionEquipment';
 import { navigationItems } from '@/data/navigation';
 import { equipmentPageSections } from '@/data/sections';
-import imagesTranslations from '@/data/translations/images.json';
+import equipmentTranslations from '@/data/translations/equipment.json';
 
 export default function ImagesPage() {
   // Track which titles we've already shown to avoid duplicates
@@ -23,10 +23,10 @@ export default function ImagesPage() {
             }
             
             return (
-              <SectionI18n 
+              <SectionEquipment 
                 key={section.sortingNumber} 
                 section={section} 
-                translations={imagesTranslations}
+                translations={equipmentTranslations}
                 showTitle={shouldShowTitle}
               />
             );

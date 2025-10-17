@@ -1,155 +1,155 @@
 {
   "de": {
-    "pageTitle": "Bildergalerie",
-    "pageDescription": "Entdecken Sie unsere umfassende Bildergalerie des ADA36 Studios in Kreuzberg, Berlin. Professionelle Fotos zeigen alle Bereiche des minimalistischen Lofts.",
+    "pageTitle": "Ausstattung",
+    "pageDescription": "Entdecken Sie die vollständige Ausstattung des ADA36 Studios in Kreuzberg, Berlin. Moderne Möbel und Geräte für einen komfortablen Aufenthalt.",
     "sections": {
       "equipmentAusstattung": {
         "title": "Ausstattung",
         "text": "<p><strong>Einbauküche mit Markengeräten</strong><br />• Induktionsherd mit Abzugshaube<br />• Backofen<br />• Mikrowelle<br />• Geschirrspülmaschine<br />• Großer Kühl- und Gefrierschrank</p><br /><p>Hochwertiges Eichenparkett in allen Zimmern<br />Das Bad mit großen weißen Kacheln gefliest</p><p>Der Balkon hat Holzdielen auf Türschwellenhöhe und genügend Platz für ein 2er-Sofa und Tischchen für das Outdoor-Living.</p><p>Fahrstuhl vorhanden<br />Breite Flügeltüren<br />Barrierefreie Balkonrampe</p><h3>Bei Nutzung als Renditeobjekt</h3><p>Das Loft wurde sechs Jahre erfolgreich möbliert vermietet<br />Letzte Mieteinnahme: 1850 Euro/Monat<br />(Unterlagen zur Einsicht vorhanden)</p><h3>Zustand & Renovierung</h3><p>Die Wohnung wurde 2017 komplett saniert und 2025 renoviert.<br />Sie befindet sich in einem sehr gepflegten Zustand.</p><h3>Besichtigung</h3><p>Die Wohnung kann nach Vereinbarung zeitnah besichtigt werden.<br />Rufen Sie uns gerne an.<br />Falls Sie uns nicht sofort erreichen, schicken Sie uns gerne eine WhatsApp oder eine E-Mail.<br />Wir melden uns so schnell es geht.</p>"
       },
-      "Wohnbereich": {
+      "equipmentKüche": {
+        "title": "Küche",
+        "text": "Vollständig ausgestattete Küche mit allen notwendigen Geräten und modernen Möbeln."
+      },
+      "equipmentWohnbereich": {
         "title": "Wohnbereich",
-        "text": ""
+        "text": "Komfortabler Wohnbereich mit modernen Möbeln und gemütlicher Einrichtung."
       },
-      "Küche": {
-        "title": "",
-        "text": ""
-      },
-      "Schlafbereich": {
+      "equipmentSchlafbereich": {
         "title": "Schlafbereich",
-        "text": ""
+        "text": "Ruhiger Schlafbereich mit hochwertigen Möbeln und ausreichend Stauraum."
       },
-      "Badezimmer": {
+      "equipmentBadezimmer": {
         "title": "Badezimmer",
         "text": "Das Bad mit großen weißen Kacheln gefliest. Hochwertige Ausstattung für modernen Komfort."
       },
-      "Balkon": {
+      "equipmentBalkon": {
         "title": "Balkon",
         "text": "Der Balkon hat Holzdielen auf Türschwellenhöhe und genügend Platz für ein 2er-Sofa und Tischchen für das Outdoor-Living. Barrierefreie Balkonrampe vorhanden."
       },
-      "Arbeitsbereich": {
+      "equipmentArbeitsbereich": {
         "title": "Arbeitsbereich",
-        "text": ""
+        "text": "Funktionaler Arbeitsbereich mit moderner Technik und ergonomischen Möbeln."
       },
-      "Eingang": {
+      "equipmentEingang": {
         "title": "Eingang",
-        "text": ""
+        "text": "Großzügiger Eingangsbereich mit praktischen Einbauschränken."
       },
-      "Details": {
+      "equipmentDetails": {
         "title": "Details",
-        "text": ""
+        "text": "Liebevoll gestaltete Details und hochwertige Materialien."
       },
-      "Grundriss": {
+      "equipmentGrundriss": {
         "title": "Grundriss",
-        "text": ""
+        "text": "Übersichtlicher Grundriss der Wohnung mit allen Räumen."
       },
-      "Außenansicht": {
+      "equipmentAußenansicht": {
         "title": "Außenansicht",
-        "text": ""
+        "text": "Moderne Außenansicht des Gebäudes in zentraler Lage."
       },
-      "Fahrstuhl": {
+      "equipmentFahrstuhl": {
         "title": "Fahrstuhl",
         "text": "Fahrstuhl vorhanden für bequemen Zugang zu allen Etagen."
       },
-      "Hausflur": {
+      "equipmentHausflur": {
         "title": "Hausflur",
-        "text": ""
+        "text": "Sauberer und moderner Hausflur mit guter Beleuchtung."
       },
-      "Schlafzimmer Kleiderschrank": {
+      "equipmentSchlafzimmerKleiderschrank": {
         "title": "Schlafzimmer Kleiderschrank",
         "text": "Begehbarer Kleiderschrank und Stauraum. Walk-in closet mit viel Stauraum für Kleidung und persönliche Gegenstände."
       },
-      "Bad": {
+      "equipmentBad": {
         "title": "Bad",
-        "text": "Bad mit Wanne und Waschmaschine"
+        "text": "Bad mit Wanne und Waschmaschine. Vollständig ausgestattetes Badezimmer."
       },
-      "Garten": {
+      "equipmentGarten": {
         "title": "Garten",
         "text": "Der Garten des Hauses ist eine kleine Entspannungsoase und lädt dazu ein, von Ihnen mitbenutzt zu werden. Ruhiger Gartenbereich mit schönem Ausblick."
       },
-      "Investment": {
+      "equipmentInvestment": {
         "title": "Renditeobjekt",
         "text": "Das Loft wurde sechs Jahre erfolgreich möbliert vermietet. Letzte Mieteinnahme: 1850 Euro/Monat. (Unterlagen zur Einsicht vorhanden)"
       },
-      "Zustand": {
+      "equipmentZustand": {
         "title": "Zustand & Renovierung",
         "text": "Die Wohnung wurde 2017 komplett saniert und 2025 renoviert. Sie befindet sich in einem sehr gepflegten Zustand."
       }
     }
   },
   "en": {
-    "pageTitle": "Image Gallery",
-    "pageDescription": "Discover our comprehensive image gallery of the ADA36 Studio in Kreuzberg, Berlin. Professional photos show all areas of the minimalist loft.",
+    "pageTitle": "Equipment",
+    "pageDescription": "Discover the complete equipment of the ADA36 Studio in Kreuzberg, Berlin. Modern furniture and appliances for a comfortable stay.",
     "sections": {
-      "Ausstattung": {
+      "equipmentAusstattung": {
         "title": "Equipment",
         "text": "<p><strong>Fitted kitchen with brand-name appliances</strong><br />• Induction stovetop with exhaust hood<br />• Oven<br />• Microwave<br />• Dishwasher<br />• Large refrigerator-freezer combination</p><br /><p>High-quality oak parquet flooring in all rooms<br />The bathroom with large white tiles</p><p>The balcony has wooden decking at door threshold height and enough space for a 2-seater sofa and small table for outdoor living.</p><p>Elevator available<br />Wide French doors<br />Barrier-free balcony ramp</p><h3>As an investment property</h3><p>The loft was successfully rented furnished for six years<br />Last rental income: 1850 euros/month<br />(Documentation available for inspection)</p><h3>Condition & renovation</h3><p>The apartment was completely renovated in 2017 and refreshed in 2025.<br />It is in very well-maintained condition.</p><h3>Viewing</h3><p>The apartment can be viewed promptly by appointment.<br />Please feel free to call us.<br />If you don't reach us immediately, please send us a WhatsApp or an email.<br />We will get back to you as soon as possible.</p>"
       },
-      "Wohnbereich": {
+      "equipmentKüche": {
+        "title": "Kitchen",
+        "text": "Fully equipped kitchen with all necessary appliances and modern furniture."
+      },
+      "equipmentWohnbereich": {
         "title": "Living Area",
-        "text": ""
+        "text": "Comfortable living area with modern furniture and cozy furnishings."
       },
-      "Küche": {
-        "title": "",
-        "text": ""
-      },
-      "Schlafbereich": {
+      "equipmentSchlafbereich": {
         "title": "Sleeping Area",
-        "text": ""
+        "text": "Quiet sleeping area with high-quality furniture and plenty of storage space."
       },
-      "Badezimmer": {
+      "equipmentBadezimmer": {
         "title": "Bathroom",
         "text": "The bathroom with large white tiles. High-quality equipment for modern comfort."
       },
-      "Balkon": {
+      "equipmentBalkon": {
         "title": "Balcony",
         "text": "The balcony has wooden decking at door threshold height and enough space for a 2-seater sofa and small table for outdoor living. Barrier-free balcony ramp available."
       },
-      "Arbeitsbereich": {
+      "equipmentArbeitsbereich": {
         "title": "Working Area",
-        "text": ""
+        "text": "Functional working area with modern technology and ergonomic furniture."
       },
-      "Eingang": {
+      "equipmentEingang": {
         "title": "Entrance",
-        "text": ""
+        "text": "Spacious entrance area with practical built-in cabinets."
       },
-      "Details": {
+      "equipmentDetails": {
         "title": "Details",
-        "text": ""
+        "text": "Lovingly designed details and high-quality materials."
       },
-      "Grundriss": {
+      "equipmentGrundriss": {
         "title": "Floorplan",
-        "text": ""
+        "text": "Clear floor plan of the apartment with all rooms."
       },
-      "Außenansicht": {
+      "equipmentAußenansicht": {
         "title": "Exterior View",
-        "text": ""
+        "text": "Modern exterior view of the building in a central location."
       },
-      "Fahrstuhl": {
+      "equipmentFahrstuhl": {
         "title": "Elevator",
         "text": "Elevator available for convenient access to all floors."
       },
-      "Garten": {
+      "equipmentGarten": {
         "title": "Garden",
         "text": "The garden of the house is a small relaxation oasis and invites you to use it as well."
       },
-      "Hausflur": {
+      "equipmentHausflur": {
         "title": "Hallway",
-        "text": ""
+        "text": "Clean and modern hallway with good lighting."
       },
-      "Schlafzimmer Kleiderschrank": {
+      "equipmentSchlafzimmerKleiderschrank": {
         "title": "Bedroom Wardrobe",
         "text": "Walk-in closet and storage space. Walk-in closet with lots of storage for clothing and personal items."
       },
-      "Bad": {
+      "equipmentBad": {
         "title": "Bathroom",
         "text": "Bathroom with bathtub and washing machine. Fully equipped bathroom with modern appliances."
       },
-      "Investment": {
+      "equipmentInvestment": {
         "title": "Investment Property",
         "text": "The loft was successfully rented furnished for six years. Last rental income: 1850 euros/month. (Documentation available for inspection)"
       },
-      "Zustand": {
+      "equipmentZustand": {
         "title": "Condition & Renovation",
         "text": "The apartment was completely renovated in 2017 and refreshed in 2025. It is in very well-maintained condition."
       }

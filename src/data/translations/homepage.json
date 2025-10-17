@@ -3,7 +3,7 @@
     "sections": {
       "theLoft": {
         "title": "Das Loft",
-        "text": "<b>Einzigartiges Loft Apartment<br />Barriere- und Provisionsfrei!</b><br /><br />Dieses charmante und großzügige 2-Zimmer Loft bietet Ihnen eine ideale Mischung aus moderner Innenarchitektur und zeitgemäßer Funktionalität in einer der begehrtesten Lagen Berlins.<br /><br /><b>Wohnen und Arbeiten:</b> Hier können Sie es verbinden.<br /><br />Das Loft befindet sich im 3. Obergeschoss eines modernen Wohnhauses in der Adalbertstraße. Noch in der angesagten Mitte und nur ein paar hundert Meter bis ins hippe Kreuzberg."
+        "text": "<b>Einzigartiges Loft Apartment<br />Barriere- und Provisionsfrei!</b><br /><br />Dieses charmante und großzügige 2-Zimmer Loft bietet Ihnen eine ideale Mischung aus moderner Innenarchitektur und zeitgemäßer Funktionalität in einer der begehrtesten Lagen Berlins.<br /><br /><b>Wohnen und Arbeiten: Hier können Sie es verbinden.</b><br /><br />Das Loft befindet sich im 3. Obergeschoss eines modernen Wohnhauses in der Adalbertstraße. Noch in der angesagten Mitte und nur ein paar hundert Meter bis ins hippe Kreuzberg."
       },
       "Ausführliche Beschreibung": {
         "title": "Ausführliche Beschreibung",
@@ -51,7 +51,7 @@
       },
       "wardrobe": {
         "title": "Walk-in Closet",
-        "text": "Großer Kleiderschrank mit viel Stauraum<br /><br />Walk-in Closet mit viel Stauraum"
+        "text": "Großer Kleiderschrank mit viel Stauraum<br /><br />Walk-in Closet"
       },
       "connector": {
         "title": "Verbindung",
@@ -107,7 +107,7 @@
       },
       "begehbarerkleiderschrank": {
         "title": "Begehbarer Kleiderschrank",
-        "text": "Großer Kleiderschrank und Stauraum<br><br>Walk-in Closet mit viel Stauraum"
+        "text": "Großer Kleiderschrank und Stauraum<br><br>Walk-in Closet"
       },
       "schlafzimmerkleiderschrank": {
         "title": "Schlafzimmer Kleiderschrank",
@@ -151,7 +151,7 @@
     "sections": {
       "theLoft": {
         "title": "The Loft",
-        "text": "<b>Unique Loft Apartment<br />Barrier-free and Commission-free!</b><br /><br />This charming and spacious 2-room loft offers you an ideal blend of modern interior architecture and contemporary functionality in one of Berlin's most sought-after locations.<br /><br /><b>Living and working:</b> You can combine them here.<br /><br />The loft is located on the 3rd floor of a modern residential building on Adalbertstraße. Still in trendy Mitte and only a few hundred meters to hip Kreuzberg."
+        "text": "<b>Unique Loft Apartment<br />Barrier-free and Commission-free!</b><br /><br />This charming and spacious 2-room loft offers you an ideal blend of modern interior architecture and contemporary functionality in one of Berlin's most sought-after locations.<br /><br /><b>Living and working: You can combine them here.</b><br /><br />The loft is located on the 3rd floor of a modern residential building on Adalbertstraße. Still in trendy Mitte and only a few hundred meters to hip Kreuzberg."
       },
       "Ausführliche Beschreibung": {
         "title": "Detailed Description",

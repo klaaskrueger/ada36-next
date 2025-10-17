@@ -156,72 +156,72 @@ export const homepageLoftSections: SectionData[] = [
 export const equipmentPageSections: SectionData[] = [
   {
     title: "Küche",
-    sortingNumber: 1,
-    label: "images",
+    sortingNumber: 1001,
+    label: "equipment",
     text: "",
     imagePath: "/assets/images/fullsize/amerikanische-Kueche-IMG_4737.webp",
     imageText: "Küche"
   },
   {
     title: "Ausstattung",
-    sortingNumber: 2,
-    label: "images",
+    sortingNumber: 1002,
+    label: "equipment",
     text: "Vollständige Ausstattung der Wohnung mit modernen Möbeln und Geräten.<br><br>Alle Räume sind vollständig möbliert und ausgestattet für einen komfortablen Aufenthalt.",
     imagePath: "",
     imageText: "Ausstattung"
   },
   {
     title: "Küche",
-    sortingNumber: 3,
-    label: "images",
+    sortingNumber: 1003,
+    label: "equipment",
     text: "Küchenausstattung und Geräte<br><br>Vollständig ausgestattete Küche mit allen notwendigen Geräten",
     imagePath: "/assets/images/fullsize/wohnzimmer-esstisch-IMG_4733.webp",
     imageText: "Küche Esstisch"
   },
   {
     title: "Schlafzimmer Kleiderschrank",
-    sortingNumber: 4,
-    label: "images",
+    sortingNumber: 1004,
+    label: "equipment",
     text: "Begehbarer Kleiderschrank und Stauraum<br><br>Walk-in closet with lots of storage space",
     imagePath: "/assets/images/fullsize/begehbarer-kleiderschrank-IMG_4726.webp",
     imageText: "Begehbarer Kleiderschrank"
   },
   {
     title: "Bad",
-    sortingNumber: 5,
-    label: "images",
+    sortingNumber: 1005,
+    label: "equipment",
     text: "Badezimmer mit Badewanne und Waschmaschine<br><br>Vollständig ausgestattetes Badezimmer",
     imagePath: "/assets/images/fullsize/Bad_IMG_4713.webp",
     imageText: "Bad"
   },
   {
     title: "Außenansicht",
-    sortingNumber: 6,
-    label: "images",
+    sortingNumber: 1006,
+    label: "equipment",
     text: "",
     imagePath: "/assets/images/fullsize/house-aussenansicht-IMG_4513.webp",
     imageText: "Außenansicht"
   },
   {
     title: "Fahrstuhl",
-    sortingNumber: 7,
-    label: "images",
+    sortingNumber: 1007,
+    label: "equipment",
     text: "",
     imagePath: "/assets/images/fullsize/house-fahrstuhl-IMG_4531.webp",
     imageText: "Fahrstuhl"
   },
   {
     title: "Hausflur",
-    sortingNumber: 8,
-    label: "images",
+    sortingNumber: 1008,
+    label: "equipment",
     text: "",
     imagePath: "/assets/images/fullsize/house-hausflur-IMG_4516.webp",
     imageText: "Hausflur"
   },
   {
     title: "Garten",
-    sortingNumber: 9,
-    label: "images",
+    sortingNumber: 1009,
+    label: "equipment",
     text: "",
     imagePath: "/assets/images/fullsize/house-im-garten-IMG_4520.webp",
     imageText: "Garten"
@@ -234,7 +234,7 @@ export const equipmentPageSections: SectionData[] = [
 export const gardenPageSections: SectionData[] = [
   {
     title: "Im Garten",
-    sortingNumber: 0,
+    sortingNumber: 2001,
     label: "garden",
     text: "",
     imagePath: "/assets/images/fullsize/house-im-garten-IMG_4520.webp",
@@ -242,7 +242,7 @@ export const gardenPageSections: SectionData[] = [
   },
   {
     title: "Garten",
-    sortingNumber: 1,
+    sortingNumber: 2002,
     label: "garden",
     text: "",
     imagePath: "/assets/images/fullsize/house-garten-IMG_4524.webp",
@@ -250,7 +250,7 @@ export const gardenPageSections: SectionData[] = [
   },
   {
     title: "Garten Detail",
-    sortingNumber: 2,
+    sortingNumber: 2003,
     label: "garden",
     text: "",
     imagePath: "/assets/images/fullsize/house-garten-detail-IMG_4523.webp",
@@ -258,7 +258,7 @@ export const gardenPageSections: SectionData[] = [
   },
   {
     title: "Garten von oben",
-    sortingNumber: 3,
+    sortingNumber: 2004,
     label: "garden",
     text: "",
     imagePath: "/assets/images/fullsize/house-garten-von-oben_IMG_4721.webp",
@@ -266,7 +266,7 @@ export const gardenPageSections: SectionData[] = [
   },
   {
     title: "Gartenausblick",
-    sortingNumber: 4,
+    sortingNumber: 2005,
     label: "garden",
     text: "",
     imagePath: "/assets/images/fullsize/house-gartenausblick-IMG_4528.webp",
@@ -280,7 +280,7 @@ export const gardenPageSections: SectionData[] = [
 export const neighbourhoodPageSections: SectionData[] = [
   {
     title: "Markthalle 9",
-    sortingNumber: 0,
+    sortingNumber: 3001,
     label: "neighbourhood",
     text: "",
     imagePath: "/assets/images/fullsize/neighborhood-markthalle-9-IMG_4631.webp",
@@ -288,7 +288,7 @@ export const neighbourhoodPageSections: SectionData[] = [
   },
   {
     title: "Lage & Anbindung",
-    sortingNumber: 1,
+    sortingNumber: 3002,
     label: "neighbourhood",
     text: "",
     imagePath: "",
@@ -296,7 +296,7 @@ export const neighbourhoodPageSections: SectionData[] = [
   },
   {
     title: "Markthalle 9",
-    sortingNumber: 2,
+    sortingNumber: 3003,
     label: "neighbourhood",
     text: "",
     imagePath: "/assets/images/fullsize/neighborhood-markthalle-9-aussen-IMG_3283.webp",
@@ -304,7 +304,7 @@ export const neighbourhoodPageSections: SectionData[] = [
   },
   {
     title: "Kunsthaus Bethanien",
-    sortingNumber: 3,
+    sortingNumber: 3004,
     label: "neighbourhood",
     text: "",
     imagePath: "/assets/images/fullsize/neighborhood-bethanien.webp",
@@ -312,7 +312,7 @@ export const neighbourhoodPageSections: SectionData[] = [
   },
   {
     title: "Spree Strand",
-    sortingNumber: 4,
+    sortingNumber: 3005,
     label: "neighbourhood",
     text: "",
     imagePath: "/assets/images/fullsize/neighborhood-spreestrand-IMG_3298.webp",
@@ -320,7 +320,7 @@ export const neighbourhoodPageSections: SectionData[] = [
   },
   {
     title: "Nebenstraße",
-    sortingNumber: 5,
+    sortingNumber: 3006,
     label: "neighbourhood",
     text: "",
     imagePath: "/assets/images/fullsize/neighborhood-Nebenstr_IMG_4499.webp",
@@ -328,7 +328,7 @@ export const neighbourhoodPageSections: SectionData[] = [
   },
   {
     title: "St. Michael Church",
-    sortingNumber: 6,
+    sortingNumber: 3007,
     label: "neighbourhood",
     text: "St. Michael Church is a historic landmark in the area.<br><br>Beautiful architecture and history.",
     imagePath: "/assets/images/fullsize/st-michael-01.webp",
@@ -336,7 +336,7 @@ export const neighbourhoodPageSections: SectionData[] = [
   },
   {
     title: "St. Michael Church",
-    sortingNumber: 7,
+    sortingNumber: 3008,
     label: "neighbourhood",
     text: "Different angle of St. Michael Church.<br><br>Historic building in Kreuzberg.",
     imagePath: "/assets/images/fullsize/st-michael-02.webp",
@@ -344,7 +344,7 @@ export const neighbourhoodPageSections: SectionData[] = [
   },
   {
     title: "Alexanderplatz",
-    sortingNumber: 8,
+    sortingNumber: 3009,
     label: "neighbourhood",
     text: "Alexanderplatz - Famous square in Berlin with historic significance.<br><br>Major transportation hub and shopping area.",
     imagePath: "/assets/images/fullsize/neighborhood-alexanderplatz-IMG_3706.webp",
@@ -352,7 +352,7 @@ export const neighbourhoodPageSections: SectionData[] = [
   },
   {
     title: "3 Schwestern",
-    sortingNumber: 9,
+    sortingNumber: 3010,
     label: "neighbourhood",
     text: "3 Schwestern - Local landmark building in the neighborhood.<br><br>Historic architecture and cultural significance.",
     imagePath: "/assets/images/fullsize/neighborhood-3-schwestern-IMG_3717.webp",
@@ -360,7 +360,7 @@ export const neighbourhoodPageSections: SectionData[] = [
   },
   {
     title: "Art Space",
-    sortingNumber: 10,
+    sortingNumber: 3011,
     label: "neighbourhood",
     text: "Art Space - Contemporary art venue in the neighborhood.<br><br>Creative hub for local artists and exhibitions.",
     imagePath: "/assets/images/fullsize/neighborhood-artspace-IMG_3437.webp",
@@ -368,7 +368,7 @@ export const neighbourhoodPageSections: SectionData[] = [
   },
   {
     title: "Café in Köpenicker Straße",
-    sortingNumber: 11,
+    sortingNumber: 3012,
     label: "neighbourhood",
     text: "Café in Köpenicker Straße - Local café with neighborhood charm.<br><br>Perfect spot for coffee and relaxation.",
     imagePath: "/assets/images/fullsize/neighborhood-cafe-in-koepenicker-str-IMG_3713.webp",
@@ -376,7 +376,7 @@ export const neighbourhoodPageSections: SectionData[] = [
   },
   {
     title: "Church Bethanien",
-    sortingNumber: 12,
+    sortingNumber: 3013,
     label: "neighbourhood",
     text: "Church Bethanien - Historic church building in the area.<br><br>Beautiful architecture and spiritual center.",
     imagePath: "/assets/images/fullsize/neighborhood-church-bethanien-IMG_3286.webp",
@@ -384,7 +384,7 @@ export const neighbourhoodPageSections: SectionData[] = [
   },
   {
     title: "Church Bethanien 2",
-    sortingNumber: 13,
+    sortingNumber: 3014,
     label: "neighbourhood",
     text: "",
     imagePath: "/assets/images/fullsize/neighborhood-church-bethanien-2-IMG_3285.webp",
