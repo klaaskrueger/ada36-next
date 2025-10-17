@@ -35,6 +35,9 @@
   - Alle Seiten auf i18n umgestellt (Homepage, Images, Neighbourhood, Guides, Impressum, Datenschutz)
   - Navigation und Header mehrsprachig
   - Fallback-System für fehlende Übersetzungen
+- ✅ **Social Media Preview Bild aktualisiert**
+  - Open Graph und Twitter Card Bild auf das zweite Homepage-Foto (Wohnzimmer) geändert
+  - Structured Data Bilder entsprechend aktualisiert
 
 ## Erkannte Projektstruktur
 ### Seiten
