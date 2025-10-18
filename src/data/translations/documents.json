@@ -25,6 +25,52 @@
       "view": "Anzeigen",
       "date": "Datum:",
       "category": "Kategorie:"
+    },
+    "summary": {
+      "title": "Immobilienübersicht",
+      "propertyTitle": "Charmantes Loft mit Balkon und Schlafzimmer in Mitte/Kreuzberg",
+      "price": "Kaufpreis:",
+      "monthlyFee": "Hausgeld",
+      "address": "Adresse",
+      "size": "Wohnfläche",
+      "rooms": "Zimmer",
+      "bedrooms": "Schlafzimmer",
+      "bathrooms": "Badezimmer",
+      "floor": "Etage",
+      "condition": "Zustand",
+      "featuresTitle": "Ausstattung",
+      "energy": "Energieausweis",
+      "energyClass": "Energieeffizienzklasse",
+      "energyConsumption": "Endenergieverbrauch",
+      "heating": "Heizung",
+      "contact": "Kontakt",
+      "modernized": "modernisiert",
+      "centralHeating": "Zentralheizung",
+      "energySource": "Energieträger",
+      "gas": "Gas",
+      "features": {
+        "parkett": "Parkettboden",
+        "balcony": "Balkon",
+        "cellar": "Keller",
+        "elevator": "Aufzug",
+        "barrierFree": "Barrierefrei",
+        "garden": "Garten",
+        "fullBath": "Vollbad",
+        "fittedKitchen": "Einbauküche"
+      },
+      "infrastructureTitle": "Infrastruktur (innerhalb 5 km)",
+      "infrastructure": {
+        "pharmacy": "Apotheke",
+        "generalPractitioner": "Allgemeinmediziner",
+        "primarySchool": "Grundschule",
+        "realschule": "Realschule",
+        "comprehensiveSchool": "Gesamtschule",
+        "groceryDiscount": "Lebensmittel-Discount",
+        "kindergarten": "Kindergarten",
+        "hauptschule": "Hauptschule",
+        "gymnasium": "Gymnasium",
+        "publicTransport": "Öffentliche Verkehrsmittel"
+      }
     }
   },
   "en": {
@@ -42,7 +88,6 @@
       "Mietvertrag": "Rental Agreement",
       "Grundriss": "Floor Plan",
       "Versicherung": "Insurance",
-      "Grundstück": "Property",
       "Teilungserklärung": "Partition Declaration"
     },
     "filters": {
@@ -54,6 +99,52 @@
       "view": "View",
       "date": "Date:",
       "category": "Category:"
+    },
+    "summary": {
+      "title": "Property Overview",
+      "propertyTitle": "Charming loft with balcony and bedroom in Mitte/Kreuzberg",
+      "price": "Purchase Price:",
+      "monthlyFee": "Monthly Fee",
+      "address": "Address",
+      "size": "Living Area",
+      "rooms": "Rooms",
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "floor": "Floor",
+      "condition": "Condition",
+      "featuresTitle": "Features",
+      "energy": "Energy Certificate",
+      "energyClass": "Energy Efficiency Class",
+      "energyConsumption": "Final Energy Consumption",
+      "heating": "Heating",
+      "contact": "Contact",
+      "modernized": "modernized",
+      "centralHeating": "Central heating",
+      "energySource": "Energy source",
+      "gas": "Gas",
+      "features": {
+        "parkett": "Parquet flooring",
+        "balcony": "Balcony",
+        "cellar": "Cellar",
+        "elevator": "Elevator",
+        "barrierFree": "Barrier-free",
+        "garden": "Garden",
+        "fullBath": "Full bath",
+        "fittedKitchen": "Fitted kitchen"
+      },
+      "infrastructureTitle": "Infrastructure (within 5 km)",
+      "infrastructure": {
+        "pharmacy": "Pharmacy",
+        "generalPractitioner": "General practitioner",
+        "primarySchool": "Primary school",
+        "realschule": "Realschule",
+        "comprehensiveSchool": "Comprehensive school",
+        "groceryDiscount": "Grocery discount store",
+        "kindergarten": "Kindergarten",
+        "hauptschule": "Hauptschule",
+        "gymnasium": "Gymnasium",
+        "publicTransport": "Public transport"
+      }
     }
   }
 }

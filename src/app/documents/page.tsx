@@ -2,6 +2,7 @@
 
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import PropertySummary from '@/components/documents/PropertySummary';
 import { navigationItems } from '@/data/navigation';
 import { documents, DocumentData } from '@/data/documents';
 import { useTranslation } from '@/hooks/useTranslation';
@@ -15,11 +16,6 @@ export default function DocumentsPage() {
     window.open(filePath, '_blank');
   };
 
-  const formatFileSize = (filename: string) => {
-    // This would need to be calculated from actual file sizes
-    // For now, we'll return a placeholder
-    return '';
-  };
 
   return (
     <>
@@ -30,16 +26,12 @@ export default function DocumentsPage() {
             <div className="content">
               <div className="port-text">
                 <h1 className="title">{t('pageTitle')}</h1>
-                <p className="text">{t('pageDescription').split('. ').map((sentence, index) => (
-                  <span key={index}>
-                    {sentence}{index === 0 ? '.' : ''}
-                    {index === 0 && <br />}
-                    {index > 0 && index < t('pageDescription').split('. ').length - 1 && '. '}
-                  </span>
-                ))}</p>
               </div>
             </div>
           </div>
+
+          {/* Property Summary */}
+          <PropertySummary />
 
           {/* Documents List */}
           <div className="documents-list">
