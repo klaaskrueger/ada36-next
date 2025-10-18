@@ -19,7 +19,7 @@ export default function DocumentsPage() {
 
   return (
     <>
-      <Header navigationItems={navigationItems} currentPath="/documents" />
+      <Header navigationItems={navigationItems} currentPath="/documents-ada36" />
       <main className="page-content documents-page">
         <div className="container">
           <div className="columns">

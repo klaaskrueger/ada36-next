@@ -29,7 +29,7 @@ const Navigation: React.FC<NavigationProps> = ({ items, currentPath }) => {
         return t('navigation.garden');
       case '/neighbourhood':
         return t('navigation.neighbourhood');
-      case '/documents':
+      case '/documents-ada36':
         return t('navigation.documents');
       default:
         return url;

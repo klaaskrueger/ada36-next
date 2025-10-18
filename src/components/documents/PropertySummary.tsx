@@ -33,9 +33,9 @@ export default function PropertySummary() {
         <div className="contact-address-section">
           <div className="detail-section contact-section">
             <h3 className="section-title">{t('summary.contact')}</h3>
-            <p className="contact-info">Klaas Krüger / Eva Münchrath</p>
+            <p className="contact-info">Klaas Krüger / E. Munchrath</p>
             <p className="contact-info">+49 1578 1616520</p>
-            <p className="contact-info">klaas@klaaskrueger.de</p>
+            <p className="contact-info">evamunchrath@icloud.com</p>
           </div>
 
           <div className="detail-section address-section">
