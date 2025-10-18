@@ -13,7 +13,6 @@ export default function PropertySummary() {
       </div>
       
       <div className="detail-section">
-        <h3 className="section-title">{t('summary.title')}</h3>
         <div className="detail-grid">
           <div className="detail-item">
             <span className="detail-label">{t('summary.price')}</span>
