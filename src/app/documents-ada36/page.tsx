@@ -1,5 +1,6 @@
 'use client';
 
+import Head from 'next/head';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import PropertySummary from '@/components/documents/PropertySummary';
@@ -19,6 +20,9 @@ export default function DocumentsPage() {
 
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex, nofollow" />
+      </Head>
       <Header navigationItems={navigationItems} currentPath="/documents-ada36" />
       <main className="page-content documents-page">
         <div className="container">

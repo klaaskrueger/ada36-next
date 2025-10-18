@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/private/', '/admin/'],
+      disallow: ['/private/', '/admin/', '/documents-ada36/'],
     },
     sitemap: 'https://ada36.de/sitemap.xml',
   }
