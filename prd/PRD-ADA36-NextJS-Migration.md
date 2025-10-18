@@ -1,5 +1,5 @@
 # Product Requirements Document (PRD)
-## ADA36 Studio - Jekyll zu Next.js Migration
+## ADA36 Loft - Jekyll zu Next.js Migration
 
 **Version:** 1.0  
 **Datum:** Januar 2025  
@@ -11,7 +11,7 @@
 ## 1. Executive Summary
 
 ### Projektübersicht
-Migration der bestehenden ADA36 Studio Website von Jekyll zu Next.js. Das Ziel ist eine exakte Replikation der aktuellen Website mit modernen Web-Technologien, verbesserter Performance und besserer Wartbarkeit.
+Migration der bestehenden ADA36 Loft Website von Jekyll zu Next.js. Das Ziel ist eine exakte Replikation der aktuellen Website mit modernen Web-Technologien, verbesserter Performance und besserer Wartbarkeit.
 
 ### Geschäftsziel
 - **Hauptziel**: Exakte Replikation der bestehenden Jekyll-Website

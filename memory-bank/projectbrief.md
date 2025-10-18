@@ -1,7 +1,7 @@
 # Project Brief: ADA36 Next.js Migration
 
 ## Projektübersicht
-Migration des bestehenden ADA36 Jekyll-Projekts zu einer modernen Next.js Anwendung. Das Ziel ist es, die komplette Website für das Ada36 Studio (ein Loft in Kreuzberg, Berlin) von Jekyll auf Next.js zu übertragen.
+Migration des bestehenden ADA36 Jekyll-Projekts zu einer modernen Next.js Anwendung. Das Ziel ist es, die komplette Website für das ADA36 Loft (ein Loft in Kreuzberg, Berlin) von Jekyll auf Next.js zu übertragen.
 
 ## Kernziele
 1. **Exakte Replikation**: Das Jekyll-Projekt soll pixelgenau in Next.js übertragen werden

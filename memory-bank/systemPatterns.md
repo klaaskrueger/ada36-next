@@ -255,10 +255,10 @@ interface PageMetadata {
 }
 
 const generateMetadata = (page: string): Metadata => ({
-  title: `ADA36 Studio - ${page}`,
+  title: `ADA36 Loft - ${page}`,
   description: "Minimalist design 2-room-apartment at the center of Kreuzberg",
   openGraph: {
-    title: `ADA36 Studio - ${page}`,
+    title: `ADA36 Loft - ${page}`,
     description: "Minimalist design 2-room-apartment at the center of Kreuzberg",
     images: ['/assets/images/header.jpg']
   }
@@ -270,7 +270,7 @@ const generateMetadata = (page: string): Metadata => ({
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Accommodation",
-  "name": "ADA36 Studio",
+  "name": "ADA36 Loft",
   "description": "Minimalist design 2-room-apartment at the center of Kreuzberg",
   "address": {
     "@type": "PostalAddress",

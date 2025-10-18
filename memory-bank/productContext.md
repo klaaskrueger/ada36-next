@@ -1,4 +1,4 @@
-# Product Context: ADA36 Studio Website
+# Product Context: ADA36 Loft Website
 
 ## Was ist ADA36?
 ADA36 ist ein minimalistisches 2-Zimmer-Loft im Herzen von Kreuzberg, Berlin. Die Website dient als Präsentations- und Informationsplattform für potenzielle Gäste und Buchungen.

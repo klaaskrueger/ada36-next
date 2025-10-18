@@ -10,7 +10,7 @@ export const homepageLoftSections: SectionData[] = [
     label: "homepage",
     text: "<b>Minimalist design 2-room-apartment at the center of Kreuzberg.</b> <br><br>Floor-plan as open kitchen with dining table for 4 persons and access to the balcony, living area with a sleeping sofa and a desk. Bedroom with a double bed (160x200 cm) and a big wardrobe. Walk-in closet.<br> Bath with tub.",
     imagePath: "/assets/images/fullsize/Wohnzimmer-IMG_4759.webp",
-    imageText: "Ada36 Studio - Wohnzimmer"
+    imageText: "ADA36 Loft - Wohnzimmer"
   },
   {
     title: "",
@@ -130,7 +130,7 @@ export const homepageLoftSections: SectionData[] = [
     label: "homepage",
     text: "Der Garten des Hauses ist eine kleine Entspannungsoase und lädt dazu ein, von Ihnen mitbenutzt zu werden.",
     imagePath: "/assets/images/fullsize/house-im-garten-IMG_4520.webp",
-    imageText: "ADA36 Studio - Garten"
+    imageText: "ADA36 Loft - Garten"
   },
   {
     title: "Garten Detail",

@@ -12,7 +12,7 @@ export default function GuidesPage() {
         <div className="container">
           <div className="content">
             <div className="port-text">
-              <h1 className="title">Objektinformationen - ADA36 Studio</h1>
+              <h1 className="title">Objektinformationen - ADA36 Loft</h1>
               
               <div className="text">
                 <h2>Adresse</h2>

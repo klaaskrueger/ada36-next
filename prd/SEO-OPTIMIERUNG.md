@@ -1,8 +1,8 @@
-# SEO-Optimierung für ADA36 Studio - Immobilienverkauf Website
+# SEO-Optimierung für ADA36 Loft - Immobilienverkauf Website
 
 ## Übersicht der implementierten SEO-Features
 
-**WICHTIGER HINWEIS**: Diese Website dient dem **Verkauf** des ADA36 Studio Lofts, nicht der Vermietung. Alle SEO-Maßnahmen sind auf Immobilienverkauf und Käuferansprache ausgerichtet.
+**WICHTIGER HINWEIS**: Diese Website dient dem **Verkauf** des ADA36 Loft Lofts, nicht der Vermietung. Alle SEO-Maßnahmen sind auf Immobilienverkauf und Käuferansprache ausgerichtet.
 
 ### 1. Technische SEO-Grundlagen
 
@@ -28,7 +28,7 @@
 - Berlin Kreuzberg Loft kaufen
 - Loft kaufen Berlin Kreuzberg
 - Immobilie verkaufen Kreuzberg
-- ADA36 Studio verkaufen
+- ADA36 Loft verkaufen
 - Minimalistisches Apartment Berlin kaufen
 - Kreuzberg Loft zum Verkauf
 
@@ -44,22 +44,22 @@
 #### Seiten-spezifische Optimierung für Immobilienverkauf
 
 **Homepage (/):**
-- Title: "ADA36 Studio - Minimalistisches Loft in Kreuzberg, Berlin | Zum Verkauf"
+- Title: "ADA36 Loft - Minimalistisches Loft in Kreuzberg, Berlin | Zum Verkauf"
 - Focus: Hauptkeywords, Loft-Beschreibung, Käuferzielgruppe, Verkaufsargumente
 - Alt-Texte: Detaillierte Beschreibungen aller Bilder mit Verkaufsfokus
 
 **Bildergalerie (/images):**
-- Title: "Bildergalerie - ADA36 Studio Kreuzberg Berlin | Loft Fotos zum Verkauf"
+- Title: "Bildergalerie - ADA36 Loft Kreuzberg Berlin | Loft Fotos zum Verkauf"
 - Focus: Visuelle Inhalte, Raum-Beschreibungen, Immobilienpräsentation
 - Keywords: Loft Bilder, Immobilienfotos, Verkaufsgalerie, Räume
 
 **Umgebung (/neighbourhood):**
-- Title: "Lage & Umgebung - ADA36 Studio Kreuzberg Berlin | Immobilie zum Verkauf"
+- Title: "Lage & Umgebung - ADA36 Loft Kreuzberg Berlin | Immobilie zum Verkauf"
 - Focus: Lagevorteile, Investmentpotenzial, Infrastruktur, Transport
 - Keywords: Kreuzberg Lage, Immobilienlage, Investment Berlin, Kreuzberg Umgebung
 
 **Gästeanleitung (/guides):**
-- Title: "Objektinformationen - ADA36 Studio Kreuzberg Berlin | Details zum Verkauf"
+- Title: "Objektinformationen - ADA36 Loft Kreuzberg Berlin | Details zum Verkauf"
 - Focus: Objektdetails, Ausstattung, technische Daten, Verkaufsinformationen
 - Keywords: Objektdetails, Ausstattung, technische Daten, Verkaufsinfos
 
@@ -143,7 +143,7 @@
 {
   "@context": "https://schema.org",
   "@type": "RealEstate",
-  "name": "ADA36 Studio - Loft zum Verkauf",
+  "name": "ADA36 Loft - Loft zum Verkauf",
   "description": "Minimalistisches 2-Zimmer-Loft im Herzen von Kreuzberg, Berlin - zum Verkauf",
   "address": {
     "@type": "PostalAddress",
@@ -213,4 +213,4 @@ https://ada36.de/datenschutzerklaerung (Priority: 0.3)
 - Aktualisierte Objektdetails und technische Daten
 - Neue Bilder und Impressionen für Verkaufspräsentation
 
-Diese SEO-Optimierung stellt sicher, dass die ADA36 Studio Website optimal für Suchmaschinen und potenzielle Käufer optimiert ist, um maximale Sichtbarkeit und Kaufinteressenten-Anfragen zu generieren.
+Diese SEO-Optimierung stellt sicher, dass die ADA36 Loft Website optimal für Suchmaschinen und potenzielle Käufer optimiert ist, um maximale Sichtbarkeit und Kaufinteressenten-Anfragen zu generieren.
