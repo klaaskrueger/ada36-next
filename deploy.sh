@@ -96,7 +96,7 @@ SYNC_LOG="/tmp/ada36-sync-$(date +%Y%m%d-%H%M%S).log"
 
 lftp -u $FTP_USERNAME,$FTP_PASSWORD sftp://$FTP_HOST -e "
 cd ada36;
-mirror -R out/ . --delete --verbose --exclude-glob .DS_Store --log=$SYNC_LOG;
+mirror -R out/ . --verbose --exclude-glob .DS_Store --log=$SYNC_LOG;
 quit"
 
 # Analyze sync results
@@ -104,8 +104,8 @@ if [ -f "$SYNC_LOG" ]; then
     echo -e "${GREEN}📋 Sync Summary:${NC}"
     
     # Count different types of operations
-    UPLOADED=$(grep -c "Transferring" "$SYNC_LOG" 2>/dev/null || echo "0")
-    DELETED=$(grep -c "Removing" "$SYNC_LOG" 2>/dev/null || echo "0")
+    UPLOADED=$(grep -c "Sende Datei" "$SYNC_LOG" 2>/dev/null || echo "0")
+    DELETED=$(grep -c "Entferne alte Datei" "$SYNC_LOG" 2>/dev/null || echo "0")
     SKIPPED=$(grep -c "Skipping" "$SYNC_LOG" 2>/dev/null || echo "0")
     
     echo "  - Files uploaded: $UPLOADED"
@@ -121,9 +121,9 @@ if [ -f "$SYNC_LOG" ]; then
     # Show detailed log if there were changes
     if [ "$UPLOADED" -gt 0 ] || [ "$DELETED" -gt 0 ]; then
         echo -e "${YELLOW}📝 Detailed changes:${NC}"
-        grep -E "(Transferring|Removing)" "$SYNC_LOG" | head -10
-        if [ "$(grep -c -E "(Transferring|Removing)" "$SYNC_LOG")" -gt 10 ]; then
-            echo "  ... and $(($(grep -c -E "(Transferring|Removing)" "$SYNC_LOG") - 10)) more changes"
+        grep -E "(Sende Datei|Entferne alte Datei)" "$SYNC_LOG" | head -10
+        if [ "$(grep -c -E "(Sende Datei|Entferne alte Datei)" "$SYNC_LOG")" -gt 10 ]; then
+            echo "  ... and $(($(grep -c -E "(Sende Datei|Entferne alte Datei)" "$SYNC_LOG") - 10)) more changes"
         fi
     fi
     
