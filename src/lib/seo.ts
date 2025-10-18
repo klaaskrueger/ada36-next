@@ -116,7 +116,7 @@ export const realEstateStructuredData = {
     "streetAddress": "Adalbertstraße 36",
     "addressLocality": "Berlin",
     "addressRegion": "Berlin",
-    "postalCode": "10999",
+    "postalCode": "10179",
     "addressCountry": "DE"
   },
   "geo": {

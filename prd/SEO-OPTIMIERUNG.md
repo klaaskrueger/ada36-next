@@ -79,7 +79,7 @@
 ### 4. Lokale SEO für Immobilienverkauf
 
 #### Google My Business Optimierung
-- **Adresse**: Adalbertstraße 36, 10999 Berlin
+- **Adresse**: Adalbertstraße 36, 10179 Berlin
 - **Koordinaten**: 52.5025, 13.4147
 - **Kategorien**: Immobilienmakler, Immobilie zum Verkauf, Loft Berlin
 
@@ -149,7 +149,7 @@
     "@type": "PostalAddress",
     "streetAddress": "Adalbertstraße 36",
     "addressLocality": "Berlin",
-    "postalCode": "10999",
+    "postalCode": "10179",
     "addressCountry": "DE"
   },
   "propertyType": "Apartment",

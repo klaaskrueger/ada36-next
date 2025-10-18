@@ -40,7 +40,7 @@ export default function PropertySummary() {
 
           <div className="detail-section address-section">
             <h3 className="section-title">{t('summary.address')}</h3>
-            <p className="contact-info">Adalbertstraße 36, 10999 Berlin</p>
+            <p className="contact-info">Adalbertstraße 36, 10179 Berlin</p>
           </div>
         </div>
 

@@ -16,7 +16,7 @@ export default function GuidesPage() {
               
               <div className="text">
                 <h2>Adresse</h2>
-                <p>Adalbertstraße 36, 10999 Berlin</p>
+                <p>Adalbertstraße 36, 10179 Berlin</p>
 
                 <h2>Nichtraucher-Objekt</h2>
                 <p>Das Loft ist ein Nichtraucher-Objekt. Rauchen ist nicht gestattet.</p>
