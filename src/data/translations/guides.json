@@ -29,7 +29,7 @@
       },
       "emergency": {
         "title": "Notfall",
-        "text": "Im Notfall können Sie die Polizei unter 110, die Feuerwehr und das Krankenhaus unter 112 anrufen. Falls es einen Notfall gibt, der mit dem Haus zusammenhängt, rufen Sie bitte Proline Immo unter +49 30 85951630 an. Falls etwas in der Wohnung nicht funktioniert, können Sie Klaas Krüger unter +491731654797 anrufen."
+        "text": "Im Notfall können Sie die Polizei unter 110 anrufen"
       },
       "entranceKeys": {
         "title": "Eingang & Schlüssel",
@@ -127,7 +127,7 @@
       },
       "emergency": {
         "title": "Emergency",
-        "text": "In case of emergency you can call the police at 110 the fire department and the hospital at 112. If case of an emergency that is related to the house please call Proline Immo at +49 30 85951630 If something isn't working inside the apartment you can call Klaas Krüger +491731654797"
+        "text": "In case of emergency you can call the police at 110 the fire department and the hospital at 112. If case of an emergency that is related to the house please call Proline Immo at +49 30 85951630"
       },
       "entranceKeys": {
         "title": "Entrance & Keys",

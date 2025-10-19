@@ -26,7 +26,7 @@ export default function ImpressumPage() {
                 <h4>{t('impressum.content.contact')}</h4>
 
                 <p>{t('impressum.content.phone')} <br />
-                {t('impressum.content.email')} <a href="mailto:ada36loft@gmail.com">ada36loft@gmail.com</a></p>
+                E-Mail: <a href="mailto:ada36loft@gmail.com">{t('impressum.content.email')}</a></p>
               </div>
             </div>
           </div>
